@@ -1,0 +1,37 @@
+nav {
+  @include dflex;
+  justify-content: space-between;
+  height: 100px;
+
+  ul {
+    @include dflex;
+  }
+
+  .left-nav, .right-nav {
+
+    li {
+      @include title;
+      font-size: 1rem;
+      padding-right: 20px;
+      height: 100%;
+      @include dflex;
+
+      a {
+        &:hover {
+          color: #979a9d;
+        }
+      }
+    }
+  }
+  .right-nav {
+    a {
+      font-size: 1.2rem;
+      transition: 0.5s ease;
+
+      &:hover {
+        transform:  scale(1.2);
+      }
+    }
+  }
+
+}
