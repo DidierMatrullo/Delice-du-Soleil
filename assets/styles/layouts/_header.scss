@@ -1,0 +1,65 @@
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 80vh;
+  margin: 40px auto;
+  width: 90%;
+
+  .header-img {
+    background: url(../img/banner.jpg) center/cover;
+    margin: 0 30px;
+    animation: headerAnim 3s linear 0s 1;
+
+    @keyframes headerAnim {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+
+  .header-title {
+    color: $white1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: titleAnim 6s linear 0s 1;
+
+    @keyframes titleAnim {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    h1 {
+      font-family: $font-allura;
+      font-weight: 100;
+      color: $gold;
+      font-size: 4rem;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 4px;
+    }
+
+    p {
+      letter-spacing: 2px;
+      padding-top: 40px;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      line-height: 1.5rem;
+    }
+  }
+}

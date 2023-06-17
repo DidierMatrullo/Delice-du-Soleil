@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: #000;
+  margin: 0 auto;
+  width: 90%;
+
+  .left-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+
+    a:first-child {
+      font-family: $font-allura;
+      font-size: 2rem;
+      cursor: none;
+      color: $gold;
+    }
+
+    a:not(:first-child) {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+
+      &:hover {
+        color: $gold;
+      }
+    }
+  }
+
+  .right-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+
+    a {
+      transition: 0.5s ease;
+
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
+}
