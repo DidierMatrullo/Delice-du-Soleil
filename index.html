@@ -1,72 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="./assets/img/ic-fav.jpg">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
   <title>Délice du Soleil</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif+Telugu:wght@300&display=swap"
-    rel="stylesheet">
-
-  <link rel="stylesheet" href="./assets/scss/index.css">
+  <link rel="stylesheet" href="./assets/styles/index.css">
 
 </head>
 
 <body>
-  <nav>
-    <ul class="left-nav">
-      <li>
-        <a href="#" title="Accueil">Délice du Soleil</a>
-      </li>
-      <li>
-        <a href="#">blog</a>
-      </li>
-      <li>
-        <a href="#">contact</a>
-      </li>
-    </ul>
 
-    <ul class="right-nav">
-      <li>
-        <a href="">
-          <i class="fa-brands fa-square-facebook" title="facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <i class="fa-brands fa-instagram" title="instagram"></i>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <i class="fa-brands fa-whatsapp" title="whatsapp"></i>
-        </a>
-      </li>
-      <li>
-        <a href="" class=" logo">
-          <img src="./assets//img/uk-logo.webp" alt="uk flag">
-        </a>
-      </li>
-    </ul>
+  <nav>
+    <div class="left-nav">
+      <a href="#">Délice du Soleil</a>
+      <a href="#">boutique</a>
+      <a href="#">blog</a>
+      <a href="#">contact</a>
+    </div>
+    <div class="right-nav">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#"><img src="assets/img/uk-logo.jpg" alt="uk logo flag"></a>
+    </div>
   </nav>
   <header>
-    <img src="./assets/img/banner.webp" alt="logo delice du soleil">
+    <div class="header-img">
+    </div>
     <div class="header-title">
-      <h1>Délice du Soleil</h1>
-      <p>Vous propose un voyage au coeur de l'Afrique à travers une sélection d'épices, marinades et tapenades issus
-        d'une fabrication artisanale et sans conservateur</p>
+      <h1>Bienvenue chez</h1>
+      <h2>délice du soleil</h2>
+      <p>notre boutique en ligne vous propose des produits <br> de fabrication artisanale et sans conservateurs</p>
     </div>
   </header>
+
+  <main>
+    <div class="section1">
+      <h2>la boutique</h2>
+      <div class="items-container">
+        <div class="item item1">
+          <div class="item-img">
+            <img src="./assets/img/item-sens-01.jpg" alt="">
+          </div>
+          <div class="item-text">
+            <h5>eveil des sens</h5>
+            <p>tapenade de piments et d’épices</p>
+          </div>
+          <a href="#" class="btn">shop</a>
+        </div>
+        <div class="item item2">
+          <div class="item-img">
+            <img src="./assets/img/item-sunFish-02.jpg" alt="">
+          </div>
+          <div class="item-text">
+            <h5>sun fish</h5>
+            <p>assortiment de saveurs - marinade</p>
+            <a href="" class="btn">shop</a>
+          </div>
+        </div>
+        <div class="item item3">
+          <div class="item-img">
+            <img src="./assets/img/item-sunPeppers-03.jpg" alt="">
+          </div>
+          <div class="item-text">
+            <h5>sunny peppers</h5>
+            <p>confit de poivrons</p>
+            <a href="" class="btn">shop</a>
+          </div>
+        </div>
+        <div class="item item4">
+          <div class="item-img">
+            <img src="./assets/img/item-sunTomato-04.jpg" alt="">
+          </div>
+          <div class="item-text">
+            <h5>sunny tomato</h5>
+            <p>confit de tomates </p>
+            <a href="" class="btn">shop</a>
+          </div>
+        </div>
+        <div class="item item5">
+          <div class="item-img">
+            <img src="./assets/img/item-sunVeg-05.jpg" alt="">
+          </div>
+          <div class="item-text">
+            <h5>sun vegetables</h5>
+            <p>confit de légumes </p>
+            <a href="" class="btn">shop</a>
+          </div>
+        </div>
+        <div class="item item6">
+          <div class="item-img">
+            <img src="./assets/img/item-penja-06.jpg" alt="">
+          </div>
+          <div class="item-text">
+            <h5>poivre de penja</h5>
+            <p>IGP - poivre puissant et parfumé</p>
+            <a href="" class="btn">shop</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section2">
+
+    </div>
+  </main>
 </body>
 
 </html>
