@@ -8,9 +8,9 @@ header {
   .header-img {
     background: url(../img/banner.jpg) center/cover;
     margin: 0 30px;
-    animation: headerAnim 3s linear 0s 1;
+    animation: imgAnim 5s linear 0s 1;
 
-    @keyframes headerAnim {
+    @keyframes imgAnim {
       0% {
         opacity: 0;
       }
@@ -30,28 +30,40 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: titleAnim 6s linear 0s 1;
+    animation: titleSlideIn 4s linear 0s 1;
 
-    @keyframes titleAnim {
+    @keyframes titleSlideIn {
+
       0% {
+        margin-left: 100%;
         opacity: 0;
+        width: 100%;
+      }
+      50% {
+        margin-left: 20%;
+        opacity: 0.5;
+        width: 150%;
       }
       100% {
+        margin-left: 0;
         opacity: 1;
+        width: 100%;
       }
     }
 
     h1 {
-      font-family: $font-allura;
       font-weight: 100;
-      color: $gold;
-      font-size: 4rem;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+
     }
 
     h2 {
-      text-transform: uppercase;
-      font-weight: 600;
-      letter-spacing: 4px;
+      font-family: $font-allura;
+      color: $gold;
+      font-weight: 100;
+      font-size: 2.5rem;
+      letter-spacing: 8px;
     }
 
     p {

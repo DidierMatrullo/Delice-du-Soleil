@@ -1,0 +1,21 @@
+.section2 {
+  margin: 100px auto;
+  height: 140px;
+
+  .section2-content {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+    i {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: $white1;
+    }
+
+    h4, p {
+      color: $white1;
+    }
+
+  }
+}

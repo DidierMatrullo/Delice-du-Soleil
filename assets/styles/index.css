@@ -20,6 +20,9 @@ a {
   text-decoration: none;
   color: #fff; }
 
+li {
+  list-style: none; }
+
 header {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -29,8 +32,8 @@ header {
   header .header-img {
     background: url(../img/banner.jpg) center/cover;
     margin: 0 30px;
-    animation: headerAnim 3s linear 0s 1; }
-@keyframes headerAnim {
+    animation: imgAnim 5s linear 0s 1; }
+@keyframes imgAnim {
   0% {
     opacity: 0; }
   50% {
@@ -44,21 +47,30 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: titleAnim 6s linear 0s 1; }
-@keyframes titleAnim {
+    animation: titleSlideIn 4s linear 0s 1; }
+@keyframes titleSlideIn {
   0% {
-    opacity: 0; }
+    margin-left: 100%;
+    opacity: 0;
+    width: 100%; }
+  50% {
+    margin-left: 20%;
+    opacity: 0.5;
+    width: 150%; }
   100% {
-    opacity: 1; } }
+    margin-left: 0;
+    opacity: 1;
+    width: 100%; } }
     header .header-title h1 {
-      font-family: "Allura", sans-serif;
       font-weight: 100;
-      color: #d1bf60;
-      font-size: 4rem; }
+      font-size: 1.5rem;
+      letter-spacing: 2px; }
     header .header-title h2 {
-      text-transform: uppercase;
-      font-weight: 600;
-      letter-spacing: 4px; }
+      font-family: "Allura", sans-serif;
+      color: #d1bf60;
+      font-weight: 100;
+      font-size: 2.5rem;
+      letter-spacing: 8px; }
     header .header-title p {
       letter-spacing: 2px;
       padding-top: 40px;
@@ -67,36 +79,43 @@ header {
       line-height: 1.5rem; }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-  background: #000;
-  margin: 0 auto;
-  width: 90%; }
-  nav .left-nav {
+  margin: 0 auto; }
+  nav .nav-top {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 50%; }
-    nav .left-nav a:first-child {
-      font-family: "Allura", sans-serif;
-      font-size: 2rem;
-      cursor: none;
-      color: #d1bf60; }
-    nav .left-nav a:not(:first-child) {
+    width: 100%;
+    height: 120px; }
+    nav .nav-top .nav-top-left,
+    nav .nav-top .nav-top-right {
+      display: flex;
+      justify-content: space-evenly;
+      width: 20%; }
+    nav .nav-top .nav-top-left {
       text-transform: uppercase;
       font-size: 0.8rem; }
-      nav .left-nav a:not(:first-child):hover {
+      nav .nav-top .nav-top-left a:hover {
         color: #d1bf60; }
-  nav .right-nav {
-    display: flex;
-    justify-content: space-evenly;
-    width: 20%; }
-    nav .right-nav a {
+    nav .nav-top .nav-top-right a {
       transition: 0.5s ease; }
-      nav .right-nav a:hover {
-        transform: scale(1.3); }
+      nav .nav-top .nav-top-right a:hover {
+        transform: scale(1.5); }
+    nav .nav-top .nav-logo {
+      transition: 1s ease-in-out; }
+      nav .nav-top .nav-logo:hover {
+        transform: scale(1.2); }
+  nav .nav-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    height: 40px; }
+    nav .nav-footer a {
+      text-transform: uppercase;
+      font-size: 0.8rem; }
+      nav .nav-footer a:hover {
+        color: #d1bf60; }
 
 .section1 {
   width: 90%;
@@ -104,12 +123,13 @@ nav {
   .section1 h2 {
     color: #fff;
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 100;
     letter-spacing: 14px;
     text-align: center;
     margin: 60px auto;
-    position: relative; }
+    position: relative;
+    animation: s1-title 2s linear; }
     .section1 h2:before, .section1 h2:after {
       content: "";
       height: 1px;
@@ -123,6 +143,15 @@ nav {
       left: 0; }
     .section1 h2:after {
       right: 0; }
+@keyframes s1-title {
+  0% {
+    opacity: 0;
+    font-size: 2rem; }
+  50% {
+    opacity: 0.5;
+    font-size: 3.5rem; }
+  100% {
+    opacity: 1; } }
   .section1 .items-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -156,5 +185,19 @@ nav {
           background: #000;
           color: #fff;
           font-weight: 800; }
+
+.section2 {
+  margin: 100px auto;
+  height: 140px; }
+  .section2 .section2-content {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center; }
+    .section2 .section2-content i {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #fff; }
+    .section2 .section2-content h4, .section2 .section2-content p {
+      color: #fff; }
 
 /*# sourceMappingURL=index.css.map */
