@@ -4,18 +4,31 @@
 
   .section2-content {
     display: flex;
-    justify-content: space-evenly;
-    text-align: center;
+    justify-content: space-around;
 
-    i {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: $white1;
+
+    div {
+      text-align: center;
+      i {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: $white1;
+      }
+
+      h4 {
+        color: $gold;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: $white1;
+        text-align: center;
+      }
+
+      h4 {
+        padding-bottom: 7px;
+      }
+
     }
-
-    h4, p {
-      color: $white1;
-    }
-
   }
 }

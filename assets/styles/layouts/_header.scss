@@ -1,26 +1,24 @@
 header {
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 80vh;
-  margin: 40px auto;
+  margin: 60px auto;
+  height: 70vh;
   width: 90%;
 
   .header-img {
+    width: 100%;
     background: url(../img/banner.jpg) center/cover;
-    margin: 0 30px;
-    animation: imgAnim 5s linear 0s 1;
+    animation: headerImgAnim 5s linear 0s 1;
 
-    @keyframes imgAnim {
-      0% {
-        opacity: 0;
+    @keyframes headerImgAnim {
+      from {
+        transform: translateX(-100%);
       }
-      50% {
-        opacity: 0.5;
-      }
-      100% {
-        opacity: 1;
+      to {
+        transform: translateX(0);
       }
     }
+
   }
 
   .header-title {
@@ -30,17 +28,16 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: titleSlideIn 4s linear 0s 1;
+    animation: titleSlideIn 5s linear 0s 1;
 
     @keyframes titleSlideIn {
 
       0% {
         margin-left: 100%;
         opacity: 0;
-        width: 100%;
       }
       50% {
-        margin-left: 20%;
+        margin-left: 30%;
         opacity: 0.5;
         width: 150%;
       }
