@@ -3,12 +3,15 @@
   height: 140px;
 
   .section2-content {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin: 0 auto;
+    width: 100%;
 
 
     div {
       text-align: center;
+
       i {
         font-size: 2rem;
         margin-bottom: 20px;
@@ -23,6 +26,8 @@
       p {
         color: $white1;
         text-align: center;
+        width: 80%;
+        margin: 0 auto;
       }
 
       h4 {

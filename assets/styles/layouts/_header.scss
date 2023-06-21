@@ -8,14 +8,14 @@ header {
   .header-img {
     width: 100%;
     background: url(../img/banner.jpg) center/cover;
-    animation: headerImgAnim 5s linear 0s 1;
+    animation: headerImgAnim 3s linear 0s 1;
 
     @keyframes headerImgAnim {
       from {
-        transform: translateX(-100%);
+        transform: scaleX(0);
       }
       to {
-        transform: translateX(0);
+        transform: scaleX(1);
       }
     }
 
@@ -28,7 +28,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: titleSlideIn 5s linear 0s 1;
+    animation: titleSlideIn 3s linear 0s 1;
 
     @keyframes titleSlideIn {
 

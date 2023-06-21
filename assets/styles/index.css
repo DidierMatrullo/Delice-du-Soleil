@@ -48,6 +48,11 @@ nav {
         transform: scale(1.5); }
     nav .nav-top .nav-logo {
       transition: 1s ease-in-out; }
+      nav .nav-top .nav-logo img {
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px; }
       nav .nav-top .nav-logo:hover {
         transform: scale(1.2); }
   nav .nav-footer {
@@ -72,12 +77,12 @@ header {
   header .header-img {
     width: 100%;
     background: url(../img/banner.jpg) center/cover;
-    animation: headerImgAnim 5s linear 0s 1; }
+    animation: headerImgAnim 3s linear 0s 1; }
 @keyframes headerImgAnim {
   from {
-    transform: translateX(-100%); }
+    transform: scaleX(0); }
   to {
-    transform: translateX(0); } }
+    transform: scaleX(1); } }
   header .header-title {
     color: #fff;
     text-align: center;
@@ -85,7 +90,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: titleSlideIn 5s linear 0s 1; }
+    animation: titleSlideIn 3s linear 0s 1; }
 @keyframes titleSlideIn {
   0% {
     margin-left: 100%;
@@ -115,6 +120,34 @@ header {
       font-size: 0.8rem;
       line-height: 1.5rem; }
 
+footer {
+  margin: 30px auto;
+  width: 90%; }
+  footer .footer-content {
+    display: grid;
+    grid-template-columns: 30% 30% 40%; }
+    footer .footer-content div {
+      margin: 0 auto; }
+      footer .footer-content div h5 {
+        color: #fff;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        letter-spacing: 2px;
+        font-size: 0.8rem; }
+      footer .footer-content div a {
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: dimgrey; }
+        footer .footer-content div a:hover {
+          color: #d1bf60; }
+    footer .footer-content .footer-mid ul {
+      display: flex;
+      justify-content: space-around; }
+      footer .footer-content .footer-mid ul i {
+        font-size: 1.2rem; }
+        footer .footer-content .footer-mid ul i:hover {
+          color: #d1bf60; }
+
 .section1 {
   width: 90%;
   margin: 60px auto; }
@@ -127,16 +160,12 @@ header {
     text-align: center;
     margin: 60px auto;
     position: relative;
-    animation: s1-title 2s linear 0s 1; }
+    animation: s1-title 8s linear; }
 @keyframes s1-title {
-  0% {
-    opacity: 0;
-    font-size: 2rem; }
-  50% {
-    opacity: 0.5;
-    font-size: 3.5rem; }
-  100% {
-    opacity: 1; } }
+  from {
+    transform: scaleY(0); }
+  to {
+    transform: scaleY(1); } }
   .section1 .items-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -168,15 +197,17 @@ header {
         margin: 40px 0; }
         .section1 .items-container .item .btn:hover {
           background: #000;
-          color: #fff;
+          color: #d1bf60;
           font-weight: 800; }
 
 .section2 {
   margin: 100px auto;
   height: 140px; }
   .section2 .section2-content {
-    display: flex;
-    justify-content: space-around; }
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin: 0 auto;
+    width: 100%; }
     .section2 .section2-content div {
       text-align: center; }
       .section2 .section2-content div i {
@@ -188,26 +219,27 @@ header {
         text-transform: uppercase; }
       .section2 .section2-content div p {
         color: #fff;
-        text-align: center; }
+        text-align: center;
+        width: 80%;
+        margin: 0 auto; }
       .section2 .section2-content div h4 {
         padding-bottom: 7px; }
 
 .section3 {
-  margin: 60px auto; }
+  margin: 100px auto;
+  background: #2c2c2c;
+  padding: 50px; }
   .section3 .s3-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
     margin: 0 auto; }
     .section3 .s3-content .s3-left-part {
       color: #fff;
       margin: 0 auto;
-      text-align: center;
-      padding: 20px; }
+      text-align: center; }
       .section3 .s3-content .s3-left-part h3 {
         margin-bottom: 40px;
-        font-size: 5rem;
+        font-size: 4rem;
         color: #d1bf60;
         letter-spacing: 16px;
         text-transform: uppercase;
@@ -224,13 +256,13 @@ header {
       color: #fff;
       text-align: justify;
       width: 50%;
-      padding: 30px 20px 0; }
+      margin: 0 auto; }
       .section3 .s3-content .s3-right-part h3 {
         text-transform: uppercase;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-bottom: 20px; }
       .section3 .s3-content .s3-right-part h3, .section3 .s3-content .s3-right-part p {
-        letter-spacing: 2px; }
+        letter-spacing: 1px; }
 
 /*# sourceMappingURL=index.css.map */

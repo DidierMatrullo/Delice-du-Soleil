@@ -1,0 +1,47 @@
+footer {
+  margin: 30px auto;
+  width: 90%;
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+
+    div {
+      margin: 0 auto;
+
+      h5 {
+        color: $white1;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+      }
+
+      a {
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: dimgrey;
+
+        &:hover {
+          color: $gold;
+        }
+      }
+    }
+
+    .footer-mid {
+
+      ul {
+        display: flex;
+        justify-content: space-around;
+
+        i {
+          font-size: 1.2rem;
+
+          &:hover {
+            color: $gold;
+          }
+        }
+      }
+    }
+  }
+}

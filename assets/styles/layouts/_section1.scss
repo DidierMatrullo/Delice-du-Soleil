@@ -11,22 +11,20 @@
     text-align: center;
     margin: 60px auto;
     position: relative;
-    animation: s1-title 2s linear 0s 1;
+    animation: s1-title 8s linear;
 
-    @keyframes s1-title {
-      0% {
-        opacity: 0;
-        font-size: 2rem;
-      }
-      50% {
-        opacity: 0.5;
-        font-size: 3.5rem;
-      }
+    &:hover {
 
-      100% {
-        opacity: 1;
+      @keyframes s1-title {
+        from {
+          transform: scaleY(0);
+        }
+        to {
+          transform: scaleY(1)
+        }
       }
     }
+
   }
 
   .items-container {
@@ -71,7 +69,7 @@
 
         &:hover {
           background: #000;
-          color: $white1;
+          color: $gold;
           font-weight: 800;
         }
       }
