@@ -1,11 +1,10 @@
 .section1 {
   width: 90%;
-  margin: 60px auto;
+  margin: 0 auto;
 
   h2 {
-    color: $gold;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 100;
     letter-spacing: 14px;
     text-align: center;
@@ -13,18 +12,16 @@
     position: relative;
     animation: s1-title 8s linear;
 
-    &:hover {
+    @keyframes s1-title {
+      from {
+        transform: scaleX(0);
+        opacity: 0;
+      }
 
-      @keyframes s1-title {
-        from {
-          transform: scaleY(0);
-        }
-        to {
-          transform: scaleY(1)
-        }
+      to {
+        transform: scaleX(1);
       }
     }
-
   }
 
   .items-container {
@@ -36,9 +33,10 @@
 
     .item {
       background: $white1;
-      height: 500px;
+      height: 600px;
       text-transform: uppercase;
       text-align: center;
+      border: 1px solid #848383;
 
       .item-img {
         padding: 10px;
@@ -52,6 +50,7 @@
         letter-spacing: 3px;
         font-size: 1.5rem;
         font-weight: 100;
+        color: $black1;
       }
 
       p {

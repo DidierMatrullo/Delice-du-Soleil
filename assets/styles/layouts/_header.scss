@@ -1,50 +1,43 @@
 header {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: 60px auto;
+  margin: 0 auto;
   height: 70vh;
   width: 90%;
 
   .header-img {
-    width: 100%;
     background: url(../img/banner.jpg) center/cover;
-    animation: headerImgAnim 3s linear 0s 1;
+    width: 100%;
+    border: 1px solid #fff;
+    animation: headerImgAnim 3s linear;
 
     @keyframes headerImgAnim {
       from {
-        transform: scaleX(0);
+        transform: translateX(-100%);
       }
       to {
-        transform: scaleX(1);
+        right: 0;
       }
     }
 
   }
 
   .header-title {
-    color: $white1;
+    color: $black1;
+    background: $white1;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: titleSlideIn 3s linear 0s 1;
+    animation: headerTitleAnim 3s linear;
 
-    @keyframes titleSlideIn {
-
-      0% {
-        margin-left: 100%;
-        opacity: 0;
+    @keyframes headerTitleAnim {
+      from {
+        transform: translateX(100%);
       }
-      50% {
-        margin-left: 30%;
-        opacity: 0.5;
-        width: 150%;
-      }
-      100% {
-        margin-left: 0;
-        opacity: 1;
-        width: 100%;
+      to {
+        transform: translateX(0);
       }
     }
 
@@ -57,10 +50,9 @@ header {
 
     h2 {
       font-family: $font-allura;
-      color: $gold;
-      font-weight: 100;
+      font-weight: 500;
       font-size: 2.5rem;
-      letter-spacing: 8px;
+      letter-spacing: 4px;
     }
 
     p {
@@ -69,6 +61,12 @@ header {
       text-transform: uppercase;
       font-size: 0.8rem;
       line-height: 1.5rem;
+    }
+    img {
+      border: 1px solid #000;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
     }
   }
 }

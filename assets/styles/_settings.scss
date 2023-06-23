@@ -23,7 +23,7 @@ $font-allura: "Allura", sans-serif;
 $font-roboto: "Roboto-Light", sans-serif;
 $font-poppins: "Poppins-Medium", sans-serif;
 
-$white1 : #fff;
+$white1: #fff;
 $white2: #bebdbd;
 $black1: #000;
 $black2: #131313;
@@ -41,10 +41,11 @@ $gold: #d1bf60;
   font-weight: 100;
 }
 
+
 body {
   font-family: $font-roboto;
   background: $black1;
-  color: $black1;
+  color: $white1;
 }
 
 a {

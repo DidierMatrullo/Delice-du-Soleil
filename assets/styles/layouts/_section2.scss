@@ -1,6 +1,5 @@
 .section2 {
   margin: 100px auto;
-  height: 140px;
 
   .section2-content {
     display: grid;
@@ -15,16 +14,14 @@
       i {
         font-size: 2rem;
         margin-bottom: 20px;
-        color: $white1;
+        color: #fff;
       }
 
       h4 {
-        color: $gold;
         text-transform: uppercase;
       }
 
       p {
-        color: $white1;
         text-align: center;
         width: 80%;
         margin: 0 auto;

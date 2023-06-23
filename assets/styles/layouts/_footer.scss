@@ -10,11 +10,11 @@ footer {
       margin: 0 auto;
 
       h5 {
-        color: $white1;
         text-transform: uppercase;
         padding-bottom: 20px;
         letter-spacing: 2px;
         font-size: 0.8rem;
+
       }
 
       a {
@@ -23,7 +23,7 @@ footer {
         color: dimgrey;
 
         &:hover {
-          color: $gold;
+          color: $white1;
         }
       }
     }
@@ -38,7 +38,7 @@ footer {
           font-size: 1.2rem;
 
           &:hover {
-            color: $gold;
+            font-weight: 600;
           }
         }
       }
