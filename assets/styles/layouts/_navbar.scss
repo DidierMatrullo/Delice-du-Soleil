@@ -6,18 +6,18 @@ nav {
   height: 150px;
   width: 85%;
 
-  h2 {
+  h3 {
     font-family: $font-allura;
     font-weight: 300;
     color: $gold;
     width: 200px;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 
   }
 
   a {
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
 
@@ -49,17 +49,55 @@ nav {
     a {
       padding: 0 10px;
       text-transform: uppercase;
+      font-size: 1.2rem;
 
       &:hover {
         transform: scale(1.2);
       }
+
+      i {
+        padding-left: 5px;
+      }
     }
 
-    i {
-      padding-left: 5px;
+  }
+
+  #icons {
+    display: none;
+    cursor: pointer;
+
+    &:before {
+      content: "\2630";
     }
   }
+
+  @media screen and (max-width: 650px) {
+    #icons {
+      display: block;
+
+      &:before {
+        content: "\2630";
+      }
+    }
+    .active #icons:before {
+      content: "\2715";
+    }
+
+    .left-nav {
+      position: fixed;
+      flex-direction: column;
+      left:-100%;
+      top: 100px;
+      width: 100%;
+      align-items: flex-start;
+
+      &.active {
+        left: 75%;
+    }
+    }
+    .right-nav {
+      display: none;
+    }
+
+  }
 }
-
-
-

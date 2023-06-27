@@ -19,15 +19,18 @@
   src: url("../fonts/Poppins-Medium.ttf");
 }
 
-$font-allura: "Allura", sans-serif;
-$font-roboto: "Roboto-Light", sans-serif;
-$font-poppins: "Poppins-Medium", sans-serif;
+$font-allura: "Allura",
+sans-serif;
+$font-roboto: "Roboto-Light",
+sans-serif;
+$font-poppins: "Poppins-Medium",
+sans-serif;
 
 $white1: #fff;
 $white2: #bebdbd;
 $black1: #000;
 $black2: #131313;
-$gold: #d1bf60;
+$gold: #c4b35a;
 
 @mixin title {
   font-size: 3rem;
@@ -44,7 +47,7 @@ $gold: #d1bf60;
 
 body {
   font-family: $font-roboto;
-  background: $black1;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(81, 81, 95, 1) 75%, rgb(100, 99, 99) 100%);
   color: $white1;
 }
 
@@ -56,4 +59,3 @@ a {
 li {
   list-style: none;
 }
-

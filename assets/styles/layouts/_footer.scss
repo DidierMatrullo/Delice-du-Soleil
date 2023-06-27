@@ -1,6 +1,5 @@
 footer {
   margin: 30px auto;
-  width: 90%;
 
   .footer-content {
     display: grid;
@@ -9,18 +8,19 @@ footer {
     div {
       margin: 0 auto;
 
-      h5 {
+      h4 {
         text-transform: uppercase;
         padding-bottom: 20px;
         letter-spacing: 2px;
         font-size: 0.8rem;
+        color: $gold;
 
       }
 
       a {
         letter-spacing: 1px;
         line-height: 24px;
-        color: dimgrey;
+        color: #a09f9f;
 
         &:hover {
           color: $white1;
@@ -28,7 +28,7 @@ footer {
       }
     }
 
-    .footer-mid {
+    .mid-part {
 
       ul {
         display: flex;

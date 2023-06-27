@@ -9,35 +9,37 @@ header {
     background: url(../img/banner.jpg) center/cover;
     width: 100%;
     border: 1px solid #fff;
-    animation: headerImgAnim 3s linear;
+    animation: headerImgAnim 5s linear;
 
     @keyframes headerImgAnim {
       from {
-        transform: translateX(-100%);
+        transform: scaleX(0);
       }
+
       to {
-        right: 0;
+        transform: scaleX(1);
       }
     }
 
   }
 
   .header-title {
-    color: $black1;
-    background: $white1;
+    color: $white1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(118, 118, 137) 75%, rgb(135, 135, 135) 100%);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: headerTitleAnim 3s linear;
+    animation: headerTitleAnim 5s linear;
 
     @keyframes headerTitleAnim {
       from {
-        transform: translateX(100%);
+        transform: scale(0);
       }
+
       to {
-        transform: translateX(0);
+        transform: scale(1);
       }
     }
 
@@ -53,6 +55,7 @@ header {
       font-weight: 500;
       font-size: 2.5rem;
       letter-spacing: 4px;
+      color: $gold;
     }
 
     p {
@@ -62,11 +65,12 @@ header {
       font-size: 0.8rem;
       line-height: 1.5rem;
     }
+
     img {
-      border: 1px solid #000;
-      border-radius: 50%;
-      height: 100px;
-      width: 100px;
+      clip-path: circle(50% at center);
+      width: 200px;
+      height: 200px;
     }
+
   }
 }

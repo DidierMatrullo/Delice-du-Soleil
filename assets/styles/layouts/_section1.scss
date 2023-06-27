@@ -30,41 +30,47 @@
     justify-items: center;
     row-gap: 30px;
     margin: 0 auto;
+    text-align: center;
 
     .item {
-      background: $white1;
-      height: 600px;
-      text-transform: uppercase;
-      text-align: center;
       border: 1px solid #848383;
+      height: 600px;
 
       .item-img {
         padding: 10px;
 
         img {
-          border: 1px solid #000000;
+          width: 400px;
+          height: 400px;
         }
       }
 
-      h5 {
-        letter-spacing: 3px;
-        font-size: 1.5rem;
-        font-weight: 100;
-        color: $black1;
-      }
+      .item-text {
+        margin-bottom: 40px;
 
-      p {
-        letter-spacing: 2px;
-        padding: 7px;
-        margin-bottom: 30px;
+        h5 {
+          letter-spacing: 3px;
+          font-size: 1.5rem;
+          font-weight: 100;
+          color: $gold;
+          padding-bottom: 20px;
+          text-transform: uppercase;
+        }
+
+        p {
+          letter-spacing: 2px;
+          padding: 10px 0;
+          width: 80%;
+          margin: 0 auto;
+        }
       }
 
       .btn {
-        color: $black1;
         letter-spacing: 2px;
         border: 1px solid grey;
         padding: 10px;
-        margin: 40px 0;
+        text-transform: uppercase;
+        position: relative;
 
         &:hover {
           background: #000;
@@ -72,6 +78,8 @@
           font-weight: 800;
         }
       }
+
     }
+
   }
 }

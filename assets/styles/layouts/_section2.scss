@@ -1,36 +1,30 @@
 .section2 {
   margin: 100px auto;
 
-  .section2-content {
+  .s2-content {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
+    text-align: center;
 
+    i {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #fff;
+    }
 
-    div {
+    h4 {
+      text-transform: uppercase;
+      padding-bottom: 7px;
+      color: $gold;
+    }
+
+    p {
       text-align: center;
-
-      i {
-        font-size: 2rem;
-        margin-bottom: 20px;
-        color: #fff;
-      }
-
-      h4 {
-        text-transform: uppercase;
-      }
-
-      p {
-        text-align: center;
-        width: 80%;
-        margin: 0 auto;
-      }
-
-      h4 {
-        padding-bottom: 7px;
-      }
-
+      width: 80%;
+      margin: 0 auto;
+      font-size: 0.8rem;
     }
   }
 }
