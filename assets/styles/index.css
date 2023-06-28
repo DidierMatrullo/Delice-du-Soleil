@@ -24,6 +24,15 @@ a {
 li {
   list-style: none; }
 
+nav > :first-child {
+  font-family: "Allura", sans-serif;
+  font-weight: 300;
+  color: #c4b35a;
+  min-width: 250px;
+  font-size: 1.7rem;
+  text-transform: initial;
+  letter-spacing: 2px; }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -31,12 +40,9 @@ nav {
   margin: 0 auto;
   height: 150px;
   width: 85%; }
-  nav h3 {
-    font-family: "Allura", sans-serif;
-    font-weight: 300;
-    color: #c4b35a;
-    width: 200px;
-    font-size: 1.8rem; }
+  nav a:not(nav > a) {
+    text-transform: uppercase;
+    font-size: 1rem; }
   nav a {
     text-transform: uppercase;
     font-size: 1rem; }
@@ -95,7 +101,7 @@ header {
   height: 70vh;
   width: 90%; }
   header .header-img {
-    background: url(../img/banner.jpg) center/cover;
+    background: url(../img/h-banner.webp) center/cover;
     width: 100%;
     border: 1px solid #fff;
     animation: headerImgAnim 5s linear; }
@@ -177,13 +183,13 @@ footer {
     text-align: center;
     margin: 60px auto;
     position: relative;
-    animation: s1-title 8s linear; }
+    animation: s1-title 5s linear; }
 @keyframes s1-title {
   from {
-    transform: scaleX(0);
+    transform: scaleY(0);
     opacity: 0; }
   to {
-    transform: scaleX(1); } }
+    transform: scaleY(1); } }
   .section1 .items-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -365,5 +371,60 @@ main {
       main .container-content .btn:hover {
         background: #c4b35a;
         color: #000; }
+
+nav {
+  justify-content: center; }
+
+main .item-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 90%;
+  margin: 0 auto; }
+  main .item-content img {
+    width: 100%;
+    height: auto; }
+  main .item-content .item-description {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    main .item-content .item-description h1 {
+      text-transform: uppercase;
+      color: #c4b35a;
+      letter-spacing: 6px;
+      font-size: 4rem; }
+    main .item-content .item-description p {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      text-align: left; }
+    main .item-content .item-description .item-selection table input {
+      display: inline-block;
+      vertical-align: middle;
+      width: 1.2rem;
+      height: 1.2rem;
+      accent-color: #c4b35a; }
+    main .item-content .item-description .item-selection td {
+      padding: 7px; }
+    main .item-content .item-description .item-selection .add_to_cart_variants_option {
+      position: relative; }
+      main .item-content .item-description .item-selection .add_to_cart_variants_option:before {
+        content: "";
+        width: 1px;
+        background: #ffffff;
+        top: 0.5rem;
+        bottom: 0.5rem;
+        left: 0;
+        position: absolute; }
+  main .item-content button {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background: #000000;
+    padding: 10px 20px;
+    width: 100%;
+    color: #c4b35a;
+    letter-spacing: 2px; }
+    main .item-content button:hover {
+      background: #c4b35a;
+      color: #000; }
 
 /*# sourceMappingURL=index.css.map */

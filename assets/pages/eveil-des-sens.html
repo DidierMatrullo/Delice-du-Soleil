@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
@@ -8,29 +8,146 @@
         content="text/html;charset=windows-1251">
   <link rel="shortcut icon"
         href="../img/ic-fav.jpg">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"/>
+
   <title>Délice du Soleil - Eveil des sens</title>
+
+  <link rel="stylesheet"
+        href="../styles/index.css">
 </head>
 <body>
+<nav>
+  <a href="../../index.html"
+     aria-label="homepage link">Délice du Soleil</a>
 
+  <div class="left-nav"
+       id="navbar">
+    <a href="#"
+       aria-label="blog link">blog
+    </a>
+    <a href="#">contact</a>
+    <a href="#">mon compte</a>
+    <a href="#">mon panier</a>
+  </div>
+  <div id="icons"></div>
+</nav>
 <main>
-  <div class="item-content">
+  <section class="item-content">
     <div>
-      <img src="../img/item-sens-01.jpg"
+      <img src="../img/item-sens-01.webp"
            alt="eveil des sens spice">
     </div>
     <div class="item-description">
-      <h1>eveil des sens</h1>
+      <h1>éveil des sens</h1>
       <p>Est une tapenade de piments et d’épices d’ici et d’ailleurs. C’est une recette traditionnelle des peuples
          côtiers d’Afrique. Eveil des Sens saura sublimer tous vos plats.
          A consommer avec modération.
       </p>
+      <div class="item-selection">
+        <table class="product_addToCart_variants">
+          <tbody>
+          <tr>
+            <td>
+              <input type="radio"
+                     name="add_to_cart_cartItem[cartItem][variant]"
+                     required="required"
+                     id="add_to_cart_cartItem_variant_0"
+                     checked>
+            </td>
+            <td class="add_to_cart_variants_price">10.00 €</td>
+            <td class="add_to_cart_variants_option">250 g</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio"
+                     name="add_to_cart_cartItem[cartItem][variant]"
+                     required="required"
+                     id="add_to_cart_cartItem_variant_1">
+            </td>
+            <td class="add_to_cart_variants_price">15.00 €</td>
+            <td class="add_to_cart_variants_option">500 g</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <button type="submit"
+              class="btn"
+              id="btn">ajouter au panier
+      </button>
     </div>
-    <div class="item-price">
-      <p>250 G | 10.00 €</p>
-      <p>500 G | 15.00 €</p>
+  </section>
+  <section class="section2">
+    <div class="s2-content">
+      <div>
+        <i class="fa-solid fa-dolly"></i>
+        <h4>Livraison offerte</h4>
+        <p>Dès 65€ d'achat en France Métropoliatine</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-truck-fast"></i>
+        <h4>Livraison rapide</h4>
+        <p>En 4 jours pour la France et 8 jours pour l'étranger</p>
+      </div>
+      <div>
+        <i class="fa-regular fa-credit-card"></i>
+        <h4>Transaction</h4>
+        <p>Paiement CB sécurisé</p>
+      </div>
+      <div>
+        <a href=""><i class="fa-solid fa-envelope"></i></a>
+        <h4>Service Client </h4>
+        <p>Contactez nous</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer-content"
+       id="footer-content">
+    <div class="left-part">
+      <h4>délice du soleil</h4>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="#">A propos de nous</a></li>
+        <li><a href="#">Boutique en ligne</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contactez nous</a></li>
+        <li><a href="#">Mon compte</a></li>
+        <li><a href="#">Mon panier</a></li>
+      </ul>
+    </div>
+    <div class="mid-part">
+      <h4>nous suivre</h4>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/p/CN9-kDmDz44/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="right-part">
+      <h4>mentions légales</h4>
+      <ul>
+        <li><a href="./termsOfSales.html">Conditions générales de vente</a></li>
+        <li><a href="./privacyPolicy.html">Politique de confidentialité</a></li>
+        <li><a href="./cookiesPolicy.html">Politique de cookies</a></li>
+      </ul>
     </div>
   </div>
-</main>
+</footer>
 
 </body>
 </html>

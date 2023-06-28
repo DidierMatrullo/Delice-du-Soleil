@@ -10,16 +10,16 @@
     text-align: center;
     margin: 60px auto;
     position: relative;
-    animation: s1-title 8s linear;
+    animation: s1-title 5s linear;
 
     @keyframes s1-title {
       from {
-        transform: scaleX(0);
+        transform: scaleY(0);
         opacity: 0;
       }
 
       to {
-        transform: scaleX(1);
+        transform: scaleY(1);
       }
     }
   }
