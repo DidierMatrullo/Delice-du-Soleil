@@ -18,8 +18,7 @@
   <meta name="description"
         content="Délice du Soleil, votre épicerie en ligne, produits fabriqués en France artisanalement et sans conservateurs, livraison en France et à l'étranger">
   <link rel="stylesheet"
-        href="./assets/styles/index.css">
-
+        href="src/styles/index.css">
 </head>
 
 <body>
@@ -29,15 +28,15 @@
 
   <div class="left-nav"
        id="navbar">
-    <a href="assets/pages/a-page.html"
-       aria-label="E-store link">boutique
-    </a>
+    <a href="fr/store.html"
+       aria-label="E-store link">boutique en ligne</a>
     <a href="#"
        aria-label="blog link">blog
     </a>
-    <a href="#">contact</a>
+    <a href="mailto:didier.matlo@gmail.com"
+       aria-label="email link">contact</a>
     <a href="#">mon compte</a>
-    <a href="#">mon panier<i class="fa-solid fa-basket-shopping"></i></a>
+    <a href="#">mon panier</a>
   </div>
   <div class="right-nav">
     <a href="https://www.facebook.com/people/Delice-Du-Soleil/100063487424968/"
@@ -60,17 +59,16 @@
   </div>
   <div id="icons"></div>
 </nav>
+
 <header>
-  <div class="header-img">
-    <img src=""
-         alt="">
-  </div>
+  <div class="header-img"></div>
   <div class="header-title">
     <h1>Bienvenue chez</h1>
     <h2>Délice du Soleil</h2>
     <img src="./assets/img/logo.webp"
-         alt="">
-    <p>notre boutique en ligne vous propose des produits <br> de fabrication artisanale et sans conservateurs</p>
+         alt="company delice du soleil logo">
+    <p>notre boutique en ligne vous propose des produits transformés et préparés artisanalement en France et sans
+       conservateurs.</p>
   </div>
 </header>
 
@@ -79,88 +77,86 @@
   <div class="items-container">
     <div class="item item1">
       <div class="item-img">
-        <img src="./assets/img/item-sens-01.webp"
-             width="400"
-             height="400"
+        <img src="./assets/img/item-senses-01.webp"
+             width="750"
+             height="750"
              alt="confit de piments et aromates">
       </div>
       <div class="item-text">
         <h5>éveil des sens</h5>
         <p>Confit de piments et aromates</p>
       </div>
-      <a href="./assets/pages/eveil-des-sens.html"
-         class="btn"
-         target="_blank"
-      >découvrir</a>
+      <a href="fr/products/eveil-des-sens.html"
+         class="btn">découvrir</a>
     </div>
     <div class="item item2">
       <div class="item-img">
         <img src="./assets/img/item-sunFish-02.webp"
-             width="400"
-             height="400"
+             width="750"
+             height="750"
              alt="marinade épicée">
       </div>
       <div class="item-text">
         <h5>sun fish</h5>
         <p>Marinade aux saveurs épicées</p>
       </div>
-      <a href=""
+      <a href="fr/products/sun-fish.html"
          class="btn">découvrir</a>
     </div>
     <div class="item item3">
       <div class="item-img">
         <img src="./assets/img/item-sunPeppers-03.webp"
-             width="400"
-             height="400"
+             width="750"
+             height="600"
              alt="crème épicée de poivrons">
       </div>
       <div class="item-text">
         <h5>sunny peppers</h5>
         <p>Créme de poivrons</p>
       </div>
-      <a href=""
+      <a href="./fr/products/sunny-peppers.html"
          class="btn">découvrir</a>
     </div>
     <div class="item item4">
       <div class="item-img">
         <img src="./assets/img/item-sunTomato-04.webp"
-             width="400"
-             height="400"
-             alt="confit de tomates épicé">
+             width="1080"
+             height="865"
+             alt="confit épicé de tomates">
       </div>
       <div class="item-text">
         <h5>sun tomato</h5>
         <p>Confit de tomates </p>
       </div>
-      <a href=""
+      <a href="./fr/products/sun-tomato.html"
          class="btn">découvrir</a>
     </div>
     <div class="item item5">
       <div class="item-img">
-        <img src="./assets/img/item-sunVeg-05.webp"
-             width="400"
-             height="400"
+        <img src="./assets/img/item-sunVegetable-05.webp"
+             width="1348"
+             height="1080"
              alt="confit de légumes épicé">
       </div>
       <div class="item-text">
-        <h5>sun vegetables</h5>
+        <h5>sun vegetable</h5>
         <p>Confit de légumes </p>
       </div>
-      <a href=""
+      <a href="./fr/products/sun-vegetables.html"
          class="btn">découvrir</a>
     </div>
     <div class="item item6">
       <div class="item-img">
         <img src="./assets/img/item-Penja-06.webp"
-             width="400"
-             height="400"
+             width="1280"
+             height="1537"
              alt="poivre blanc en grain">
       </div>
       <div class="item-text">
         <h5>poivre de penja</h5>
         <p>IGP - Poivre puissant et parfumé</p>
       </div>
-      <a href=""
+      <a href="./fr/products/poivre-de-penja.html"
          class="btn">découvrir</a>
     </div>
   </div>
@@ -183,7 +179,7 @@
       <p>Paiement CB sécurisé</p>
     </div>
     <div>
-      <a href=""><i class="fa-solid fa-envelope"></i></a>
+      <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
       <h4>Service Client </h4>
       <p>Contactez nous</p>
     </div>
@@ -199,7 +195,7 @@
       <h3>Pour quelles raison s'inscrire</h3>
       <p>En s'inscrivant à notre newsletter, vous recevez des informations concernant nos nouveautés, nos offres,
          services, produits et événements, conformément à notre politique de confidentialité. Vous avez la
-         possibilité, à tout moment, de vous désabonner en nous contactant par E-mail sur notre page contact.
+         possibilité, à tout moment, de vous désabonner en nous contactant par Email.
       </p>
     </div>
   </div>
@@ -211,45 +207,51 @@
       <h4>délice du soleil</h4>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">A propos de nous</a></li>
-        <li><a href="#">Boutique en ligne</a></li>
+        <li><a href="fr/store.html">Boutique en ligne</a></li>
         <li><a href="#">Blog</a></li>
-        <li><a href="#">Contactez nous</a></li>
         <li><a href="#">Mon compte</a></li>
         <li><a href="#">Mon panier</a></li>
       </ul>
     </div>
     <div class="mid-part">
-      <h4>nous suivre</h4>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/p/CN9-kDmDz44/">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        </li>
-      </ul>
+      <div class="social-networks">
+        <h4>nous suivre</h4>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h4>nous contacter</h4>
+        <ul class="contact-link">
+          <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
+        </ul>
+      </div>
     </div>
     <div class="right-part">
       <h4>mentions légales</h4>
       <ul>
-        <li><a href="./assets/pages/termsOfSales.html">Conditions générales de vente</a></li>
-        <li><a href="./assets/pages/privacyPolicy.html">Politique de confidentialité</a></li>
-        <li><a href="./assets/pages/cookiesPolicy.html">Politique de cookies</a></li>
+        <li><a href="fr/legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
+        <li><a href="fr/legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
+        <li><a href="fr/legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
       </ul>
     </div>
   </div>
 </footer>
 
 
-<script src="./assets/js/burger.js"></script>
+<script src="src/js/burger.js"></script>
 </body>
 
 </html>
