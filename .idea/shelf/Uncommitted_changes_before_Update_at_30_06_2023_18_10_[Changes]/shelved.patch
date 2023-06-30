@@ -1,0 +1,2873 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"fr\">\r\n\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta name=\"viewport\"\r\n        content=\"width=device-width, initial-scale=1\">\r\n\r\n  <link rel=\"shortcut icon\"\r\n        href=\"./assets/img/logo.jpg\">\r\n  <link rel=\"stylesheet\"\r\n        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\"\r\n        integrity=\"sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==\"\r\n        crossorigin=\"anonymous\"\r\n        referrerpolicy=\"no-referrer\"/>\r\n\r\n  <title>Délice du Soleil - épices de fabrication artisanale et sans conservateurs</title>\r\n  <meta name=\"description\"\r\n        content=\"Délice du Soleil, votre épicerie en ligne, produits fabriqués en France artisanalement et sans conservateurs, livraison en France et à l'étranger\">\r\n  <link rel=\"stylesheet\"\r\n        href=\"./assets/styles/index.css\">\r\n\r\n</head>\r\n\r\n<body>\r\n<nav>\r\n  <h3>Délice du Soleil</h3>\r\n  <div class=\"left-nav\"\r\n       id=\"navbar\">\r\n    <a href=\"index.html\">home</a>\r\n    <a href=\"assets/pages/store-page.html\">boutique</a>\r\n    <a href=\"#\">blog</a>\r\n    <a href=\"#\">contact</a>\r\n    <a href=\"#\">mon compte</a>\r\n    <a href=\"#\">mon panier<i class=\"fa-solid fa-basket-shopping\"></i></a>\r\n  </div>\r\n  <div class=\"right-nav\">\r\n    <a href=\"https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/\"><i\r\n            class=\"fa-brands fa-facebook-f\"></i></a>\r\n    <a href=\"https://www.instagram.com/p/CN9-kDmDz44/\"><i class=\"fa-brands fa-instagram\"></i></a>\r\n    <a href=\"#\"><i class=\"fa-brands fa-whatsapp\"></i></a>\r\n    <a href=\"\">\r\n      <img src=\"./assets/img/uk-logo.jpg\"\r\n           alt=\"uk flag logo\">\r\n    </a>\r\n  </div>\r\n  <div id=\"icons\"></div>\r\n</nav>\r\n<header>\r\n  <div class=\"header-img\">\r\n  </div>\r\n  <div class=\"header-title\">\r\n    <h1>Bienvenue chez</h1>\r\n    <h2>Délice du Soleil</h2>\r\n    <img src=\"./assets/img/logo.jpg\"\r\n         alt=\"\">\r\n    <p>notre boutique en ligne vous propose des produits <br> de fabrication artisanale et sans conservateurs</p>\r\n  </div>\r\n</header>\r\n\r\n<section class=\"section1\">\r\n  <h2 class=\"reveal\">la boutique</h2>\r\n  <div class=\"items-container\">\r\n    <div class=\"item item1\">\r\n      <div class=\"item-img\">\r\n        <img src=\"./assets/img/item-sens-01.jpg\"\r\n             alt=\"\">\r\n      </div>\r\n      <div class=\"item-text\">\r\n        <h5>éveil des sens</h5>\r\n        <p>Confit de piments et aromates</p>\r\n      </div>\r\n      <a href=\"./assets/pages/eveil-des-sens.html\"\r\n         class=\"btn\">découvrir</a>\r\n    </div>\r\n    <div class=\"item item2\">\r\n      <div class=\"item-img\">\r\n        <img src=\"./assets/img/item-sunFish-02.jpg\"\r\n             alt=\"sun fish spice\">\r\n      </div>\r\n      <div class=\"item-text\">\r\n        <h5>sun fish</h5>\r\n        <p>Marinade aux saveurs épicées</p>\r\n      </div>\r\n      <a href=\"\"\r\n         class=\"btn\">découvrir</a>\r\n    </div>\r\n    <div class=\"item item3\">\r\n      <div class=\"item-img\">\r\n        <img src=\"./assets/img/item-sunPeppers-03.jpg\"\r\n             alt=\"\">\r\n      </div>\r\n      <div class=\"item-text\">\r\n        <h5>sunny peppers</h5>\r\n        <p>Créme de poivrons</p>\r\n      </div>\r\n      <a href=\"\"\r\n         class=\"btn\">découvrir</a>\r\n    </div>\r\n    <div class=\"item item4\">\r\n      <div class=\"item-img\">\r\n        <img src=\"./assets/img/item-sunTomato-04.jpg\"\r\n             alt=\"\">\r\n      </div>\r\n      <div class=\"item-text\">\r\n        <h5>sun tomato</h5>\r\n        <p>Confit de tomates </p>\r\n      </div>\r\n      <a href=\"\"\r\n         class=\"btn\">découvrir</a>\r\n    </div>\r\n    <div class=\"item item5\">\r\n      <div class=\"item-img\">\r\n        <img src=\"./assets/img/item-sunVeg-05.jpg\"\r\n             alt=\"\">\r\n      </div>\r\n      <div class=\"item-text\">\r\n        <h5>sun vegetables</h5>\r\n        <p>Confit de légumes </p>\r\n      </div>\r\n      <a href=\"\"\r\n         class=\"btn\">découvrir</a>\r\n    </div>\r\n    <div class=\"item item6\">\r\n      <div class=\"item-img\">\r\n        <img src=\"./assets/img/item-penja-06.jpg\"\r\n             alt=\"\">\r\n      </div>\r\n      <div class=\"item-text\">\r\n        <h5>poivre de penja</h5>\r\n        <p>IGP - Poivre puissant et parfumé</p>\r\n      </div>\r\n      <a href=\"\"\r\n         class=\"btn\">découvrir</a>\r\n    </div>\r\n  </div>\r\n</section>\r\n<section class=\"section2\">\r\n  <div class=\"s2-content\">\r\n    <div>\r\n      <i class=\"fa-solid fa-dolly\"></i>\r\n      <h4>Livraison offerte</h4>\r\n      <p>Dès 65€ d'achat en France Métropoliatine</p>\r\n    </div>\r\n    <div>\r\n      <i class=\"fa-solid fa-truck-fast\"></i>\r\n      <h4>Livraison rapide</h4>\r\n      <p>En 4 jours pour la France et 8 jours pour l'étranger</p>\r\n    </div>\r\n    <div>\r\n      <i class=\"fa-regular fa-credit-card\"></i>\r\n      <h4>Transaction</h4>\r\n      <p>Paiement CB sécurisé</p>\r\n    </div>\r\n    <div>\r\n      <a href=\"\"><i class=\"fa-solid fa-envelope\"></i></a>\r\n      <h4>Service Client </h4>\r\n      <p>Contactez nous</p>\r\n    </div>\r\n  </div>\r\n</section>\r\n<section class=\"section3\">\r\n  <div class=\"s3-content\">\r\n    <div class=\"s3-left-part\">\r\n      <h3>newsletter</h3>\r\n      <a href=\"\">s'inscrire</a>\r\n    </div>\r\n    <div class=\"s3-right-part\">\r\n      <h3>Pour quelles raison s'inscrire</h3>\r\n      <p>En s'inscrivant à notre newsletter, vous recevez des informations concernant nos nouveautés, nos offres,\r\n         services, produits et événements, conformément à notre politique de confidentialité. Vous avez la\r\n         possibilité, à tout moment, de vous désabonner en nous contactant par E-mail sur notre page contact.\r\n      </p>\r\n    </div>\r\n  </div>\r\n</section>\r\n<footer>\r\n  <div class=\"footer-content\"\r\n       id=\"footer-content\">\r\n    <div class=\"left-part\">\r\n      <h4>délice du soleil</h4>\r\n      <ul>\r\n        <li><a href=\"index.html\">Home</a></li>\r\n        <li><a href=\"#\">A propos de nous</a></li>\r\n        <li><a href=\"#\">Boutique en ligne</a></li>\r\n        <li><a href=\"#\">Blog</a></li>\r\n        <li><a href=\"#\">Contactez nous</a></li>\r\n        <li><a href=\"#\">Mon compte</a></li>\r\n        <li><a href=\"#\">Mon panier</a></li>\r\n      </ul>\r\n    </div>\r\n    <div class=\"mid-part\">\r\n      <h4>nous suivre</h4>\r\n      <ul>\r\n        <li>\r\n          <a href=\"https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/\">\r\n            <i class=\"fa-brands fa-facebook-f\"></i>\r\n          </a>\r\n        </li>\r\n        <li>\r\n          <a href=\"https://www.instagram.com/p/CN9-kDmDz44/\">\r\n            <i class=\"fa-brands fa-instagram\"></i>\r\n          </a>\r\n        </li>\r\n        <li>\r\n          <a href=\"#\"><i class=\"fa-brands fa-whatsapp\"></i></a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n    <div class=\"right-part\">\r\n      <h4>mentions légales</h4>\r\n      <ul>\r\n        <li><a href=\"./assets/pages/termsOfSales.html\">Conditions générales de vente</a></li>\r\n        <li><a href=\"./assets/pages/privacyPolicy.html\">Politique de confidentialité</a></li>\r\n        <li><a href=\"./assets/pages/cookiesPolicy.html\">Politique de cookies</a></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</footer>\r\n\r\n\r\n<script src=\"./assets/js/burger.js\"></script>\r\n</body>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/index.html	(date 1688141412244)
+@@ -7,7 +7,7 @@
+         content="width=device-width, initial-scale=1">
+ 
+   <link rel="shortcut icon"
+-        href="./assets/img/logo.jpg">
++        href="./assets/img/logo.webp">
+   <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+@@ -18,119 +18,148 @@
+   <meta name="description"
+         content="Délice du Soleil, votre épicerie en ligne, produits fabriqués en France artisanalement et sans conservateurs, livraison en France et à l'étranger">
+   <link rel="stylesheet"
+-        href="./assets/styles/index.css">
++        href="src/styles/index.css">
+ 
++
++  <script src="src/js/app.js" defer></script>
+ </head>
+ 
+ <body>
+ <nav>
+-  <h3>Délice du Soleil</h3>
++  <a href="index.html"
++     aria-label="homepage link">Délice du Soleil</a>
++
+   <div class="left-nav"
+        id="navbar">
+-    <a href="index.html">home</a>
+-    <a href="assets/pages/store-page.html">boutique</a>
+-    <a href="#">blog</a>
+-    <a href="#">contact</a>
++    <a href="fr/store.html"
++       aria-label="E-store link">boutique en ligne</a>
++    <a href="#"
++       aria-label="blog link">blog
++    </a>
++    <a href="mailto:didier.matlo@gmail.com"
++       aria-label="email link">contact</a>
+     <a href="#">mon compte</a>
+-    <a href="#">mon panier<i class="fa-solid fa-basket-shopping"></i></a>
++    <a href="#">mon panier</a>
+   </div>
+   <div class="right-nav">
+-    <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/"><i
+-            class="fa-brands fa-facebook-f"></i></a>
+-    <a href="https://www.instagram.com/p/CN9-kDmDz44/"><i class="fa-brands fa-instagram"></i></a>
+-    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+-    <a href="">
++    <a href="https://www.facebook.com/people/Delice-Du-Soleil/100063487424968/"
++       aria-label="follow us on our facebook page">
++      <i class="fa-brands fa-facebook-f"></i>
++    </a>
++    <a href="https://www.instagram.com/p/CN9-kDmDz44/"
++       aria-label="follow us on our instagram link">
++      <i class="fa-brands fa-instagram"></i>
++    </a>
++    <a href="#"
++       aria-label="follow us on our whatsapp application">
++      <i class="fa-brands fa-whatsapp"></i>
++    </a>
++    <a href="./en/en-index.html">
+       <img src="./assets/img/uk-logo.jpg"
++           aria-label="language selector"
+            alt="uk flag logo">
+     </a>
+   </div>
+   <div id="icons"></div>
+ </nav>
++
+ <header>
+-  <div class="header-img">
+-  </div>
++  <div class="header-img"></div>
+   <div class="header-title">
+     <h1>Bienvenue chez</h1>
+     <h2>Délice du Soleil</h2>
+-    <img src="./assets/img/logo.jpg"
+-         alt="">
+-    <p>notre boutique en ligne vous propose des produits <br> de fabrication artisanale et sans conservateurs</p>
++    <img src="./assets/img/logo.webp"
++         alt="company delice du soleil logo">
++    <p>notre boutique en ligne vous propose des produits transformés et préparés artisanalement en France et sans
++       conservateurs.</p>
+   </div>
+ </header>
+ 
+-<section class="section1">
++<section class="section1" id="store">
+   <h2 class="reveal">la boutique</h2>
+   <div class="items-container">
+     <div class="item item1">
+       <div class="item-img">
+-        <img src="./assets/img/item-sens-01.jpg"
+-             alt="">
++        <img src="./assets/img/item-senses-01.webp"
++             width="750"
++             height="750"
++             alt="confit de piments et aromates">
+       </div>
+       <div class="item-text">
+         <h5>éveil des sens</h5>
+         <p>Confit de piments et aromates</p>
+       </div>
+-      <a href="./assets/pages/eveil-des-sens.html"
++      <a href="fr/products/eveil-des-sens.html"
+          class="btn">découvrir</a>
+     </div>
+     <div class="item item2">
+       <div class="item-img">
+-        <img src="./assets/img/item-sunFish-02.jpg"
+-             alt="sun fish spice">
++        <img src="./assets/img/item-sunFish-02.webp"
++             width="750"
++             height="750"
++             alt="marinade épicée">
+       </div>
+       <div class="item-text">
+         <h5>sun fish</h5>
+         <p>Marinade aux saveurs épicées</p>
+       </div>
+-      <a href=""
++      <a href="fr/products/sun-fish.html"
+          class="btn">découvrir</a>
+     </div>
+     <div class="item item3">
+       <div class="item-img">
+-        <img src="./assets/img/item-sunPeppers-03.jpg"
+-             alt="">
++        <img src="./assets/img/item-sunPeppers-03.webp"
++             width="750"
++             height="600"
++             alt="crème épicée de poivrons">
+       </div>
+       <div class="item-text">
+         <h5>sunny peppers</h5>
+         <p>Créme de poivrons</p>
+       </div>
+-      <a href=""
++      <a href="./fr/products/sunny-peppers.html"
+          class="btn">découvrir</a>
+     </div>
+     <div class="item item4">
+       <div class="item-img">
+-        <img src="./assets/img/item-sunTomato-04.jpg"
+-             alt="">
++        <img src="./assets/img/item-sunTomato-04.webp"
++             width="1080"
++             height="865"
++             alt="confit épicé de tomates">
+       </div>
+       <div class="item-text">
+         <h5>sun tomato</h5>
+         <p>Confit de tomates </p>
+       </div>
+-      <a href=""
++      <a href="./fr/products/sun-tomato.html"
+          class="btn">découvrir</a>
+     </div>
+     <div class="item item5">
+       <div class="item-img">
+-        <img src="./assets/img/item-sunVeg-05.jpg"
+-             alt="">
++        <img src="./assets/img/item-sunVegetable-05.webp"
++             width="1348"
++             height="1080"
++             alt="confit de légumes épicé">
+       </div>
+       <div class="item-text">
+-        <h5>sun vegetables</h5>
++        <h5>sun vegetable</h5>
+         <p>Confit de légumes </p>
+       </div>
+-      <a href=""
++      <a href="./fr/products/sun-vegetables.html"
+          class="btn">découvrir</a>
+     </div>
+     <div class="item item6">
+       <div class="item-img">
+-        <img src="./assets/img/item-penja-06.jpg"
+-             alt="">
++        <img src="./assets/img/item-Penja-06.webp"
++             width="1280"
++             height="1537"
++             alt="poivre blanc en grain">
+       </div>
+       <div class="item-text">
+         <h5>poivre de penja</h5>
+         <p>IGP - Poivre puissant et parfumé</p>
+       </div>
+-      <a href=""
++      <a href="./fr/products/poivre-de-penja.html"
+          class="btn">découvrir</a>
+     </div>
+   </div>
+@@ -153,7 +182,7 @@
+       <p>Paiement CB sécurisé</p>
+     </div>
+     <div>
+-      <a href=""><i class="fa-solid fa-envelope"></i></a>
++      <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+       <h4>Service Client </h4>
+       <p>Contactez nous</p>
+     </div>
+@@ -169,7 +198,7 @@
+       <h3>Pour quelles raison s'inscrire</h3>
+       <p>En s'inscrivant à notre newsletter, vous recevez des informations concernant nos nouveautés, nos offres,
+          services, produits et événements, conformément à notre politique de confidentialité. Vous avez la
+-         possibilité, à tout moment, de vous désabonner en nous contactant par E-mail sur notre page contact.
++         possibilité, à tout moment, de vous désabonner en nous contactant par Email.
+       </p>
+     </div>
+   </div>
+@@ -181,45 +210,49 @@
+       <h4>délice du soleil</h4>
+       <ul>
+         <li><a href="index.html">Home</a></li>
+-        <li><a href="#">A propos de nous</a></li>
+-        <li><a href="#">Boutique en ligne</a></li>
++        <li><a href="fr/store.html">Boutique en ligne</a></li>
+         <li><a href="#">Blog</a></li>
+-        <li><a href="#">Contactez nous</a></li>
+         <li><a href="#">Mon compte</a></li>
+         <li><a href="#">Mon panier</a></li>
+       </ul>
+     </div>
+     <div class="mid-part">
+-      <h4>nous suivre</h4>
+-      <ul>
+-        <li>
+-          <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
+-            <i class="fa-brands fa-facebook-f"></i>
+-          </a>
+-        </li>
+-        <li>
+-          <a href="https://www.instagram.com/p/CN9-kDmDz44/">
+-            <i class="fa-brands fa-instagram"></i>
+-          </a>
+-        </li>
+-        <li>
+-          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+-        </li>
+-      </ul>
++      <div class="social-networks">
++        <h4>nous suivre</h4>
++        <ul class="social-links">
++          <li>
++            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
++              <i class="fa-brands fa-facebook-f"></i>
++            </a>
++          </li>
++          <li>
++            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
++              <i class="fa-brands fa-instagram"></i>
++            </a>
++          </li>
++          <li>
++            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
++          </li>
++        </ul>
++      </div>
++      <div class="contact">
++        <h4>nous contacter</h4>
++        <ul class="contact-link">
++          <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
++        </ul>
++      </div>
+     </div>
+     <div class="right-part">
+       <h4>mentions légales</h4>
+       <ul>
+-        <li><a href="./assets/pages/termsOfSales.html">Conditions générales de vente</a></li>
+-        <li><a href="./assets/pages/privacyPolicy.html">Politique de confidentialité</a></li>
+-        <li><a href="./assets/pages/cookiesPolicy.html">Politique de cookies</a></li>
++        <li><a href="fr/legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
++        <li><a href="fr/legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
++        <li><a href="fr/legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
+       </ul>
+     </div>
+   </div>
+ </footer>
+ 
+-
+-<script src="./assets/js/burger.js"></script>
+ </body>
+ 
+ </html>
+\ No newline at end of file
+Index: assets/styles/layouts/_section1.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/styles/layouts/_section1.scss b/src/styles/layouts/_section1.scss
+rename from assets/styles/layouts/_section1.scss
+rename to src/styles/layouts/_section1.scss
+--- a/assets/styles/layouts/_section1.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/src/styles/layouts/_section1.scss	(date 1688141104262)
+@@ -2,26 +2,30 @@
+   width: 90%;
+   margin: 0 auto;
+ 
++  .showStoreTitle {
++    visibility: visible;
++    animation: s1-title 3s ease;
++
++    @keyframes s1-title {
++      from {
++        transform: scaleY(0);
++      }
++
++      to {
++        transform: scaleY(1);
++      }
++    }
++
++  }
++
+   h2 {
++    visibility: hidden;
+     text-transform: uppercase;
+     font-size: 6rem;
+     font-weight: 100;
+     letter-spacing: 14px;
+     text-align: center;
+     margin: 60px auto;
+-    position: relative;
+-    animation: s1-title 8s linear;
+-
+-    @keyframes s1-title {
+-      from {
+-        transform: scaleX(0);
+-        opacity: 0;
+-      }
+-
+-      to {
+-        transform: scaleX(1);
+-      }
+-    }
+   }
+ 
+   .items-container {
+@@ -80,6 +84,7 @@
+       }
+ 
+     }
+-
+   }
+ }
++
++
+Index: assets/scss/layout/_footer.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/scss/layout/_footer.scss b/src/js/app.js
+rename from assets/scss/layout/_footer.scss
+rename to src/js/app.js
+--- a/assets/scss/layout/_footer.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/src/js/app.js	(date 1688141328685)
+@@ -1,0 +1,23 @@
++//To insert left links of the nav in the burger icon
++
++const leftNavLinks = document.querySelectorAll('.left-nav')
++
++
++icons.addEventListener('click', () => {
++    navbar.classList.toggle('active')
++})
++
++leftNavLinks.forEach((link) => {
++    link.addEventListener('click', () => {
++        navbar.classList.remove('active')
++    })
++})
++
++
++//To anim the title <h1> LA BOUTIQUE on mouseenter
++const store = document.querySelector('#store')
++const animStoreTitle = document.querySelector('.reveal')
++store.addEventListener('mouseenter', (e) => {
++    animStoreTitle.classList.add('showStoreTitle')
++
++})
+\ No newline at end of file
+Index: assets/scss/index.css
+===================================================================
+diff --git a/assets/scss/index.css b/assets/scss/index.css
+deleted file mode 100644
+--- a/assets/scss/index.css	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ /dev/null	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
+@@ -1,73 +0,0 @@
+-* {
+-  margin: 0;
+-  padding: 0;
+-  box-sizing: border-box;
+-  outline: none;
+-  overflow: hidden; }
+-
+-html {
+-  background: #000; }
+-
+-@font-face {
+-  font-family: "lato";
+-  src: url(../assets/fonts/Lato-Regular.ttf); }
+-@font-face {
+-  font-family: "noto";
+-  src: url(../assets/fonts/NotoSerifTelugu-Regular.ttf); }
+-body {
+-  font-family: "noto", serif;
+-  color: white;
+-  letter-spacing: 1px;
+-  width: 80%;
+-  margin: 0 auto; }
+-
+-a {
+-  text-decoration: none;
+-  color: white; }
+-
+-nav {
+-  display: flex;
+-  align-items: center;
+-  justify-content: space-between;
+-  height: 100px; }
+-  nav ul {
+-    display: flex;
+-    align-items: center; }
+-  nav .left-nav li, nav .right-nav li {
+-    text-transform: uppercase;
+-    font-size: 3rem;
+-    font-size: 1rem;
+-    padding-right: 20px;
+-    height: 100%;
+-    display: flex;
+-    align-items: center; }
+-    nav .left-nav li a:hover, nav .right-nav li a:hover {
+-      color: #979a9d; }
+-  nav .right-nav a {
+-    font-size: 1.2rem;
+-    transition: 0.5s ease; }
+-    nav .right-nav a:hover {
+-      transform: scale(1.2); }
+-
+-header {
+-  display: grid;
+-  grid-template-columns: 50% 50%;
+-  align-items: center;
+-  margin: 50px auto; }
+-  header .header-title {
+-    text-align: center; }
+-    header .header-title h1 {
+-      text-transform: uppercase;
+-      font-size: 3rem;
+-      margin: 50px auto;
+-      font-weight: 400; }
+-    header .header-title p {
+-      text-align: justify;
+-      line-height: 1.5rem;
+-      width: 70%;
+-      margin: 0 auto; }
+-  header img {
+-    width: 100%;
+-    margin: 0 auto; }
+-
+-/*# sourceMappingURL=index.css.map */
+Index: assets/scss/_settings.scss
+===================================================================
+diff --git a/assets/scss/_settings.scss b/assets/scss/_settings.scss
+deleted file mode 100644
+--- a/assets/scss/_settings.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ /dev/null	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
+@@ -1,67 +0,0 @@
+-* {
+-  margin: 0;
+-  padding: 0;
+-  box-sizing: border-box;
+-  outline: none;
+-  overflow: hidden;
+-}
+-
+-html {
+-  background: #000;
+-}
+-
+-@font-face {
+-  font-family: "lato";
+-  src: url(../assets/fonts/Lato-Regular.ttf);
+-}
+-
+-@font-face {
+-  font-family: "noto";
+-  src: url(../assets/fonts/NotoSerifTelugu-Regular.ttf);
+-}
+-
+-
+-
+-
+-$font-lato: "lato",
+-sans-serif;
+-$font-noto: "noto",
+-serif;
+-
+-
+-$white: white;
+-$black: black;
+-$golden: #9d8603;
+-
+-@mixin title {
+-  text-transform: uppercase;
+-  font-size: 3rem;
+-}
+-
+-@mixin dflex {
+-  display: flex;
+-  align-items: center;
+-}
+-
+-@mixin dgrid {
+-  display: grid;
+-  grid-template-columns: 50% 50%;
+-}
+-
+-@mixin btn {
+-  border: 1px solid $white;
+-  border-radius: 3px;
+-}
+-
+-body {
+-  font-family: $font-noto;
+-  color: $white;
+-  letter-spacing: 1px;
+-  width: 80%;
+-  margin: 0 auto;
+-}
+-
+-a {
+-  text-decoration: none;
+-  color: $white;
+-}
+\ No newline at end of file
+Index: assets/js/burger.js
+===================================================================
+diff --git a/assets/js/burger.js b/assets/js/burger.js
+deleted file mode 100644
+--- a/assets/js/burger.js	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ /dev/null	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
+@@ -1,13 +0,0 @@
+-const links = document.querySelectorAll('.left-nav')
+-
+-
+-icons.addEventListener('click', () => {
+-  navbar.classList.toggle('active')
+-})
+-
+-links.forEach((link) => {
+-  link.addEventListener('click', () => {
+-    navbar.classList.remove('active')
+-  })
+-})
+-
+Index: assets/scss/index.scss
+===================================================================
+diff --git a/assets/scss/index.scss b/assets/scss/index.scss
+deleted file mode 100644
+--- a/assets/scss/index.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ /dev/null	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
+@@ -1,5 +0,0 @@
+-@import "./settings";
+-@import "./layout/navbar";
+-@import "./layout/header";
+-@import "./layout/section";
+-@import "./layout/footer";
+\ No newline at end of file
+Index: assets/scss/layout/_navbar.scss
+===================================================================
+diff --git a/assets/scss/layout/_navbar.scss b/assets/scss/layout/_navbar.scss
+deleted file mode 100644
+--- a/assets/scss/layout/_navbar.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ /dev/null	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
+@@ -1,37 +0,0 @@
+-nav {
+-  @include dflex;
+-  justify-content: space-between;
+-  height: 100px;
+-
+-  ul {
+-    @include dflex;
+-  }
+-
+-  .left-nav, .right-nav {
+-
+-    li {
+-      @include title;
+-      font-size: 1rem;
+-      padding-right: 20px;
+-      height: 100%;
+-      @include dflex;
+-
+-      a {
+-        &:hover {
+-          color: #979a9d;
+-        }
+-      }
+-    }
+-  }
+-  .right-nav {
+-    a {
+-      font-size: 1.2rem;
+-      transition: 0.5s ease;
+-
+-      &:hover {
+-        transform:  scale(1.2);
+-      }
+-    }
+-  }
+-
+-}
+\ No newline at end of file
+Index: assets/pages/eveil-des-sens.html
+===================================================================
+diff --git a/assets/pages/eveil-des-sens.html b/assets/pages/eveil-des-sens.html
+deleted file mode 100644
+--- a/assets/pages/eveil-des-sens.html	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ /dev/null	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
+@@ -1,36 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-  <meta charset="UTF-8">
+-  <meta name="viewport"
+-        content="width=device-width, initial-scale=1.0">
+-  <meta http-equiv="Content-Type"
+-        content="text/html;charset=windows-1251">
+-  <link rel="shortcut icon"
+-        href="../img/ic-fav.jpg">
+-  <title>Délice du Soleil - Eveil des sens</title>
+-</head>
+-<body>
+-
+-<main>
+-  <div class="item-content">
+-    <div>
+-      <img src="../img/item-sens-01.jpg"
+-           alt="eveil des sens spice">
+-    </div>
+-    <div class="item-description">
+-      <h1>eveil des sens</h1>
+-      <p>Est une tapenade de piments et d’épices d’ici et d’ailleurs. C’est une recette traditionnelle des peuples
+-         côtiers d’Afrique. Eveil des Sens saura sublimer tous vos plats.
+-         A consommer avec modération.
+-      </p>
+-    </div>
+-    <div class="item-price">
+-      <p>250 G | 10.00 €</p>
+-      <p>500 G | 15.00 €</p>
+-    </div>
+-  </div>
+-</main>
+-
+-</body>
+-</html>
+\ No newline at end of file
+Index: assets/scss/layout/_header.scss
+===================================================================
+diff --git a/assets/scss/layout/_header.scss b/assets/scss/layout/_header.scss
+deleted file mode 100644
+--- a/assets/scss/layout/_header.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ /dev/null	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
+@@ -1,28 +0,0 @@
+-header {
+-  display: grid;
+-  grid-template-columns: 50% 50%;
+-  align-items: center;
+-  margin: 50px auto;
+-
+-  .header-title {
+-    text-align: center;
+-
+-    h1 {
+-      @include title;
+-      margin: 50px auto;
+-      font-weight: 400;
+-    }
+-
+-    p {
+-      text-align: justify;
+-      line-height: 1.5rem;
+-      width: 70%;
+-      margin: 0 auto;
+-    }
+-  }
+-
+-  img {
+-    width: 100%;
+-    margin: 0 auto;
+-  }
+-}
+\ No newline at end of file
+Index: fr/products/poivre-de-penja.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/fr/products/poivre-de-penja.html b/fr/products/poivre-de-penja.html
+new file mode 100644
+--- /dev/null	(date 1688037038047)
++++ b/fr/products/poivre-de-penja.html	(date 1688037038047)
+@@ -0,0 +1,186 @@
++<!DOCTYPE html>
++<html lang="fr">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport"
++        content="width=device-width, initial-scale=1.0">
++  <meta http-equiv="Content-Type"
++        content="text/html;charset=windows-1251">
++  <link rel="shortcut icon"
++        href="../../assets/img/ic-fav.jpg">
++  <link rel="stylesheet"
++        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
++        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
++        crossorigin="anonymous"
++        referrerpolicy="no-referrer"/>
++
++
++  <title>Poivre de Penja - Poivre blanc en grain, appellation IGP</title>
++
++  <link rel="stylesheet"
++        href="../../src/styles/index.css">
++</head>
++<body>
++<nav>
++  <a href="../../index.html"
++     aria-label="homepage link">Délice du Soleil</a>
++
++  <div class="left-nav"
++       id="navbar">
++    <a href="../store.html"
++       aria-label="E-store link">boutique en ligne
++    </a>
++    <a href="#"
++       aria-label="blog link">blog
++    </a>
++    <a href="#">mon compte</a>
++    <a href="#">mon panier</a>
++  </div>
++  <div id="icons"></div>
++</nav>
++<main>
++  <section class="item-content">
++    <div>
++      <img src="../../assets/img/item-Penja-06.webp"
++           alt="image d'un pot de poivre blanc en grain de Penja">
++    </div>
++    <div class="item-description">
++      <h1>poivre de penja</h1>
++      <p>IGP (indication géographiquement protégé)</p>
++      <p>
++        En 2013, il a obtenu la toute première IGP africaine et est le second poivre au monde à obtenir cette
++        appellation. Le poivre de Penja vient des terres volcaniques du Mungo au Cameroun, d’où il tire sa puissance et son parfum
++        subtil.
++        Très apprécié des grands chefs, tels que Christophe Aribert, Georges Blanc ou Gilles Goujon, et dont certains
++        avouent n'utiliser que le poivre de Penja. Il trouvera sa place à votre table pour procurer du bonheur aux fins
++        gourmets.
++      </p>
++
++      <div class="item-selection">
++        <table class="product_addToCart_variants">
++          <tbody>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_0"
++                     checked>
++            </td>
++            <td class="add_to_cart_variants_price">10.00 €</td>
++            <td class="add_to_cart_variants_option">50 g</td>
++          </tr>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_1">
++            </td>
++            <td class="add_to_cart_variants_price">15.00 €</td>
++            <td class="add_to_cart_variants_option">100 g</td>
++          </tr>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_2">
++            </td>
++            <td class="add_to_cart_variants_price">22.00 €</td>
++            <td class="add_to_cart_variants_option">250 g</td>
++          </tr>
++          </tbody>
++        </table>
++      </div>
++      <div class="add_to_cart_qty_selection">
++        <label for="cart_qty_selection">quantité</label>
++        <input type="number"
++               value="1"
++               id="cart_qty_selection"
++               name="cart_qty_selection"
++               min="1"
++               max="5">
++      </div>
++      <button type="submit"
++              class="btn"
++              id="btn">ajouter au panier
++      </button>
++    </div>
++  </section>
++  <section class="section2">
++    <div class="s2-content">
++      <div>
++        <i class="fa-solid fa-dolly"></i>
++        <h4>Livraison offerte</h4>
++        <p>Dès 65€ d'achat en France Métropoliatine</p>
++      </div>
++      <div>
++        <i class="fa-solid fa-truck-fast"></i>
++        <h4>Livraison rapide</h4>
++        <p>En 4 jours pour la France et 8 jours pour l'étranger</p>
++      </div>
++      <div>
++        <i class="fa-regular fa-credit-card"></i>
++        <h4>Transaction</h4>
++        <p>Paiement CB sécurisé</p>
++      </div>
++      <div>
++        <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
++        <h4>Service Client </h4>
++        <p>Contactez nous</p>
++      </div>
++    </div>
++  </section>
++</main>
++<footer>
++  <div class="footer-content"
++       id="footer-content">
++    <div class="left-part">
++      <h4>délice du soleil</h4>
++      <ul>
++        <li><a href="../../index.html">Home</a></li>
++        <li><a href="../store.html">Boutique en ligne</a></li>
++        <li><a href="#">Blog</a></li>
++        <li><a href="#">Mon compte</a></li>
++        <li><a href="#">Mon panier</a></li>
++      </ul>
++    </div>
++    <div class="mid-part">
++      <div class="social-networks">
++        <h4>nous suivre</h4>
++        <ul class="social-links">
++          <li>
++            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
++              <i class="fa-brands fa-facebook-f"></i>
++            </a>
++          </li>
++          <li>
++            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
++              <i class="fa-brands fa-instagram"></i>
++            </a>
++          </li>
++          <li>
++            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
++          </li>
++        </ul>
++      </div>
++      <div class="contact">
++        <h4>nous contacter</h4>
++        <ul class="contact-link">
++          <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
++        </ul>
++      </div>
++    </div>
++    <div class="right-part">
++      <h4>mentions légales</h4>
++      <ul>
++        <li><a href="../legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
++        <li><a href="../legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
++        <li><a href="../legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
++      </ul>
++    </div>
++  </div>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+Index: fr/products/sun-vegetables.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/fr/products/sun-vegetables.html b/fr/products/sun-vegetables.html
+new file mode 100644
+--- /dev/null	(date 1688037159066)
++++ b/fr/products/sun-vegetables.html	(date 1688037159066)
+@@ -0,0 +1,169 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport"
++        content="width=device-width, initial-scale=1.0">
++  <meta http-equiv="Content-Type"
++        content="text/html;charset=windows-1251">
++  <link rel="shortcut icon"
++        href="../../assets/img/ic-fav.jpg">
++  <link rel="stylesheet"
++        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
++        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
++        crossorigin="anonymous"
++        referrerpolicy="no-referrer"/>
++
++
++  <title>Sun Vegetables - Confit de légumes aux épices</title>
++
++  <link rel="stylesheet"
++        href="../../src/styles/index.css">
++</head>
++<body>
++<nav>
++  <a href="../../index.html"
++     aria-label="homepage link">Délice du Soleil</a>
++
++  <div class="left-nav"
++       id="navbar">
++    <a href="../store.html"
++       aria-label="E-store link">boutique en ligne
++    </a>
++    <a href="#"
++       aria-label="blog link">blog
++    </a>
++    <a href="#">mon compte</a>
++    <a href="#">mon panier</a>
++  </div>
++  <div id="icons"></div>
++</nav>
++<main>
++  <section class="item-content">
++    <div>
++      <img src="../../assets/img/item-sunVegetable-05.webp"
++           alt="image d'un confit de légumes aux épices entourés de légumes verts">
++    </div>
++    <div class="item-description">
++      <h1>sun vegetable</h1>
++      <p>Véritable confit de légumes verts. Ce cocktail est un velouté savamment dosés pour dévoiler subtilement un
++         assortiment de saveurs.
++      </p>
++      <div class="item-selection">
++        <table class="product_addToCart_variants">
++          <tbody>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_0"
++                     checked>
++            </td>
++            <td class="add_to_cart_variants_price">10.00 €</td>
++            <td class="add_to_cart_variants_option">250 g</td>
++          </tr>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_1">
++            </td>
++            <td class="add_to_cart_variants_price">15.00 €</td>
++            <td class="add_to_cart_variants_option">500 g</td>
++          </tr>
++          </tbody>
++        </table>
++      </div>
++      <div class="add_to_cart_qty_selection">
++        <label for="cart_qty_selection">quantité</label>
++        <input type="number"
++               value="1"
++               id="cart_qty_selection"
++               name="cart_qty_selection"
++               min="1"
++               max="5">
++      </div>
++      <button type="submit"
++              class="btn"
++              id="btn">ajouter au panier
++      </button>
++    </div>
++  </section>
++  <section class="section2">
++    <div class="s2-content">
++      <div>
++        <i class="fa-solid fa-dolly"></i>
++        <h4>Livraison offerte</h4>
++        <p>Dès 65€ d'achat en France Métropoliatine</p>
++      </div>
++      <div>
++        <i class="fa-solid fa-truck-fast"></i>
++        <h4>Livraison rapide</h4>
++        <p>En 4 jours pour la France et 8 jours pour l'étranger</p>
++      </div>
++      <div>
++        <i class="fa-regular fa-credit-card"></i>
++        <h4>Transaction</h4>
++        <p>Paiement CB sécurisé</p>
++      </div>
++      <div>
++        <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
++        <h4>Service Client </h4>
++        <p>Contactez nous</p>
++      </div>
++    </div>
++  </section>
++</main>
++<footer>
++  <div class="footer-content"
++       id="footer-content">
++    <div class="left-part">
++      <h4>délice du soleil</h4>
++      <ul>
++        <li><a href="../../index.html">Home</a></li>
++        <li><a href="../store.html">Boutique en ligne</a></li>
++        <li><a href="#">Blog</a></li>
++        <li><a href="#">Mon compte</a></li>
++        <li><a href="#">Mon panier</a></li>
++      </ul>
++    </div>
++    <div class="mid-part">
++      <div class="social-networks">
++        <h4>nous suivre</h4>
++        <ul class="social-links">
++          <li>
++            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
++              <i class="fa-brands fa-facebook-f"></i>
++            </a>
++          </li>
++          <li>
++            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
++              <i class="fa-brands fa-instagram"></i>
++            </a>
++          </li>
++          <li>
++            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
++          </li>
++        </ul>
++      </div>
++      <div class="contact">
++        <h4>nous contacter</h4>
++        <ul class="contact-link">
++          <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
++        </ul>
++      </div>
++    </div>
++    <div class="right-part">
++      <h4>mentions légales</h4>
++      <ul>
++        <li><a href="../legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
++        <li><a href="../legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
++        <li><a href="../legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
++      </ul>
++    </div>
++  </div>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+Index: fr/products/sun-tomato.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/fr/products/sun-tomato.html b/fr/products/sun-tomato.html
+new file mode 100644
+--- /dev/null	(date 1688037104397)
++++ b/fr/products/sun-tomato.html	(date 1688037104397)
+@@ -0,0 +1,169 @@
++<!DOCTYPE html>
++<html lang="fr">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport"
++        content="width=device-width, initial-scale=1.0">
++  <meta http-equiv="Content-Type"
++        content="text/html;charset=windows-1251">
++  <link rel="shortcut icon"
++        href="../../assets/img/ic-fav.jpg">
++  <link rel="stylesheet"
++        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
++        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
++        crossorigin="anonymous"
++        referrerpolicy="no-referrer"/>
++
++  <title>Sun Tomato - confit de tomates aux épices</title>
++
++  <link rel="stylesheet"
++        href="../../src/styles/index.css">
++</head>
++<body>
++<nav>
++  <a href="../../index.html"
++     aria-label="homepage link">Délice du Soleil</a>
++
++  <div class="left-nav"
++       id="navbar">
++    <a href="../store.html"
++       aria-label="E-store link">boutique en ligne
++    </a>
++    <a href="#"
++       aria-label="blog link">blog
++    </a>
++    <a href="#">mon compte</a>
++    <a href="#">mon panier</a>
++  </div>
++  <div id="icons"></div>
++</nav>
++<main>
++  <section class="item-content">
++    <div>
++      <img src="../../assets/img/item-sunTomato-04.webp"
++           alt="spicy tomato confit">
++    </div>
++    <div class="item-description">
++      <h1>sun tomato</h1>
++      <p>Véritable confit de tomates choisies à maturité, gorgées de soleil. Ce cocktail est un velouté aux herbes
++         aromatiques savamment dosées pour vous garantir un équilibre parfait d’ingrédients. Son parfum nous rappelle le
++         soleil d’été. Il illuminera tous vos plats.
++      </p>
++      <div class="item-selection">
++        <table class="product_addToCart_variants">
++          <tbody>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_0"
++                     checked>
++            </td>
++            <td class="add_to_cart_variants_price">10.00 €</td>
++            <td class="add_to_cart_variants_option">250 g</td>
++          </tr>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_1">
++            </td>
++            <td class="add_to_cart_variants_price">15.00 €</td>
++            <td class="add_to_cart_variants_option">500 g</td>
++          </tr>
++          </tbody>
++        </table>
++      </div>
++      <div class="add_to_cart_qty_selection">
++        <label for="cart_qty_selection">quantité</label>
++        <input type="number"
++               value="1"
++               id="cart_qty_selection"
++               name="cart_qty_selection"
++               min="1"
++               max="5">
++      </div>
++      <button type="submit"
++              class="btn"
++              id="btn">ajouter au panier
++      </button>
++    </div>
++  </section>
++  <section class="section2">
++    <div class="s2-content">
++      <div>
++        <i class="fa-solid fa-dolly"></i>
++        <h4>Livraison offerte</h4>
++        <p>Dès 65€ d'achat en France Métropoliatine</p>
++      </div>
++      <div>
++        <i class="fa-solid fa-truck-fast"></i>
++        <h4>Livraison rapide</h4>
++        <p>En 4 jours pour la France et 8 jours pour l'étranger</p>
++      </div>
++      <div>
++        <i class="fa-regular fa-credit-card"></i>
++        <h4>Transaction</h4>
++        <p>Paiement CB sécurisé</p>
++      </div>
++      <div>
++        <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
++        <h4>Service Client </h4>
++        <p>Contactez nous</p>
++      </div>
++    </div>
++  </section>
++</main>
++<footer>
++  <div class="footer-content"
++       id="footer-content">
++    <div class="left-part">
++      <h4>délice du soleil</h4>
++      <ul>
++        <li><a href="../../index.html">Home</a></li>
++        <li><a href="../store.html">Boutique en ligne</a></li>
++        <li><a href="#">Blog</a></li>
++        <li><a href="#">Mon compte</a></li>
++        <li><a href="#">Mon panier</a></li>
++      </ul>
++    </div>
++    <div class="mid-part">
++      <div class="social-networks">
++        <h4>nous suivre</h4>
++        <ul class="social-links">
++          <li>
++            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
++              <i class="fa-brands fa-facebook-f"></i>
++            </a>
++          </li>
++          <li>
++            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
++              <i class="fa-brands fa-instagram"></i>
++            </a>
++          </li>
++          <li>
++            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
++          </li>
++        </ul>
++      </div>
++      <div class="contact">
++        <h4>nous contacter</h4>
++        <ul class="contact-link">
++          <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
++        </ul>
++      </div>
++    </div>
++    <div class="right-part">
++      <h4>mentions légales</h4>
++      <ul>
++        <li><a href="../legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
++        <li><a href="../legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
++        <li><a href="../legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
++      </ul>
++    </div>
++  </div>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+Index: fr/products/sun-fish.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/fr/products/sun-fish.html b/fr/products/sun-fish.html
+new file mode 100644
+--- /dev/null	(date 1688037073351)
++++ b/fr/products/sun-fish.html	(date 1688037073351)
+@@ -0,0 +1,169 @@
++<!DOCTYPE html>
++<html lang="fr">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport"
++        content="width=device-width, initial-scale=1.0">
++  <meta http-equiv="Content-Type"
++        content="text/html;charset=windows-1251">
++  <link rel="shortcut icon"
++        href="../../assets/img/ic-fav.jpg">
++  <link rel="stylesheet"
++        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
++        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
++        crossorigin="anonymous"
++        referrerpolicy="no-referrer"/>
++
++
++  <title>Sun Fish - marinade aux saveurs épicées</title>
++
++  <link rel="stylesheet"
++        href="../../src/styles/index.css">
++</head>
++<body>
++<nav>
++  <a href="../../index.html"
++     aria-label="homepage link">Délice du Soleil</a>
++
++  <div class="left-nav"
++       id="navbar">
++    <a href="../store.html"
++       aria-label="E-store link">boutique en ligne
++    </a>
++    <a href="#"
++       aria-label="blog link">blog
++    </a>
++    <a href="#">mon compte</a>
++    <a href="#">mon panier</a>
++  </div>
++  <div id="icons"></div>
++</nav>
++<main>
++  <section class="item-content">
++    <div>
++      <img src="../../assets/img/item-sunFish-02.webp"
++           alt="spicy marinade">
++    </div>
++    <div class="item-description">
++      <h1>sun fish</h1>
++      <p>C’est un assortiment de saveurs ensoleillées qui exaltera vos papilles. Cette marinade saura donner une saveur
++         subtile pour toutes vos grillades, viandes comme poissons.
++      </p>
++      <div class="item-selection">
++        <table class="product_addToCart_variants">
++          <tbody>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_0"
++                     checked>
++            </td>
++            <td class="add_to_cart_variants_price">10.00 €</td>
++            <td class="add_to_cart_variants_option">250 g</td>
++          </tr>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_1">
++            </td>
++            <td class="add_to_cart_variants_price">15.00 €</td>
++            <td class="add_to_cart_variants_option">500 g</td>
++          </tr>
++          </tbody>
++        </table>
++      </div>
++      <div class="add_to_cart_qty_selection">
++        <label for="cart_qty_selection">quantité</label>
++        <input type="number"
++               value="1"
++               id="cart_qty_selection"
++               name="cart_qty_selection"
++               min="1"
++               max="5">
++      </div>
++      <button type="submit"
++              class="btn"
++              id="btn">ajouter au panier
++      </button>
++    </div>
++  </section>
++  <section class="section2">
++    <div class="s2-content">
++      <div>
++        <i class="fa-solid fa-dolly"></i>
++        <h4>Livraison offerte</h4>
++        <p>Dès 65€ d'achat en France Métropoliatine</p>
++      </div>
++      <div>
++        <i class="fa-solid fa-truck-fast"></i>
++        <h4>Livraison rapide</h4>
++        <p>En 4 jours pour la France et 8 jours pour l'étranger</p>
++      </div>
++      <div>
++        <i class="fa-regular fa-credit-card"></i>
++        <h4>Transaction</h4>
++        <p>Paiement CB sécurisé</p>
++      </div>
++      <div>
++        <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
++        <h4>Service Client </h4>
++        <p>Contactez nous</p>
++      </div>
++    </div>
++  </section>
++</main>
++<footer>
++  <div class="footer-content"
++       id="footer-content">
++    <div class="left-part">
++      <h4>délice du soleil</h4>
++      <ul>
++        <li><a href="../../index.html">Home</a></li>
++        <li><a href="../store.html">Boutique en ligne</a></li>
++        <li><a href="#">Blog</a></li>
++        <li><a href="#">Mon compte</a></li>
++        <li><a href="#">Mon panier</a></li>
++      </ul>
++    </div>
++    <div class="mid-part">
++      <div class="social-networks">
++        <h4>nous suivre</h4>
++        <ul class="social-links">
++          <li>
++            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
++              <i class="fa-brands fa-facebook-f"></i>
++            </a>
++          </li>
++          <li>
++            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
++              <i class="fa-brands fa-instagram"></i>
++            </a>
++          </li>
++          <li>
++            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
++          </li>
++        </ul>
++      </div>
++      <div class="contact">
++        <h4>nous contacter</h4>
++        <ul class="contact-link">
++          <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
++        </ul>
++      </div>
++    </div>
++    <div class="right-part">
++      <h4>mentions légales</h4>
++      <ul>
++        <li><a href="../legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
++        <li><a href="../legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
++        <li><a href="../legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
++      </ul>
++    </div>
++  </div>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+Index: fr/products/sunny-peppers.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/fr/products/sunny-peppers.html b/fr/products/sunny-peppers.html
+new file mode 100644
+--- /dev/null	(date 1688037223123)
++++ b/fr/products/sunny-peppers.html	(date 1688037223123)
+@@ -0,0 +1,169 @@
++<!DOCTYPE html>
++<html lang="fr">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport"
++        content="width=device-width, initial-scale=1.0">
++  <meta http-equiv="Content-Type"
++        content="text/html;charset=windows-1251">
++  <link rel="shortcut icon"
++        href="../../assets/img/ic-fav.jpg">
++  <link rel="stylesheet"
++        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
++        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
++        crossorigin="anonymous"
++        referrerpolicy="no-referrer"/>
++
++
++  <title>Sunny Peppers - Crème de poivrons épicés</title>
++
++  <link rel="stylesheet"
++        href="../../src/styles/index.css">
++</head>
++<body>
++<nav>
++  <a href="../../index.html"
++     aria-label="homepage link">Délice du Soleil</a>
++
++  <div class="left-nav"
++       id="navbar">
++    <a href="../store.html"
++       aria-label="E-store link">boutique en ligne
++    </a>
++    <a href="#"
++       aria-label="blog link">blog
++    </a>
++    <a href="#">mon compte</a>
++    <a href="#">mon panier</a>
++  </div>
++  <div id="icons"></div>
++</nav>
++<main>
++  <section class="item-content">
++    <div>
++      <img src="../../assets/img/item-sunPeppers-03.webp"
++           alt="spicy peppers cream">
++    </div>
++    <div class="item-description">
++      <h1>sunny peppers</h1>
++      <p>Ce confit de poivrons, parfumé aux herbes aromatiques, agrémentera vos légumes poêlés ou crus, viandes ou
++         poissons.
++      </p>
++      <div class="item-selection">
++        <table class="product_addToCart_variants">
++          <tbody>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_0"
++                     checked>
++            </td>
++            <td class="add_to_cart_variants_price">10.00 €</td>
++            <td class="add_to_cart_variants_option">250 g</td>
++          </tr>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_1">
++            </td>
++            <td class="add_to_cart_variants_price">15.00 €</td>
++            <td class="add_to_cart_variants_option">500 g</td>
++          </tr>
++          </tbody>
++        </table>
++      </div>
++      <div class="add_to_cart_qty_selection">
++        <label for="cart_qty_selection">quantité</label>
++        <input type="number"
++               value="1"
++               id="cart_qty_selection"
++               name="cart_qty_selection"
++               min="1"
++               max="5">
++      </div>
++      <button type="submit"
++              class="btn"
++              id="btn">ajouter au panier
++      </button>
++    </div>
++  </section>
++  <section class="section2">
++    <div class="s2-content">
++      <div>
++        <i class="fa-solid fa-dolly"></i>
++        <h4>Livraison offerte</h4>
++        <p>Dès 65€ d'achat en France Métropoliatine</p>
++      </div>
++      <div>
++        <i class="fa-solid fa-truck-fast"></i>
++        <h4>Livraison rapide</h4>
++        <p>En 4 jours pour la France et 8 jours pour l'étranger</p>
++      </div>
++      <div>
++        <i class="fa-regular fa-credit-card"></i>
++        <h4>Transaction</h4>
++        <p>Paiement CB sécurisé</p>
++      </div>
++      <div>
++        <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
++        <h4>Service Client </h4>
++        <p>Contactez nous</p>
++      </div>
++    </div>
++  </section>
++</main>
++<footer>
++  <div class="footer-content"
++       id="footer-content">
++    <div class="left-part">
++      <h4>délice du soleil</h4>
++      <ul>
++        <li><a href="../../index.html">Home</a></li>
++        <li><a href="../store.html">Boutique en ligne</a></li>
++        <li><a href="#">Blog</a></li>
++        <li><a href="#">Mon compte</a></li>
++        <li><a href="#">Mon panier</a></li>
++      </ul>
++    </div>
++    <div class="mid-part">
++      <div class="social-networks">
++        <h4>nous suivre</h4>
++        <ul class="social-links">
++          <li>
++            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
++              <i class="fa-brands fa-facebook-f"></i>
++            </a>
++          </li>
++          <li>
++            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
++              <i class="fa-brands fa-instagram"></i>
++            </a>
++          </li>
++          <li>
++            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
++          </li>
++        </ul>
++      </div>
++      <div class="contact">
++        <h4>nous contacter</h4>
++        <ul class="contact-link">
++          <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
++        </ul>
++      </div>
++    </div>
++    <div class="right-part">
++      <h4>mentions légales</h4>
++      <ul>
++        <li><a href="../legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
++        <li><a href="../legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
++        <li><a href="../legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
++      </ul>
++    </div>
++  </div>
++</footer>
++</body>
++</html>
+\ No newline at end of file
+Index: .idea/php.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/php.xml b/.idea/php.xml
+new file mode 100644
+--- /dev/null	(date 1687948230711)
++++ b/.idea/php.xml	(date 1687948230711)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="MessDetectorOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PHPCSFixerOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PHPCodeSnifferOptionsConfiguration">
++    <option name="highlightLevel" value="WARNING" />
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PhpStanOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PsalmOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1687948219586)
++++ b/.idea/.gitignore	(date 1687948219586)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/GitLink.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/GitLink.xml b/.idea/GitLink.xml
+new file mode 100644
+--- /dev/null	(date 1687948217795)
++++ b/.idea/GitLink.xml	(date 1687948217795)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="uk.co.ben_gibson.git.link.SettingsState">
++    <option name="host" value="72037fcc-cb9c-4c22-960a-ffe73fd5e229" />
++  </component>
++</project>
+\ No newline at end of file
+Index: fr/products/eveil-des-sens.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/fr/products/eveil-des-sens.html b/fr/products/eveil-des-sens.html
+new file mode 100644
+--- /dev/null	(date 1688037001210)
++++ b/fr/products/eveil-des-sens.html	(date 1688037001210)
+@@ -0,0 +1,170 @@
++<!DOCTYPE html>
++<html lang="fr">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport"
++        content="width=device-width, initial-scale=1.0">
++  <meta http-equiv="Content-Type"
++        content="text/html;charset=windows-1251">
++  <link rel="shortcut icon"
++        href="../../assets/img/ic-fav.jpg">
++  <link rel="stylesheet"
++        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
++        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
++        crossorigin="anonymous"
++        referrerpolicy="no-referrer"/>
++
++  <title>Eveil des sens - confit de piments et aromates</title>
++
++  <link rel="stylesheet"
++        href="../../src/styles/index.css">
++</head>
++<body>
++<nav>
++  <a href="../../index.html"
++     aria-label="homepage link">Délice du Soleil</a>
++
++  <div class="left-nav"
++       id="navbar">
++    <a href="../store.html"
++       aria-label="E-store link">boutique en ligne
++    </a>
++    <a href="#"
++       aria-label="blog link">blog
++    </a>
++    <a href="#">mon compte</a>
++    <a href="#">mon panier</a>
++  </div>
++  <div id="icons"></div>
++</nav>
++<main>
++  <section class="item-content">
++    <div>
++      <img src="../../assets/img/item-senses-01.webp"
++           alt="eveil des sens spice">
++    </div>
++    <div class="item-description">
++      <h1>eveil des sens</h1>
++      <p>Tapenade de piments et d’épices d’ici et d’ailleurs. C’est une recette traditionnelle des peuples
++         côtiers d’Afrique. Eveil des Sens saura sublimer tous vos plats.
++         A consommer avec modération.
++      </p>
++      <div class="item-selection">
++        <table class="product_addToCart_variants">
++          <tbody>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_0"
++                     checked>
++            </td>
++            <td class="add_to_cart_variants_price">10.00 €</td>
++            <td class="add_to_cart_variants_option">250 g</td>
++          </tr>
++          <tr>
++            <td>
++              <input type="radio"
++                     name="add_to_cart_cartItem[cartItem][variant]"
++                     required="required"
++                     id="add_to_cart_cartItem_variant_1">
++            </td>
++            <td class="add_to_cart_variants_price">15.00 €</td>
++            <td class="add_to_cart_variants_option">500 g</td>
++          </tr>
++          </tbody>
++        </table>
++      </div>
++      <div class="add_to_cart_qty_selection">
++        <label for="cart_qty_selection">quantité</label>
++        <input type="number"
++               value="1"
++               id="cart_qty_selection"
++               name="cart_qty_selection"
++               min="1"
++               max="5">
++      </div>
++      <button type="submit"
++              class="btn"
++              id="btn">ajouter au panier
++      </button>
++    </div>
++  </section>
++  <section class="section2">
++    <div class="s2-content">
++      <div>
++        <i class="fa-solid fa-dolly"></i>
++        <h4>Livraison offerte</h4>
++        <p>Dès 65€ d'achat en France Métropoliatine</p>
++      </div>
++      <div>
++        <i class="fa-solid fa-truck-fast"></i>
++        <h4>Livraison rapide</h4>
++        <p>En 4 jours pour la France et 8 jours pour l'étranger</p>
++      </div>
++      <div>
++        <i class="fa-regular fa-credit-card"></i>
++        <h4>Transaction</h4>
++        <p>Paiement CB sécurisé</p>
++      </div>
++      <div>
++        <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
++        <h4>Service Client </h4>
++        <p>Contactez nous</p>
++      </div>
++    </div>
++  </section>
++</main>
++<footer>
++  <div class="footer-content"
++       id="footer-content">
++    <div class="left-part">
++      <h4>délice du soleil</h4>
++      <ul>
++        <li><a href="../../index.html">Home</a></li>
++        <li><a href="../store.html">Boutique en ligne</a></li>
++        <li><a href="#">Blog</a></li>
++        <li><a href="#">Mon compte</a></li>
++        <li><a href="#">Mon panier</a></li>
++      </ul>
++    </div>
++    <div class="mid-part">
++      <div class="social-networks">
++        <h4>nous suivre</h4>
++        <ul class="social-links">
++          <li>
++            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
++              <i class="fa-brands fa-facebook-f"></i>
++            </a>
++          </li>
++          <li>
++            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
++              <i class="fa-brands fa-instagram"></i>
++            </a>
++          </li>
++          <li>
++            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
++          </li>
++        </ul>
++      </div>
++      <div class="contact">
++        <h4>nous contacter</h4>
++        <ul class="contact-link">
++          <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
++        </ul>
++      </div>
++    </div>
++    <div class="right-part">
++      <h4>mentions légales</h4>
++      <ul>
++        <li><a href="../legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
++        <li><a href="../legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
++        <li><a href="../legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
++      </ul>
++    </div>
++  </div>
++</footer>
++
++</body>
++</html>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1687948217782)
++++ b/.idea/vcs.xml	(date 1687948217782)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1687948217769)
++++ b/.idea/modules.xml	(date 1687948217769)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Delice-du-Soleil.iml" filepath="$PROJECT_DIR$/.idea/Delice-du-Soleil.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: assets/pages/a-page.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/pages/a-page.html b/fr/store.html
+rename from assets/pages/a-page.html
+rename to fr/store.html
+--- a/assets/pages/a-page.html	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/fr/store.html	(date 1688036117663)
+@@ -1,5 +1,5 @@
+ <!DOCTYPE html>
+-<html lang="en">
++<html lang="fr">
+ 
+ <head>
+   <meta charset="UTF-8">
+@@ -7,7 +7,7 @@
+         content="width=device-width, initial-scale=1.0">
+ 
+   <link rel="shortcut icon"
+-        href="../img/logo.jpg">
++        href="../assets/img/logo.webp">
+   <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+@@ -16,108 +16,119 @@
+   <title>Délice du Soleil - Boutique d'épices en ligne</title>
+ 
+   <link rel="stylesheet"
+-        href="../styles/index.css">
++        href="../src/styles/index.css">
+ </head>
+ 
+ <body>
+ <nav>
+-  <h3>Délice du Soleil</h3>
++  <a href="../index.html"
++     aria-label="homepage link">Délice du Soleil</a>
++
+   <div class="left-nav"
+        id="navbar">
+-    <a href="../../index.html">home</a>
+-    <a href="#">blog</a>
+-    <a href="#">contact</a>
++    <a href="#"
++       aria-label="blog link">blog</a>
++    <a href="mailto:didier.matlo@gmail.com"
++       aria-label="email link">contact</a>
+     <a href="#">mon compte</a>
+-    <a href="#">mon panier<i class="fa-solid fa-basket-shopping"></i></a>
++    <a href="#">mon panier</a>
+   </div>
+   <div class="right-nav">
+-    <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/"><i
+-            class="fa-brands fa-facebook-f"></i></a>
+-    <a href="https://www.instagram.com/p/CN9-kDmDz44/"><i class="fa-brands fa-instagram"></i></a>
+-    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
++    <a href="https://www.facebook.com/people/Delice-Du-Soleil/100063487424968/"
++       aria-label="follow us on our facebook page">
++      <i class="fa-brands fa-facebook-f"></i>
++    </a>
++    <a href="https://www.instagram.com/p/CN9-kDmDz44/"
++       aria-label="follow us on our instagram link">
++      <i class="fa-brands fa-instagram"></i>
++    </a>
++    <a href="#"
++       aria-label="follow us on our whatsapp application">
++      <i class="fa-brands fa-whatsapp"></i>
++    </a>
++    <a href="#">
++      <img src="../assets/img/uk-logo.jpg"
++           aria-label="language selector"
++           alt="uk flag logo">
++    </a>
+   </div>
+   <div id="icons"></div>
+ </nav>
++
+ <section class="section1">
+   <h2 class="reveal">la boutique</h2>
+   <div class="items-container">
+     <div class="item item1">
+       <div class="item-img">
+-        <img src="../img/item-sens-01.jpg"
+-             alt="">
++        <img src="../assets/img/item-senses-01.webp"
++             alt="image d'un pot d'un confit de piments">
+       </div>
+       <div class="item-text">
+         <h5>éveil des sens</h5>
+         <p>Confit de piments et aromates</p>
+       </div>
+-      <a href="./eveil-des-sens.html"
+-         class="btn"
+-         target="_blank">découvrir</a>
++      <a href="products/eveil-des-sens.html"
++         class="btn">découvrir</a>
+     </div>
+     <div class="item item2">
+       <div class="item-img">
+-        <img src="../img/item-sunFish-02.jpg"
+-             alt="sun fish spice">
++        <img src="../assets/img/item-sunFish-02.webp"
++             alt="image d'un pot d'une marinade aux saveurs épicées">
+       </div>
+       <div class="item-text">
+         <h5>sun fish</h5>
+         <p>Marinade aux saveurs épicées</p>
+       </div>
+-      <a href=""
+-         class="btn"
+-         target="_blank">découvrir</a>
++      <a href="products/sun-fish.html"
++         class="btn">découvrir</a>
+     </div>
+     <div class="item item3">
+       <div class="item-img">
+-        <img src="../img/item-sunPeppers-03.jpg"
+-             alt="">
++        <img src="../assets/img/item-sunPeppers-03.webp"
++             alt="image d'une créme de poivrons épicés posée sur des poivrons frais">
+       </div>
+       <div class="item-text">
+         <h5>sunny peppers</h5>
+         <p>Créme de poivrons</p>
+       </div>
+-      <a href=""
+-         class="btn"
+-         target="_blank">découvrir</a>
++      <a href="products/sunny-peppers.html"
++         class="btn">découvrir</a>
+     </div>
+     <div class="item item4">
+       <div class="item-img">
+-        <img src="../img/item-sunTomato-04.jpg"
+-             alt="">
++        <img src="../assets/img/item-sunTomato-04.webp"
++             alt="image d'un pot de confit de toamtes épicées et entouré de tomates fraîches">
+       </div>
+       <div class="item-text">
+         <h5>sun tomato</h5>
+         <p>Confit de tomates </p>
+       </div>
+-      <a href=""
+-         class="btn"
+-         target="_blank">découvrir</a>
++      <a href="products/sun-tomato.html"
++         class="btn">découvrir</a>
+     </div>
+     <div class="item item5">
+       <div class="item-img">
+-        <img src="../img/item-sunVeg-05.jpg"
+-             alt="">
++        <img src="../assets/img/item-sunVegetable-05.webp"
++             alt="image d'un confit de légumes épicés et entouré de légumes verts">
+       </div>
+       <div class="item-text">
+         <h5>sun vegetables</h5>
+         <p>Confit de légumes </p>
+       </div>
+-      <a href=""
+-         class="btn"
+-         target="_blank">découvrir</a>
++      <a href="products/sun-vegetables.html"
++         class="btn">découvrir</a>
+     </div>
+     <div class="item item6">
+       <div class="item-img">
+-        <img src="../img/item-penja-06.jpg"
+-             alt="">
++        <img src="../assets/img/item-Penja-06.webp"
++             alt="image d'un pot de poivre blanc de penja">
+       </div>
+       <div class="item-text">
+         <h5>poivre de penja</h5>
+         <p>IGP - Poivre puissant et parfumé</p>
+       </div>
+-      <a href=""
+-         class="btn"
+-         target="_blank">découvrir</a>
++      <a href="products/poivre-de-penja.html"
++         class="btn">découvrir</a>
+     </div>
+   </div>
+ </section>
+@@ -140,7 +151,7 @@
+         <p>Paiement CB sécurisé</p>
+       </div>
+       <div>
+-        <a href=""><i class="fa-solid fa-envelope"></i></a>
++        <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+         <h4>Service Client </h4>
+         <p>Contactez nous</p>
+       </div>
+@@ -154,39 +165,45 @@
+     <div class="left-part">
+       <h4>délice du soleil</h4>
+       <ul>
+-        <li><a href="../../index.html">Home</a></li>
+-        <li><a href="#">A propos de nous</a></li>
+-        <li><a href="#">Boutique en ligne</a></li>
++        <li><a href="../index.html">Home</a></li>
++        <li><a href="./store.html">Boutique en ligne</a></li>
+         <li><a href="#">Blog</a></li>
+-        <li><a href="#">Contactez nous</a></li>
+         <li><a href="#">Mon compte</a></li>
+         <li><a href="#">Mon panier</a></li>
+       </ul>
+     </div>
+     <div class="mid-part">
+-      <h4>nous suivre</h4>
+-      <ul>
+-        <li>
+-          <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
+-            <i class="fa-brands fa-facebook-f"></i>
+-          </a>
+-        </li>
+-        <li>
+-          <a href="https://www.instagram.com/p/CN9-kDmDz44/">
+-            <i class="fa-brands fa-instagram"></i>
+-          </a>
+-        </li>
+-        <li>
+-          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+-        </li>
+-      </ul>
++      <div class="social-networks">
++        <h4>nous suivre</h4>
++        <ul class="social-links">
++          <li>
++            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
++              <i class="fa-brands fa-facebook-f"></i>
++            </a>
++          </li>
++          <li>
++            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
++              <i class="fa-brands fa-instagram"></i>
++            </a>
++          </li>
++          <li>
++            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
++          </li>
++        </ul>
++      </div>
++      <div class="contact">
++        <h4>nous contacter</h4>
++        <ul class="contact-link">
++          <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
++        </ul>
++      </div>
+     </div>
+     <div class="right-part">
+       <h4>mentions légales</h4>
+       <ul>
+-        <li><a href="./termsOfSales.html">Conditions générales de vente</a></li>
+-        <li><a href="./privacyPolicy.html">Politique de confidentialité</a></li>
+-        <li><a href="./cookiesPolicy.html">Politique de cookies</a></li>
++        <li><a href="./legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
++        <li><a href="./legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
++        <li><a href="./legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
+       </ul>
+     </div>
+   </div>
+Index: .idea/Delice-du-Soleil.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Delice-du-Soleil.iml b/.idea/Delice-du-Soleil.iml
+new file mode 100644
+--- /dev/null	(date 1687948217756)
++++ b/.idea/Delice-du-Soleil.iml	(date 1687948217756)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: assets/pages/termsOfSales.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/pages/termsOfSales.html b/fr/legal-notice/termsOfSales.html
+rename from assets/pages/termsOfSales.html
+rename to fr/legal-notice/termsOfSales.html
+--- a/assets/pages/termsOfSales.html	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/fr/legal-notice/termsOfSales.html	(date 1687969088903)
+@@ -22,7 +22,7 @@
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+-  <link rel="stylesheet" href="../styles/index.css">
++  <link rel="stylesheet" href="../../src/styles/index.css">
+ 
+ </head>
+ 
+Index: assets/pages/privacyPolicy.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/pages/privacyPolicy.html b/fr/legal-notice/privacyPolicy.html
+rename from assets/pages/privacyPolicy.html
+rename to fr/legal-notice/privacyPolicy.html
+--- a/assets/pages/privacyPolicy.html	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/fr/legal-notice/privacyPolicy.html	(date 1687969088965)
+@@ -22,7 +22,7 @@
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+-  <link rel="stylesheet" href="../styles/index.css">
++  <link rel="stylesheet" href="../../src/styles/index.css">
+ 
+ </head>
+ 
+@@ -207,9 +207,9 @@
+       <div class="footer-right">
+         <h5>mentions légales</h5>
+         <ul>
+-          <li><a href="./termsOfSales.html">Conditions générales de vente</a></li>
++          <li><a href="termsOfSales.html">Conditions générales de vente</a></li>
+           <li><a href="./privacyPolicy.html">Politique de confidentialité</a></li>
+-          <li><a href="./cookiesPolicy.html">Politique de cookies</a></li>
++          <li><a href="cookiesPolicy.html">Politique de cookies</a></li>
+         </ul>
+       </div>
+     </div>
+Index: src/styles/layouts/_item.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/styles/layouts/_item.scss b/src/styles/layouts/_item.scss
+new file mode 100644
+--- /dev/null	(date 1688035510478)
++++ b/src/styles/layouts/_item.scss	(date 1688035510478)
+@@ -0,0 +1,109 @@
++nav {
++  justify-content: center;
++}
++
++main {
++
++  .item-content {
++    display: grid;
++    grid-template-columns: 50% 50%;
++    width: 90%;
++    margin: 0 auto;
++
++    img {
++      width: 100%;
++      height: auto;
++    }
++
++    .item-description {
++      padding-left: 30px;
++      display: flex;
++      flex-direction: column;
++      justify-content: space-between;
++
++      h1 {
++        text-transform: uppercase;
++        color: $gold;
++        letter-spacing: 6px;
++        font-size: 4rem;
++      }
++
++      p {
++        font-size: 1.5rem;
++        line-height: 2.5rem;
++        text-align: left;
++      }
++
++      .item-selection {
++
++        table {
++
++          input {
++            display: inline-block;
++            vertical-align: middle;
++            width: 1.2rem;
++            height: 1.2rem;
++            accent-color: $gold;
++          }
++        }
++
++        td {
++          padding: 7px;
++        }
++
++        .add_to_cart_variants_option {
++          position: relative;
++
++          &:before {
++            content: "";
++            width: 1px;
++            background: #ffffff;
++            top: 0.5rem;
++            bottom: 0.5rem;
++            left: 0;
++            position: absolute;
++          }
++        }
++      }
++
++      .add_to_cart_qty_selection {
++
++        label {
++          padding-right: 10px;
++          text-transform: uppercase;
++        }
++
++        input[type='number'] {
++          width: 100px;
++          text-align: center;
++          padding: 5px;
++          font-size: 1rem;
++          background: #000;
++          color: #ffffff;
++
++          &:hover {
++            background: $gold;
++            color: $black1;
++          }
++        }
++      }
++    }
++
++    button {
++      text-transform: uppercase;
++      font-size: 1.5rem;
++      background: #000000;
++      padding: 10px 20px;
++      width: 100%;
++      color: #fff;
++      letter-spacing: 2px;
++
++      &:hover {
++        background: $gold;
++        color: $black1;
++      }
++    }
++  }
++}
++
++
+Index: assets/pages/cookiesPolicy.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/pages/cookiesPolicy.html b/fr/legal-notice/cookiesPolicy.html
+rename from assets/pages/cookiesPolicy.html
+rename to fr/legal-notice/cookiesPolicy.html
+--- a/assets/pages/cookiesPolicy.html	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/fr/legal-notice/cookiesPolicy.html	(date 1687969088884)
+@@ -22,7 +22,7 @@
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"/>
+-  <link rel="stylesheet" href="../styles/index.css">
++  <link rel="stylesheet" href="../../src/styles/index.css">
+ 
+ </head>
+ 
+@@ -178,8 +178,8 @@
+       <div class="footer-right">
+         <h5>mentions légales</h5>
+         <ul>
+-          <li><a href="./termsOfSales.html">Conditions générales de vente</a></li>
+-          <li><a href="./privacyPolicy.html">Politique de confidentialité</a></li>
++          <li><a href="termsOfSales.html">Conditions générales de vente</a></li>
++          <li><a href="privacyPolicy.html">Politique de confidentialité</a></li>
+           <li><a href="./cookiesPolicy.html">Politique de cookies</a></li>
+         </ul>
+       </div>
+Index: assets/styles/layouts/_footer.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/styles/layouts/_footer.scss b/src/styles/layouts/_footer.scss
+rename from assets/styles/layouts/_footer.scss
+rename to src/styles/layouts/_footer.scss
+--- a/assets/styles/layouts/_footer.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/src/styles/layouts/_footer.scss	(date 1688027731431)
+@@ -10,7 +10,7 @@
+ 
+       h4 {
+         text-transform: uppercase;
+-        padding-bottom: 20px;
++        padding-bottom: 15px;
+         letter-spacing: 2px;
+         font-size: 0.8rem;
+         color: $gold;
+@@ -30,17 +30,26 @@
+ 
+     .mid-part {
+ 
+-      ul {
+-        display: flex;
+-        justify-content: space-around;
++      .social-networks {
++        padding-bottom: 20px;
++
++        ul {
++          display: flex;
++          justify-content: flex-start;
++
++          li {
++            padding-right: 20px;
++          }
+ 
+-        i {
+-          font-size: 1.2rem;
++          i {
++            font-size: 1.2rem;
+ 
+-          &:hover {
+-            font-weight: 600;
++            &:hover {
++              font-weight: 600;
++            }
+           }
+         }
++
+       }
+     }
+   }
+Index: assets/styles/layouts/_navbar.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/styles/layouts/_navbar.scss b/src/styles/layouts/_navbar.scss
+rename from assets/styles/layouts/_navbar.scss
+rename to src/styles/layouts/_navbar.scss
+--- a/assets/styles/layouts/_navbar.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/src/styles/layouts/_navbar.scss	(date 1688048912769)
+@@ -1,3 +1,13 @@
++nav>:first-child {
++  font-family: $font-allura;
++  font-weight: 100;
++  color: $gold;
++  min-width: 250px;
++  font-size: 1.5rem;
++  text-transform: initial;
++  letter-spacing: 2px;
++}
++
+ nav {
+   display: flex;
+   justify-content: space-between;
+@@ -6,28 +16,25 @@
+   height: 150px;
+   width: 85%;
+ 
+-  h3 {
+-    font-family: $font-allura;
+-    font-weight: 300;
+-    color: $gold;
+-    width: 200px;
+-    font-size: 1.8rem;
+-
++  a:not(nav>a) {
++    text-transform: uppercase;
++    font-size: 1rem;
+   }
+ 
+   a {
+     text-transform: uppercase;
+     font-size: 1rem;
++    letter-spacing: 1px;
+   }
+ 
+ 
+   .left-nav {
+     display: flex;
+-    justify-content: space-around;
++    justify-content: space-evenly;
+     align-items: center;
+     width: 70%;
+ 
+-    a:not(:first-child) {
++    a {
+       color: $white2;
+ 
+       &:hover {
+Index: assets/styles/layouts/_header.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/styles/layouts/_header.scss b/src/styles/layouts/_header.scss
+rename from assets/styles/layouts/_header.scss
+rename to src/styles/layouts/_header.scss
+--- a/assets/styles/layouts/_header.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/src/styles/layouts/_header.scss	(date 1688033596116)
+@@ -6,9 +6,8 @@
+   width: 90%;
+ 
+   .header-img {
+-    background: url(../img/banner.jpg) center/cover;
++    background: url(../../assets/img/h-banner.webp) center/cover;
+     width: 100%;
+-    border: 1px solid #fff;
+     animation: headerImgAnim 5s linear;
+ 
+     @keyframes headerImgAnim {
+@@ -54,7 +53,7 @@
+       font-family: $font-allura;
+       font-weight: 500;
+       font-size: 2.5rem;
+-      letter-spacing: 4px;
++      letter-spacing: 6px;
+       color: $gold;
+     }
+ 
+@@ -64,6 +63,9 @@
+       text-transform: uppercase;
+       font-size: 0.8rem;
+       line-height: 1.5rem;
++      width: 70%;
++      text-align: justify;
++      -webkit-text-size-adjust: auto;
+     }
+ 
+     img {
+@@ -71,6 +73,5 @@
+       width: 200px;
+       height: 200px;
+     }
+-
+   }
+-}
+\ No newline at end of file
++}
+Index: assets/styles/index.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/styles/index.scss b/src/styles/index.scss
+rename from assets/styles/index.scss
+rename to src/styles/index.scss
+--- a/assets/styles/index.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/src/styles/index.scss	(date 1688020182538)
+@@ -5,4 +5,5 @@
+ @import "./layouts/section1";
+ @import "./layouts/section2";
+ @import "./layouts/section3";
+-@import "./layouts/legalNotices";
+\ No newline at end of file
++@import "./layouts/legalNotices";
++@import "./layouts/item";
+Index: assets/styles/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/styles/index.css b/src/styles/index.css
+rename from assets/styles/index.css
+rename to src/styles/index.css
+--- a/assets/styles/index.css	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/src/styles/index.css	(date 1688141105697)
+@@ -5,13 +5,13 @@
+ 
+ @font-face {
+   font-family: "allura";
+-  src: url("../fonts/Allura-Regular.ttf"); }
++  src: url("../../assets/fonts/Allura-Regular.ttf"); }
+ @font-face {
+   font-family: "roboto-light";
+-  src: url("../fonts/Roboto-Light.ttf"); }
++  src: url("../../assets/fonts/Roboto-Light.ttf"); }
+ @font-face {
+   font-family: "poppins-medium";
+-  src: url("../fonts/Poppins-Medium.ttf"); }
++  src: url("../../assets/fonts/Poppins-Medium.ttf"); }
+ body {
+   font-family: "Roboto-Light", sans-serif;
+   background: linear-gradient(90deg, black 0%, #51515f 75%, #646363 100%);
+@@ -24,6 +24,15 @@
+ li {
+   list-style: none; }
+ 
++nav > :first-child {
++  font-family: "Allura", sans-serif;
++  font-weight: 100;
++  color: #c4b35a;
++  min-width: 250px;
++  font-size: 1.5rem;
++  text-transform: initial;
++  letter-spacing: 2px; }
++
+ nav {
+   display: flex;
+   justify-content: space-between;
+@@ -31,23 +40,21 @@
+   margin: 0 auto;
+   height: 150px;
+   width: 85%; }
+-  nav h3 {
+-    font-family: "Allura", sans-serif;
+-    font-weight: 300;
+-    color: #c4b35a;
+-    width: 200px;
+-    font-size: 1.8rem; }
++  nav a:not(nav > a) {
++    text-transform: uppercase;
++    font-size: 1rem; }
+   nav a {
+     text-transform: uppercase;
+-    font-size: 1rem; }
++    font-size: 1rem;
++    letter-spacing: 1px; }
+   nav .left-nav {
+     display: flex;
+-    justify-content: space-around;
++    justify-content: space-evenly;
+     align-items: center;
+     width: 70%; }
+-    nav .left-nav a:not(:first-child) {
++    nav .left-nav a {
+       color: #bebdbd; }
+-      nav .left-nav a:not(:first-child):hover {
++      nav .left-nav a:hover {
+         color: #fff; }
+     nav .left-nav i {
+       padding-left: 7px; }
+@@ -95,9 +102,8 @@
+   height: 70vh;
+   width: 90%; }
+   header .header-img {
+-    background: url(../img/banner.jpg) center/cover;
++    background: url(../../assets/img/h-banner.webp) center/cover;
+     width: 100%;
+-    border: 1px solid #fff;
+     animation: headerImgAnim 5s linear; }
+ @keyframes headerImgAnim {
+   from {
+@@ -126,14 +132,17 @@
+       font-family: "Allura", sans-serif;
+       font-weight: 500;
+       font-size: 2.5rem;
+-      letter-spacing: 4px;
++      letter-spacing: 6px;
+       color: #c4b35a; }
+     header .header-title p {
+       letter-spacing: 2px;
+       padding-top: 40px;
+       text-transform: uppercase;
+       font-size: 0.8rem;
+-      line-height: 1.5rem; }
++      line-height: 1.5rem;
++      width: 70%;
++      text-align: justify;
++      -webkit-text-size-adjust: auto; }
+     header .header-title img {
+       clip-path: circle(50% at center);
+       width: 200px;
+@@ -148,7 +157,7 @@
+       margin: 0 auto; }
+       footer .footer-content div h4 {
+         text-transform: uppercase;
+-        padding-bottom: 20px;
++        padding-bottom: 15px;
+         letter-spacing: 2px;
+         font-size: 0.8rem;
+         color: #c4b35a; }
+@@ -158,32 +167,37 @@
+         color: #a09f9f; }
+         footer .footer-content div a:hover {
+           color: #fff; }
+-    footer .footer-content .mid-part ul {
+-      display: flex;
+-      justify-content: space-around; }
+-      footer .footer-content .mid-part ul i {
+-        font-size: 1.2rem; }
+-        footer .footer-content .mid-part ul i:hover {
+-          font-weight: 600; }
++    footer .footer-content .mid-part .social-networks {
++      padding-bottom: 20px; }
++      footer .footer-content .mid-part .social-networks ul {
++        display: flex;
++        justify-content: flex-start; }
++        footer .footer-content .mid-part .social-networks ul li {
++          padding-right: 20px; }
++        footer .footer-content .mid-part .social-networks ul i {
++          font-size: 1.2rem; }
++          footer .footer-content .mid-part .social-networks ul i:hover {
++            font-weight: 600; }
+ 
+ .section1 {
+   width: 90%;
+   margin: 0 auto; }
++  .section1 .showStoreTitle {
++    visibility: visible;
++    animation: s1-title 3s ease; }
++@keyframes s1-title {
++  from {
++    transform: scaleY(0); }
++  to {
++    transform: scaleY(1); } }
+   .section1 h2 {
++    visibility: hidden;
+     text-transform: uppercase;
+     font-size: 6rem;
+     font-weight: 100;
+     letter-spacing: 14px;
+     text-align: center;
+-    margin: 60px auto;
+-    position: relative;
+-    animation: s1-title 8s linear; }
+-@keyframes s1-title {
+-  from {
+-    transform: scaleX(0);
+-    opacity: 0; }
+-  to {
+-    transform: scaleX(1); } }
++    margin: 60px auto; }
+   .section1 .items-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+@@ -365,5 +379,73 @@
+       main .container-content .btn:hover {
+         background: #c4b35a;
+         color: #000; }
++
++nav {
++  justify-content: center; }
++
++main .item-content {
++  display: grid;
++  grid-template-columns: 50% 50%;
++  width: 90%;
++  margin: 0 auto; }
++  main .item-content img {
++    width: 100%;
++    height: auto; }
++  main .item-content .item-description {
++    padding-left: 30px;
++    display: flex;
++    flex-direction: column;
++    justify-content: space-between; }
++    main .item-content .item-description h1 {
++      text-transform: uppercase;
++      color: #c4b35a;
++      letter-spacing: 6px;
++      font-size: 4rem; }
++    main .item-content .item-description p {
++      font-size: 1.5rem;
++      line-height: 2.5rem;
++      text-align: left; }
++    main .item-content .item-description .item-selection table input {
++      display: inline-block;
++      vertical-align: middle;
++      width: 1.2rem;
++      height: 1.2rem;
++      accent-color: #c4b35a; }
++    main .item-content .item-description .item-selection td {
++      padding: 7px; }
++    main .item-content .item-description .item-selection .add_to_cart_variants_option {
++      position: relative; }
++      main .item-content .item-description .item-selection .add_to_cart_variants_option:before {
++        content: "";
++        width: 1px;
++        background: #ffffff;
++        top: 0.5rem;
++        bottom: 0.5rem;
++        left: 0;
++        position: absolute; }
++    main .item-content .item-description .add_to_cart_qty_selection label {
++      padding-right: 10px;
++      text-transform: uppercase; }
++    main .item-content .item-description .add_to_cart_qty_selection input[type='number'] {
++      width: 100px;
++      text-align: center;
++      padding: 5px;
++      font-size: 1rem;
++      background: #000;
++      color: #ffffff; }
++      main .item-content .item-description .add_to_cart_qty_selection input[type='number']:hover {
++        background: #c4b35a;
++        color: #000; }
++  main .item-content button {
++    text-transform: uppercase;
++    font-size: 1.5rem;
++    background: #000000;
++    padding: 10px 20px;
++    width: 100%;
++    color: #fff;
++    letter-spacing: 2px; }
++    main .item-content button:hover {
++      background: #c4b35a;
++      color: #000; }
+ 
+ /*# sourceMappingURL=index.css.map */
+Index: src/styles/index.css.map
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/styles/index.css.map b/src/styles/index.css.map
+new file mode 100644
+--- /dev/null	(date 1688141105808)
++++ b/src/styles/index.css.map	(date 1688141105808)
+@@ -0,0 +1,7 @@
++{
++"version": 3,
++"mappings": "AAAA,CAAE;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;;AAGxB,UAGC;EAFC,WAAW,EAAE,QAAQ;EACrB,GAAG,EAAE,4CAA4C;AAGnD,UAGC;EAFC,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,0CAA0C;AAGjD,UAGC;EAFC,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,4CAA4C;AA6BnD,IAAK;EACH,WAAW,EAzBC,0BACJ;EAyBR,UAAU,EAAE,2DAA2F;EACvG,KAAK,EAtBE,IAAI;;AAyBb,CAAE;EACA,eAAe,EAAE,IAAI;EACrB,KAAK,EA3BE,IAAI;;AA8Bb,EAAG;EACD,UAAU,EAAE,IAAI;;AC3DlB,kBAAiB;EACf,WAAW,EDoBC,oBACJ;ECpBR,WAAW,EAAE,GAAG;EAChB,KAAK,ED6BA,OAAO;EC5BZ,SAAS,EAAE,KAAK;EAChB,SAAS,EAAE,MAAM;EACjB,cAAc,EAAE,OAAO;EACvB,cAAc,EAAE,GAAG;;AAGrB,GAAI;EACF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,MAAM;EACd,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,GAAG;EAEV,kBAAa;IACX,cAAc,EAAE,SAAS;IACzB,SAAS,EAAE,IAAI;EAGjB,KAAE;IACA,cAAc,EAAE,SAAS;IACzB,SAAS,EAAE,IAAI;IACf,cAAc,EAAE,GAAG;EAIrB,aAAU;IACR,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,YAAY;IAC7B,WAAW,EAAE,MAAM;IACnB,KAAK,EAAE,GAAG;IAEV,eAAE;MACA,KAAK,EDRF,OAAO;MCUV,qBAAQ;QACN,KAAK,EDZJ,IAAI;ICgBT,eAAE;MACA,YAAY,EAAE,GAAG;EAIrB,cAAW;IACT,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,MAAM;IACvB,WAAW,EAAE,MAAM;IACnB,KAAK,EAAE,GAAG;IAEV,gBAAE;MACA,OAAO,EAAE,MAAM;MACf,cAAc,EAAE,SAAS;MACzB,SAAS,EAAE,MAAM;MAEjB,sBAAQ;QACN,SAAS,EAAE,UAAU;MAGvB,kBAAE;QACA,YAAY,EAAE,GAAG;EAMvB,UAAO;IACL,OAAO,EAAE,IAAI;IACb,MAAM,EAAE,OAAO;IAEf,iBAAS;MACP,OAAO,EAAE,OAAO;EAIpB,oCAAqC;IACnC,UAAO;MACL,OAAO,EAAE,KAAK;MAEd,iBAAS;QACP,OAAO,EAAE,OAAO;IAGpB,yBAAsB;MACpB,OAAO,EAAE,OAAO;IAGlB,aAAU;MACR,QAAQ,EAAE,KAAK;MACf,cAAc,EAAE,MAAM;MACtB,IAAI,EAAC,KAAK;MACV,GAAG,EAAE,KAAK;MACV,KAAK,EAAE,IAAI;MACX,WAAW,EAAE,UAAU;MAEvB,oBAAS;QACP,IAAI,EAAE,GAAG;IAGb,cAAW;MACT,OAAO,EAAE,IAAI;;ACzGnB,MAAO;EACL,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;EAC9B,MAAM,EAAE,MAAM;EACd,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;EAEV,kBAAY;IACV,UAAU,EAAE,gDAAgD;IAC5D,KAAK,EAAE,IAAI;IACX,SAAS,EAAE,uBAAuB;AAElC,wBAQC;EAPC,IAAK;IACH,SAAS,EAAE,SAAS;EAGtB,EAAG;IACD,SAAS,EAAE,SAAS;EAM1B,oBAAc;IACZ,KAAK,EFGA,IAAI;IEFT,UAAU,EAAE,2DAA4F;IACxG,UAAU,EAAE,MAAM;IAClB,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;IACtB,eAAe,EAAE,MAAM;IACvB,WAAW,EAAE,MAAM;IACnB,SAAS,EAAE,yBAAyB;AAEpC,0BAQC;EAPC,IAAK;IACH,SAAS,EAAE,QAAQ;EAGrB,EAAG;IACD,SAAS,EAAE,QAAQ;IAIvB,uBAAG;MACD,WAAW,EAAE,GAAG;MAChB,SAAS,EAAE,MAAM;MACjB,cAAc,EAAE,GAAG;IAIrB,uBAAG;MACD,WAAW,EF/BH,oBACJ;ME+BJ,WAAW,EAAE,GAAG;MAChB,SAAS,EAAE,MAAM;MACjB,cAAc,EAAE,GAAG;MACnB,KAAK,EFxBJ,OAAO;IE2BV,sBAAE;MACA,cAAc,EAAE,GAAG;MACnB,WAAW,EAAE,IAAI;MACjB,cAAc,EAAE,SAAS;MACzB,SAAS,EAAE,MAAM;MACjB,WAAW,EAAE,MAAM;MACnB,KAAK,EAAE,GAAG;MACV,UAAU,EAAE,OAAO;MACnB,wBAAwB,EAAE,IAAI;IAGhC,wBAAI;MACF,SAAS,EAAE,qBAAqB;MAChC,KAAK,EAAE,KAAK;MACZ,MAAM,EAAE,KAAK;;ACzEnB,MAAO;EACL,MAAM,EAAE,SAAS;EAEjB,sBAAgB;IACd,OAAO,EAAE,IAAI;IACb,qBAAqB,EAAE,WAAW;IAElC,0BAAI;MACF,MAAM,EAAE,MAAM;MAEd,6BAAG;QACD,cAAc,EAAE,SAAS;QACzB,cAAc,EAAE,IAAI;QACpB,cAAc,EAAE,GAAG;QACnB,SAAS,EAAE,MAAM;QACjB,KAAK,EHiBN,OAAO;MGbR,4BAAE;QACA,cAAc,EAAE,GAAG;QACnB,WAAW,EAAE,IAAI;QACjB,KAAK,EAAE,OAAO;QAEd,kCAAQ;UACN,KAAK,EHGN,IAAI;IGIP,iDAAiB;MACf,cAAc,EAAE,IAAI;MAEpB,oDAAG;QACD,OAAO,EAAE,IAAI;QACb,eAAe,EAAE,UAAU;QAE3B,uDAAG;UACD,aAAa,EAAE,IAAI;QAGrB,sDAAE;UACA,SAAS,EAAE,MAAM;UAEjB,4DAAQ;YACN,WAAW,EAAE,GAAG;;AC/C9B,SAAU;EACR,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;EAEd,yBAAgB;IACd,UAAU,EAAE,OAAO;IACnB,SAAS,EAAE,gBAAgB;AAE3B,mBAQC;EAPC,IAAK;IACH,SAAS,EAAE,SAAS;EAGtB,EAAG;IACD,SAAS,EAAE,SAAS;EAM1B,YAAG;IACD,UAAU,EAAE,MAAM;IAClB,cAAc,EAAE,SAAS;IACzB,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,GAAG;IAChB,cAAc,EAAE,IAAI;IACpB,UAAU,EAAE,MAAM;IAClB,MAAM,EAAE,SAAS;EAGnB,0BAAiB;IACf,OAAO,EAAE,IAAI;IACb,qBAAqB,EAAE,cAAc;IACrC,aAAa,EAAE,MAAM;IACrB,OAAO,EAAE,IAAI;IACb,MAAM,EAAE,MAAM;IACd,UAAU,EAAE,MAAM;IAElB,gCAAM;MACJ,MAAM,EAAE,iBAAiB;MACzB,MAAM,EAAE,KAAK;MAEb,0CAAU;QACR,OAAO,EAAE,IAAI;QAEb,8CAAI;UACF,KAAK,EAAE,KAAK;UACZ,MAAM,EAAE,KAAK;MAIjB,2CAAW;QACT,aAAa,EAAE,IAAI;QAEnB,8CAAG;UACD,cAAc,EAAE,GAAG;UACnB,SAAS,EAAE,MAAM;UACjB,WAAW,EAAE,GAAG;UAChB,KAAK,EJ1BR,OAAO;UI2BJ,cAAc,EAAE,IAAI;UACpB,cAAc,EAAE,SAAS;QAG3B,6CAAE;UACA,cAAc,EAAE,GAAG;UACnB,OAAO,EAAE,MAAM;UACf,KAAK,EAAE,GAAG;UACV,MAAM,EAAE,MAAM;MAIlB,qCAAK;QACH,cAAc,EAAE,GAAG;QACnB,MAAM,EAAE,cAAc;QACtB,OAAO,EAAE,IAAI;QACb,cAAc,EAAE,SAAS;QACzB,QAAQ,EAAE,QAAQ;QAElB,2CAAQ;UACN,UAAU,EAAE,IAAI;UAChB,KAAK,EJhDR,OAAO;UIiDJ,WAAW,EAAE,GAAG;;ACjF1B,SAAU;EACR,MAAM,EAAE,UAAU;EAElB,qBAAY;IACV,OAAO,EAAE,IAAI;IACb,qBAAqB,EAAE,cAAc;IACrC,MAAM,EAAE,MAAM;IACd,KAAK,EAAE,GAAG;IACV,UAAU,EAAE,MAAM;IAElB,uBAAE;MACA,SAAS,EAAE,IAAI;MACf,aAAa,EAAE,IAAI;MACnB,KAAK,EAAE,IAAI;IAGb,wBAAG;MACD,cAAc,EAAE,SAAS;MACzB,cAAc,EAAE,GAAG;MACnB,KAAK,ELaJ,OAAO;IKVV,uBAAE;MACA,UAAU,EAAE,MAAM;MAClB,KAAK,EAAE,GAAG;MACV,MAAM,EAAE,MAAM;MACd,SAAS,EAAE,MAAM;;AC1BvB,SAAU;EACR,MAAM,EAAE,UAAU;EAClB,OAAO,EAAE,IAAI;EAGb,qBAAY;IACV,OAAO,EAAE,IAAI;IACb,qBAAqB,EAAE,OAAO;IAC9B,MAAM,EAAE,MAAM;IACd,OAAO,EAAE,SAAS;IAElB,mCAAc;MACZ,KAAK,ENgBF,IAAI;MMfP,MAAM,EAAE,MAAM;MACd,UAAU,EAAE,MAAM;MAElB,sCAAG;QACD,aAAa,EAAE,IAAI;QACnB,SAAS,EAAE,IAAI;QACf,KAAK,ENaN,OAAO;QMZN,cAAc,EAAE,IAAI;QACpB,cAAc,EAAE,SAAS;QACzB,WAAW,EAAE,GAAG;MAGlB,qCAAE;QACA,MAAM,EAAE,cAAc;QACtB,OAAO,EAAE,SAAS;QAClB,SAAS,EAAE,MAAM;QACjB,cAAc,EAAE,GAAG;QACnB,cAAc,EAAE,SAAS;QACzB,KAAK,ENFJ,OAAO;QMIR,2CAAQ;UACN,KAAK,EAAE,IAAI;UACX,UAAU,ENHb,OAAO;IMQV,oCAAe;MACb,KAAK,ENbF,IAAI;MMcP,UAAU,EAAE,OAAO;MACnB,KAAK,EAAE,GAAG;MACV,MAAM,EAAE,MAAM;MAEd,uCAAG;QACD,cAAc,EAAE,SAAS;QACzB,UAAU,EAAE,MAAM;QAClB,SAAS,EAAE,IAAI;QACf,aAAa,EAAE,IAAI;MAGrB,+EAAM;QACJ,cAAc,EAAE,GAAG;;ACtD3B,IAAK;EACH,UAAU,EAAE,OAAO;EAGnB,OAAG;IACD,UAAU,EAAE,IAAI;IAChB,SAAS,EAAE,MAAM;IACjB,OAAO,EAAE,KAAK;EAGhB,OAAG;IACD,OAAO,EAAE,aAAa;EAGxB,MAAE;IACA,WAAW,EAAE,IAAI;IACjB,WAAW,EAAE,GAAG;IAChB,cAAc,EAAE,GAAG;EAGrB,oBAAgB;IACd,MAAM,EAAE,MAAM;IAEd,uBAAG;MACD,UAAU,EAAE,OAAO;MACnB,MAAM,EAAE,KAAK;MACb,OAAO,EAAE,IAAI;MACb,WAAW,EAAE,MAAM;MACnB,eAAe,EAAE,MAAM;MACvB,cAAc,EAAE,GAAG;MACnB,KAAK,EPEJ,OAAO;IOCV;2BACG;MACD,KAAK,EAAE,GAAG;MACV,MAAM,EAAE,MAAM;MACd,SAAS,EAAE,MAAM;IAGnB,sBAAE;MACA,OAAO,EAAE,MAAM;EAInB,uBAAmB;IACjB,MAAM,EAAE,MAAM;IACd,KAAK,EPnBA,IAAI;IOoBT,OAAO,EAAE,SAAS;IAGlB,0BAAG;MACD,WAAW,EAAE,IAAI;MACjB,cAAc,EAAE,IAAI;MACpB,UAAU,EAAE,MAAM;MAClB,MAAM,EAAE,SAAS;MACjB,cAAc,EAAE,GAAG;MACnB,KAAK,EPzBJ,OAAO;IO4BV,qDAAM;MACJ,KAAK,EAAE,GAAG;MACV,cAAc,EAAE,IAAI;MACpB,SAAS,EAAE,MAAM;MACjB,MAAM,EAAE,MAAM;MACd,cAAc,EAAE,GAAG;MACnB,UAAU,EAAE,OAAO;IAGrB,yBAAE;MACA,eAAe,EAAE,SAAS;MAC1B,WAAW,EAAE,GAAG;IAGlB,6BAAM;MACJ,MAAM,EAAE,cAAc;MACtB,eAAe,EAAE,QAAQ;MACzB,KAAK,EAAE,KAAK;MACZ,MAAM,EAAE,MAAM;MAEd,gCAAG;QACD,cAAc,EAAE,SAAS;MAG3B,kEAAO;QACL,KAAK,EAAE,KAAK;QACZ,UAAU,EAAE,MAAM;QAClB,MAAM,EAAE,IAAI;QACZ,MAAM,EAAE,cAAc;IAK1B,4BAAK;MACH,SAAS,EAAE,MAAM;MACjB,cAAc,EAAE,GAAG;MACnB,cAAc,EAAE,SAAS;MACzB,UAAU,EAAE,IAAI;MAChB,KAAK,EPtEF,IAAI;MOuEP,OAAO,EAAE,SAAS;MAClB,MAAM,EAAE,cAAc;MACtB,MAAM,EAAE,WAAW;MACnB,QAAQ,EAAE,QAAQ;MAClB,IAAI,EAAE,GAAG;MACT,SAAS,EAAE,gBAAgB;MAE3B,kCAAQ;QACN,UAAU,EP3EX,OAAO;QO4EN,KAAK,EP9EJ,IAAI;;AQ9Bb,GAAI;EACF,eAAe,EAAE,MAAM;;AAKvB,kBAAc;EACZ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;EAC9B,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;EAEd,sBAAI;IACF,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;EAGd,oCAAkB;IAChB,YAAY,EAAE,IAAI;IAClB,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;IACtB,eAAe,EAAE,aAAa;IAE9B,uCAAG;MACD,cAAc,EAAE,SAAS;MACzB,KAAK,ERON,OAAO;MQNN,cAAc,EAAE,GAAG;MACnB,SAAS,EAAE,IAAI;IAGjB,sCAAE;MACA,SAAS,EAAE,MAAM;MACjB,WAAW,EAAE,MAAM;MACnB,UAAU,EAAE,IAAI;IAOd,gEAAM;MACJ,OAAO,EAAE,YAAY;MACrB,cAAc,EAAE,MAAM;MACtB,KAAK,EAAE,MAAM;MACb,MAAM,EAAE,MAAM;MACd,YAAY,ERbjB,OAAO;IQiBN,uDAAG;MACD,OAAO,EAAE,GAAG;IAGd,iFAA6B;MAC3B,QAAQ,EAAE,QAAQ;MAElB,wFAAS;QACP,OAAO,EAAE,EAAE;QACX,KAAK,EAAE,GAAG;QACV,UAAU,EAAE,OAAO;QACnB,GAAG,EAAE,MAAM;QACX,MAAM,EAAE,MAAM;QACd,IAAI,EAAE,CAAC;QACP,QAAQ,EAAE,QAAQ;IAOtB,qEAAM;MACJ,aAAa,EAAE,IAAI;MACnB,cAAc,EAAE,SAAS;IAG3B,oFAAqB;MACnB,KAAK,EAAE,KAAK;MACZ,UAAU,EAAE,MAAM;MAClB,OAAO,EAAE,GAAG;MACZ,SAAS,EAAE,IAAI;MACf,UAAU,EAAE,IAAI;MAChB,KAAK,EAAE,OAAO;MAEd,0FAAQ;QACN,UAAU,ERpDf,OAAO;QQqDF,KAAK,ERvDR,IAAI;EQ6DT,yBAAO;IACL,cAAc,EAAE,SAAS;IACzB,SAAS,EAAE,MAAM;IACjB,UAAU,EAAE,OAAO;IACnB,OAAO,EAAE,SAAS;IAClB,KAAK,EAAE,IAAI;IACX,KAAK,EAAE,IAAI;IACX,cAAc,EAAE,GAAG;IAEnB,+BAAQ;MACN,UAAU,ERrEX,OAAO;MQsEN,KAAK,ERxEJ,IAAI",
++"sources": ["_settings.scss","layouts/_navbar.scss","layouts/_header.scss","layouts/_footer.scss","layouts/_section1.scss","layouts/_section2.scss","layouts/_section3.scss","layouts/_legalNotices.scss","layouts/_item.scss"],
++"names": [],
++"file": "index.css"
++}
+Index: assets/styles/_settings.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/styles/_settings.scss b/src/styles/_settings.scss
+rename from assets/styles/_settings.scss
+rename to src/styles/_settings.scss
+--- a/assets/styles/_settings.scss	(revision aad4b11c0f21808cfb9c3238c890abb04fd13ebc)
++++ b/src/styles/_settings.scss	(date 1687969087642)
+@@ -6,17 +6,17 @@
+ 
+ @font-face {
+   font-family: "allura";
+-  src: url("../fonts/Allura-Regular.ttf");
++  src: url("../../assets/fonts/Allura-Regular.ttf");
+ }
+ 
+ @font-face {
+   font-family: "roboto-light";
+-  src: url("../fonts/Roboto-Light.ttf");
++  src: url("../../assets/fonts/Roboto-Light.ttf");
+ }
+ 
+ @font-face {
+   font-family: "poppins-medium";
+-  src: url("../fonts/Poppins-Medium.ttf");
++  src: url("../../assets/fonts/Poppins-Medium.ttf");
+ }
+ 
+ $font-allura: "Allura",
+diff --git a/assets/styles/layouts/_item.scss b/assets/styles/layouts/_item.scss
+deleted file mode 100644
+diff --git a/assets/scss/layout/_section.scss b/assets/scss/layout/_section.scss
+deleted file mode 100644
+diff --git a/assets/styles/layouts/_legalNotices.scss b/src/styles/layouts/_legalNotices.scss
+rename from assets/styles/layouts/_legalNotices.scss
+rename to src/styles/layouts/_legalNotices.scss
+diff --git a/assets/styles/layouts/_section2.scss b/src/styles/layouts/_section2.scss
+rename from assets/styles/layouts/_section2.scss
+rename to src/styles/layouts/_section2.scss
+diff --git a/assets/styles/layouts/_section3.scss b/src/styles/layouts/_section3.scss
+rename from assets/styles/layouts/_section3.scss
+rename to src/styles/layouts/_section3.scss
