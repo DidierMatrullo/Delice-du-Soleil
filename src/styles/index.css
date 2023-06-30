@@ -182,21 +182,23 @@ footer {
 .section1 {
   width: 90%;
   margin: 0 auto; }
-  .section1 h2 {
-    text-transform: uppercase;
-    font-size: 6rem;
-    font-weight: 100;
-    letter-spacing: 14px;
-    text-align: center;
-    margin: 60px auto;
-    position: relative;
-    animation: s1-title 5s linear; }
+  .section1 .revealStoreTitle {
+    visibility: visible;
+    animation: s1-title 3s ease; }
 @keyframes s1-title {
   from {
     transform: scaleY(0);
     opacity: 0; }
   to {
     transform: scaleY(1); } }
+  .section1 h2 {
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 100;
+    letter-spacing: 16px;
+    text-align: center;
+    margin: 60px auto;
+    visibility: hidden; }
   .section1 .items-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
