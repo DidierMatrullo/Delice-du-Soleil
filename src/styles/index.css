@@ -27,7 +27,7 @@ li {
 nav > :first-child {
   font-family: "Allura", sans-serif;
   font-weight: 100;
-  color: #c4b35a;
+  color: #f0d293;
   min-width: 250px;
   font-size: 1.5rem;
   text-transform: initial;
@@ -133,10 +133,9 @@ header {
       font-weight: 500;
       font-size: 2.5rem;
       letter-spacing: 6px;
-      color: #c4b35a; }
+      color: #f0d293; }
     header .header-title p {
       letter-spacing: 2px;
-      padding-top: 40px;
       text-transform: uppercase;
       font-size: 0.8rem;
       line-height: 1.5rem;
@@ -144,9 +143,10 @@ header {
       text-align: justify;
       -webkit-text-size-adjust: auto; }
     header .header-title img {
-      clip-path: circle(50% at center);
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
       width: 200px;
-      height: 200px; }
+      height: 200px;
+      margin: 15px auto; }
 
 footer {
   margin: 30px auto; }
@@ -160,7 +160,7 @@ footer {
         padding-bottom: 15px;
         letter-spacing: 2px;
         font-size: 0.8rem;
-        color: #c4b35a; }
+        color: #f0d293; }
       footer .footer-content div a {
         letter-spacing: 1px;
         line-height: 24px;
@@ -220,7 +220,7 @@ footer {
           letter-spacing: 3px;
           font-size: 1.5rem;
           font-weight: 100;
-          color: #c4b35a;
+          color: #f0d293;
           padding-bottom: 20px;
           text-transform: uppercase; }
         .section1 .items-container .item .item-text p {
@@ -236,7 +236,7 @@ footer {
         position: relative; }
         .section1 .items-container .item .btn:hover {
           background: #000;
-          color: #c4b35a;
+          color: #f0d293;
           font-weight: 800; }
 
 .section2 {
@@ -254,7 +254,7 @@ footer {
     .section2 .s2-content h4 {
       text-transform: uppercase;
       padding-bottom: 7px;
-      color: #c4b35a; }
+      color: #f0d293; }
     .section2 .s2-content p {
       text-align: center;
       width: 80%;
@@ -276,7 +276,7 @@ footer {
       .section3 .s3-content .s3-left-part h3 {
         margin-bottom: 40px;
         font-size: 5rem;
-        color: #c4b35a;
+        color: #f0d293;
         letter-spacing: 16px;
         text-transform: uppercase;
         font-weight: 100; }
@@ -289,7 +289,7 @@ footer {
         color: #bebdbd; }
         .section3 .s3-content .s3-left-part a:hover {
           color: #000;
-          background: #c4b35a; }
+          background: #f0d293; }
     .section3 .s3-content .s3-right-part {
       color: #fff;
       text-align: justify;
@@ -324,7 +324,7 @@ main {
       align-items: center;
       justify-content: center;
       letter-spacing: 4px;
-      color: #c4b35a; }
+      color: #f0d293; }
     main .header-content p,
     main .header-content ul {
       width: 90%;
@@ -342,7 +342,7 @@ main {
       text-align: center;
       margin: 20px auto;
       letter-spacing: 2px;
-      color: #c4b35a; }
+      color: #f0d293; }
     main .container-content p, main .container-content ul {
       width: 90%;
       padding-bottom: 20px;
@@ -378,7 +378,7 @@ main {
       left: 50%;
       transform: translateX(-50%); }
       main .container-content .btn:hover {
-        background: #c4b35a;
+        background: #f0d293;
         color: #000; }
 
 nav {
@@ -399,7 +399,7 @@ main .item-content {
     justify-content: space-between; }
     main .item-content .item-description h1 {
       text-transform: uppercase;
-      color: #c4b35a;
+      color: #f0d293;
       letter-spacing: 6px;
       font-size: 4rem; }
     main .item-content .item-description p {
@@ -411,7 +411,7 @@ main .item-content {
       vertical-align: middle;
       width: 1.2rem;
       height: 1.2rem;
-      accent-color: #c4b35a; }
+      accent-color: #f0d293; }
     main .item-content .item-description .item-selection td {
       padding: 7px; }
     main .item-content .item-description .item-selection .add_to_cart_variants_option {
@@ -435,7 +435,7 @@ main .item-content {
       background: #000;
       color: #ffffff; }
       main .item-content .item-description .add_to_cart_qty_selection input[type='number']:hover {
-        background: #c4b35a;
+        background: #f0d293;
         color: #000; }
   main .item-content button {
     text-transform: uppercase;
@@ -446,7 +446,7 @@ main .item-content {
     color: #fff;
     letter-spacing: 2px; }
     main .item-content button:hover {
-      background: #c4b35a;
+      background: #f0d293;
       color: #000; }
 
 /*# sourceMappingURL=index.css.map */
