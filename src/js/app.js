@@ -20,4 +20,5 @@ const storeTitleToShow = document.querySelector('.storeTitle')
 
 store.addEventListener('mouseenter', (e) => {
     storeTitleToShow.classList.add('revealStoreTitle')
+
 })
