@@ -6,7 +6,7 @@ main {
 
   .item-content {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     width: 90%;
     margin: 0 auto;
 
@@ -78,13 +78,8 @@ main {
           text-align: center;
           padding: 5px;
           font-size: 1rem;
-          background: #000;
-          color: #ffffff;
-
-          &:hover {
-            background: $gold;
-            color: $black1;
-          }
+          background: $black2;
+          color: $gold;
         }
       }
     }
@@ -92,16 +87,12 @@ main {
     button {
       text-transform: uppercase;
       font-size: 1.5rem;
-      background: #000000;
+      background: $black2;
       padding: 10px 20px;
       width: 100%;
-      color: #fff;
+      color: $gold;
       letter-spacing: 2px;
-
-      &:hover {
-        background: $gold;
-        color: $black1;
-      }
+      cursor: pointer;
     }
   }
 }

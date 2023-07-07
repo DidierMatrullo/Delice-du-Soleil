@@ -3,7 +3,7 @@
 
   .s2-content {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 4fr));
     margin: 0 auto;
     width: 90%;
     text-align: center;

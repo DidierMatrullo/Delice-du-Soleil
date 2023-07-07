@@ -3,7 +3,7 @@ footer {
 
   .footer-content {
     display: grid;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
 
     div {
       margin: 0 auto;

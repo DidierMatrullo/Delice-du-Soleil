@@ -28,8 +28,8 @@ nav > :first-child {
   font-family: "Allura", sans-serif;
   font-weight: 100;
   color: #f0d293;
-  min-width: 250px;
-  font-size: 1.5rem;
+  width: 300px;
+  font-size: 1.7rem;
   text-transform: initial;
   letter-spacing: 2px; }
 
@@ -97,7 +97,7 @@ nav {
 
 header {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin: 0 auto;
   height: 70vh;
   width: 90%; }
@@ -140,7 +140,7 @@ footer {
   margin: 30px auto; }
   footer .footer-content {
     display: grid;
-    grid-template-columns: 30% 30% 40%; }
+    grid-template-columns: repeat(auto-fit, minmax(100px, 3fr)); }
     footer .footer-content div {
       margin: 0 auto; }
       footer .footer-content div h4 {
@@ -172,7 +172,7 @@ footer {
   margin: 0 auto; }
   .section1 .revealStoreTitle {
     visibility: visible;
-    animation: s1-title 3s ease; }
+    animation: s1-title 1.5s ease-in-out; }
 @keyframes s1-title {
   from {
     transform: scaleY(0);
@@ -189,7 +189,7 @@ footer {
     visibility: hidden; }
   .section1 .items-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-items: center;
     row-gap: 30px;
     margin: 0 auto;
@@ -231,7 +231,7 @@ footer {
   margin: 100px auto; }
   .section2 .s2-content {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 4fr));
     margin: 0 auto;
     width: 90%;
     text-align: center; }
@@ -254,7 +254,7 @@ footer {
   padding: 50px; }
   .section3 .s3-content {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 0 auto;
     padding: 50px 20px; }
     .section3 .s3-content .s3-left-part {
@@ -374,7 +374,7 @@ nav {
 
 main .item-content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   width: 90%;
   margin: 0 auto; }
   main .item-content img {
@@ -420,21 +420,16 @@ main .item-content {
       text-align: center;
       padding: 5px;
       font-size: 1rem;
-      background: #000;
-      color: #ffffff; }
-      main .item-content .item-description .add_to_cart_qty_selection input[type='number']:hover {
-        background: #f0d293;
-        color: #000; }
+      background: #131313;
+      color: #f0d293; }
   main .item-content button {
     text-transform: uppercase;
     font-size: 1.5rem;
-    background: #000000;
+    background: #131313;
     padding: 10px 20px;
     width: 100%;
-    color: #fff;
-    letter-spacing: 2px; }
-    main .item-content button:hover {
-      background: #f0d293;
-      color: #000; }
+    color: #f0d293;
+    letter-spacing: 2px;
+    cursor: pointer; }
 
 /*# sourceMappingURL=index.css.map */

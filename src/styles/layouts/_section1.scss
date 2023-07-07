@@ -4,7 +4,7 @@
 
   .revealStoreTitle {
     visibility: visible;
-    animation: s1-title 3s ease;
+    animation: s1-title 1.5s ease-in-out;
 
     @keyframes s1-title {
       from {
@@ -30,7 +30,7 @@
 
   .items-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-items: center;
     row-gap: 30px;
     margin: 0 auto;
