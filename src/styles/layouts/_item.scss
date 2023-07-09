@@ -45,23 +45,23 @@ main {
             height: 1.2rem;
             accent-color: $gold;
           }
-        }
 
-        td {
-          padding: 7px;
-        }
+          td {
+            padding: 7px;
+          }
 
-        .add_to_cart_variants_option {
-          position: relative;
+          .add_to_cart_variants_price {
+            position: relative;
 
-          &:before {
-            content: "";
-            width: 1px;
-            background: #ffffff;
-            top: 0.5rem;
-            bottom: 0.5rem;
-            left: 0;
-            position: absolute;
+            &::before {
+              content: "";
+              width: 1px;
+              background: #ffffff;
+              top: 0.5rem;
+              bottom: 0.5rem;
+              left: 0;
+              position: absolute;
+            }
           }
         }
       }

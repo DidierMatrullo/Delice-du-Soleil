@@ -16,6 +16,12 @@ body {
   font-family: "Roboto-Light", sans-serif;
   background: linear-gradient(90deg, black 0%, #51515f 75%, #646363 100%);
   color: #fff; }
+  body .en_title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
 
 a {
   text-decoration: none;
@@ -63,6 +69,9 @@ nav {
     justify-content: center;
     align-items: center;
     width: 30%; }
+    nav .right-nav img {
+      width: 28px;
+      height: 16px; }
     nav .right-nav a {
       padding: 0 10px;
       text-transform: uppercase;
@@ -401,11 +410,11 @@ main .item-content {
       width: 1.2rem;
       height: 1.2rem;
       accent-color: #f0d293; }
-    main .item-content .item-description .item-selection td {
+    main .item-content .item-description .item-selection table td {
       padding: 7px; }
-    main .item-content .item-description .item-selection .add_to_cart_variants_option {
+    main .item-content .item-description .item-selection table .add_to_cart_variants_price {
       position: relative; }
-      main .item-content .item-description .item-selection .add_to_cart_variants_option:before {
+      main .item-content .item-description .item-selection table .add_to_cart_variants_price::before {
         content: "";
         width: 1px;
         background: #ffffff;
