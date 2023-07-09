@@ -4,7 +4,7 @@
 
   .revealStoreTitle {
     visibility: visible;
-    animation: s1-title 1.5s ease-in-out;
+    animation: s1-title 1s ease-in-out;
 
     @keyframes s1-title {
       from {
@@ -26,6 +26,7 @@
     text-align: center;
     margin: 60px auto;
     visibility: hidden;
+    color: $gold;
   }
 
   .items-container {

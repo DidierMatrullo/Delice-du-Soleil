@@ -172,7 +172,7 @@ footer {
   margin: 0 auto; }
   .section1 .revealStoreTitle {
     visibility: visible;
-    animation: s1-title 1.5s ease-in-out; }
+    animation: s1-title 1s ease-in-out; }
 @keyframes s1-title {
   from {
     transform: scaleY(0);
@@ -186,7 +186,8 @@ footer {
     letter-spacing: 16px;
     text-align: center;
     margin: 60px auto;
-    visibility: hidden; }
+    visibility: hidden;
+    color: #f0d293; }
   .section1 .items-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
