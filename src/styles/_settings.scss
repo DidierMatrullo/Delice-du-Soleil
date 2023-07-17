@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "allura";
+  src: url("../../assets/fonts/Allura-Regular.ttf");
+}
+
+@font-face {
+  font-family: "roboto-light";
+  src: url("../../assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "poppins-medium";
+  src: url("../../assets/fonts/Poppins-Medium.ttf");
+}
+
+$font-allura: "Allura",
+sans-serif;
+$font-roboto: "Roboto-Light",
+sans-serif;
+$font-poppins: "Poppins-Medium",
+sans-serif;
+
+$white1: #fff;
+$white2: #bebdbd;
+$black1: #000;
+$black2: #131313;
+$gold: #f0d293;
+
+@mixin title {
+  font-size: 3rem;
+  font-family: $font-allura;
+  font-weight: 100;
+}
+
+@mixin title2 {
+  font-size: 1.5rem;
+  font-family: $font-roboto;
+  font-weight: 100;
+}
+
+
+body {
+  font-family: $font-roboto;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(81, 81, 95, 1) 75%, rgb(100, 99, 99) 100%);
+  color: $white1;
+
+  .en_title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $white1;
+}
+
+li {
+  list-style: none;
+}

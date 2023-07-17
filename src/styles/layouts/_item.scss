@@ -1,0 +1,112 @@
+nav {
+  justify-content: center;
+}
+
+main {
+
+  .item-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    width: 90%;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .item-description {
+      padding-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h1 {
+        text-transform: uppercase;
+        color: $gold;
+        letter-spacing: 6px;
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: left;
+      }
+
+      .item-selection {
+
+        table {
+
+          input {
+            display: inline-block;
+            vertical-align: middle;
+            width: 1.2rem;
+            height: 1.2rem;
+            accent-color: $gold;
+          }
+
+          td {
+            padding: 7px;
+          }
+
+          .add_to_cart_variants_price {
+            position: relative;
+
+            &::before {
+              content: "";
+              width: 1px;
+              background: #ffffff;
+              top: 0.5rem;
+              bottom: 0.5rem;
+              left: 0;
+              position: absolute;
+            }
+          }
+        }
+      }
+
+      .add_to_cart_qty_selection {
+
+        label {
+          padding-right: 10px;
+          text-transform: uppercase;
+        }
+
+        input[type='number'] {
+          width: 100px;
+          text-align: center;
+          padding: 5px;
+          font-size: 1rem;
+          background: none;
+          color: $white1;
+          border: 1px solid $white2;
+
+          &:hover {
+            background: $black2;
+            color: $gold;
+          }
+        }
+      }
+    }
+
+    button {
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      background: none;
+      padding: 10px 20px;
+      width: 100%;
+      color: $white1;
+      letter-spacing: 2px;
+      cursor: pointer;
+      border: 1px solid $white2;
+
+      &:hover {
+        background: $black1;
+        color: $gold;
+      }
+    }
+  }
+}
+
+

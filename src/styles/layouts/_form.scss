@@ -1,0 +1,82 @@
+#form {
+  width: 50%;
+  margin: 50px auto 100px;
+  text-align: center;
+
+  fieldset {
+    border: 1px solid $white2;
+    legend {
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+      font-weight: 100;
+      padding: 0 5px;
+    }
+
+    form {
+      display: grid;
+      grid-template-rows: 25px 35px 25px 35px 25px 35px 25px 200px;
+      gap: 10px;
+      max-width: 600px;
+      margin: 30px auto;
+
+      label {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 100;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        background: none;
+        border: 1px solid $white2;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        color: $white2;
+        padding-left: 10px;
+        outline: none;
+        transition: 0.2s;
+
+        &:focus {
+          border: 1px solid $white1;
+        }
+      }
+
+      textarea {
+        resize: none;
+        padding-top: 5px;
+      }
+
+      button {
+        margin: 45px 0;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 2px;
+        background: none;
+        color: $white1;
+        cursor: pointer;
+        border: 1px solid $white2;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+
+        &:hover {
+          background: #000;
+          color: $gold;
+        }
+      }
+
+      a {
+        text-decoration: underline;
+      }
+
+      p {
+        text-align: justify;
+        font-size: 0.8rem;
+      }
+
+    }
+  }
+
+}

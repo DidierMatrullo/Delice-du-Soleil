@@ -1,0 +1,54 @@
+header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: 0 auto;
+  height: 70vh;
+  width: 90%;
+
+  .header-img {
+    background: url(../../assets/img/h-banner.webp) center/cover;
+    width: 100%;
+  }
+
+  .header-title {
+    color: $white1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(118, 118, 137) 75%, rgb(135, 135, 135) 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-weight: 100;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+
+    }
+
+    h2 {
+      font-family: $font-allura;
+      font-weight: 500;
+      font-size: 2.5rem;
+      letter-spacing: 6px;
+      color: $gold;
+    }
+
+    p {
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      line-height: 1.5rem;
+      width: 70%;
+      text-align: justify;
+      -webkit-text-size-adjust: auto;
+    }
+
+    img {
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      width: 200px;
+      height: 200px;
+      margin: 15px auto;
+    }
+  }
+}

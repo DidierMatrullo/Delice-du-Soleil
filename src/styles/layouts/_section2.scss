@@ -1,0 +1,30 @@
+.section2 {
+  margin: 100px auto;
+
+  .s2-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 4fr));
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+
+    i {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    h4 {
+      text-transform: uppercase;
+      padding-bottom: 7px;
+      color: $gold;
+    }
+
+    p {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      font-size: 0.8rem;
+    }
+  }
+}
