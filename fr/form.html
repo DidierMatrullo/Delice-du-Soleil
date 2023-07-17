@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Délice du Soleil</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="Shortcut icon"
+        href="../assets/img/logo1.png">
+  <link rel="stylesheet" href="../src/styles/index.css">
+</head>
+<body>
+  <nav>
+    <a href="../index.html"
+       aria-label="homepage link">Délice du Soleil</a>
+
+    <div class="left-nav"
+         id="navbar">
+      <a href="#"
+         class="blog link">blog</a>
+      <a href="#" class="user_log_in link">mon compte</a>
+      <a href="#" class="user_cart link">mon panier</a>
+    </div>
+    <div class="right-nav">
+      <a href="https://www.facebook.com/people/Delice-Du-Soleil/100063487424968/"
+         aria-label="follow us on our facebook page">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/p/CN9-kDmDz44/"
+         aria-label="follow us on our instagram link">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="#"
+         aria-label="follow us on our whatsapp application">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="../en/en_homepage.html">
+        <img src="../assets/img/british-flag-small.jpg"
+             aria-label="language selector"
+             alt="uk flag">
+      </a>
+    </div>
+    <div id="icons"></div>
+  </nav>
+
+  <div id="form">
+    <fieldset>
+      <legend>
+        <h4>contact</h4>
+      </legend>
+      <form action="https://localhost" method="post" id="contact_form">
+
+        <label for="fullName">nom</label>
+        <input type="text" name="fullName" id="fullName" placeholder="Prénom Nom" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="mail@mail.com" required>
+
+        <label for="msg">Sujet</label>
+        <input type="text" name="msg" id="msg" placeholder="Sujet du message" required>
+
+        <label for="message"></label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..." required></textarea>
+        <p>
+          En validant votre message vous acceptez que vos données soient traitées par la société Délice du Soleil en
+          accord avec notre <a href="./legal-notice/privacyPolicy.html">politique de confidentialité</a> et
+          notre <a href="./legal-notice/cookiesPolicy.html">politique de cookies</a>.
+        </p>
+        <div id="button">
+          <button type="submit">envoyer</button>
+        </div>
+      </form>
+    </fieldset>
+  </div>
+
+  <footer>
+    <div class="footer-content"
+         id="footer-content">
+      <div class="left-part">
+        <h4>délice du soleil</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./store.html">Boutique en ligne</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Mon compte</a></li>
+          <li><a href="#">Mon panier</a></li>
+        </ul>
+      </div>
+      <div class="mid-part">
+        <div class="social-networks">
+          <h4>nous suivre</h4>
+          <ul class="social-links">
+            <li>
+              <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/p/CN9-kDmDz44/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-part">
+        <h4>mentions légales</h4>
+        <ul>
+          <li><a href="./legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
+          <li><a href="./legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
+          <li><a href="./legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
