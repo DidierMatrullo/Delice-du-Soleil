@@ -30,168 +30,164 @@
         href="../../src/styles/index.css">
 </head>
 <body>
-  <nav>
-    <a href="../../index.html"
-       aria-label="homepage link">Délice du Soleil</a>
+<nav>
+  <a href="../../index.html"
+     aria-label="homepage link">Délice du Soleil</a>
 
-    <div class="left-nav"
-         id="navbar">
-      <a href="../store.html"
-         aria-label="E-store link">boutique en ligne
-      </a>
-      <a href="#"
-         aria-label="blog link">blog
-      </a>
-      <a href="#">mon compte</a>
-      <a href="#">mon panier</a>
+  <div class="left-nav"
+       id="navbar">
+    <a href="../store.html"
+       aria-label="E-store link">boutique en ligne
+    </a>
+    <a href="#"
+       aria-label="blog link">blog
+    </a>
+    <a href="../form.html"
+       class="email link">contact</a>
+    <a href="#">mon compte</a>
+    <a href="#">mon panier</a>
+  </div>
+  <div id="icons"></div>
+</nav>
+<main>
+  <section class="item-content">
+    <div>
+      <img src="../../assets/img/item6_penjaPepper.webp"
+           alt="image poivre blanc de Penja en grain">
     </div>
-    <div id="icons"></div>
-  </nav>
-  <main>
-    <section class="item-content">
+    <div class="item-description">
+      <h1>poivre de penja</h1>
+      <p>IGP (indication géographiquement protégé)</p>
+      <p>
+        En 2013, il a obtenu la toute première IGP africaine et est le second poivre au monde à obtenir cette
+        appellation. Le poivre de Penja vient des terres volcaniques du Mungo au Cameroun, d’où il tire sa puissance
+        et son parfum
+        subtil.
+        Très apprécié des grands chefs, tels que Christophe Aribert, Georges Blanc ou Gilles Goujon, et dont certains
+        avouent n'utiliser que le poivre de Penja. Il trouvera sa place à votre table pour procurer du bonheur aux
+        fins
+        gourmets.
+      </p>
+
+      <div class="item-selection">
+        <table id="product_add_to_cart_variants">
+          <tbody id="item_package_to_select">
+          <tr>
+            <td>
+              <input type="radio"
+                     name="add_to_cart_cartItem"
+                     required="required"
+                     id="add_to_cart_cartItem_variant_0"
+                     checked>
+            </td>
+            <td class="add_to_cart_variants_option">50 g</td>
+            <td class="add_to_cart_variants_price">10.00 €</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio"
+                     name="add_to_cart_cartItem"
+                     id="add_to_cart_cartItem_variant_1"
+                     required="required">
+            </td>
+            <td class="add_to_cart_variants_option">100 g</td>
+            <td class="add_to_cart_variants_price">15.00 €</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio"
+                     name="add_to_cart_cartItem"
+                     id="add_to_cart_cartItem_variant_2"
+                     required="required">
+            </td>
+            <td class="add_to_cart_variants_option">250 g</td>
+            <td class="add_to_cart_variants_price">22.00 €</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="add_to_cart_qty_selection">
+        <label for="cart_qty_selection">quantité</label>
+        <input type="number"
+               value="1"
+               id="cart_qty_selection"
+               name="cart_qty_selection"
+               min="1"
+               max="5">
+      </div>
+      <button type="submit"
+              class="btn"
+              id="btn">ajouter au panier
+      </button>
+    </div>
+  </section>
+  <section class="section2">
+    <div class="s2-content">
       <div>
-        <img src="../../assets/img/item-Penja-06.webp"
-             alt="image d'un pot de poivre blanc en grain de Penja">
+        <i class="fa-solid fa-dolly"></i>
+        <h4>Livraison offerte</h4>
+        <p>Dès 65€ d'achat en France Métropoliatine</p>
       </div>
-      <div class="item-description">
-        <h1>poivre de penja</h1>
-        <p>IGP (indication géographiquement protégé)</p>
-        <p>
-          En 2013, il a obtenu la toute première IGP africaine et est le second poivre au monde à obtenir cette
-          appellation. Le poivre de Penja vient des terres volcaniques du Mungo au Cameroun, d’où il tire sa puissance
-          et son parfum
-          subtil.
-          Très apprécié des grands chefs, tels que Christophe Aribert, Georges Blanc ou Gilles Goujon, et dont certains
-          avouent n'utiliser que le poivre de Penja. Il trouvera sa place à votre table pour procurer du bonheur aux
-          fins
-          gourmets.
-        </p>
-
-        <div class="item-selection">
-          <table id="product_add_to_cart_variants">
-            <tbody id="item_package_to_select">
-            <tr>
-              <td>
-                <input type="radio"
-                       name="add_to_cart_cartItem"
-                       required="required"
-                       id="add_to_cart_cartItem_variant_0"
-                       checked>
-              </td>
-              <td class="add_to_cart_variants_option">50 g</td>
-              <td class="add_to_cart_variants_price">10.00 €</td>
-            </tr>
-            <tr>
-              <td>
-                <input type="radio"
-                       name="add_to_cart_cartItem"
-                       id="add_to_cart_cartItem_variant_1"
-                       required="required">
-              </td>
-              <td class="add_to_cart_variants_option">100 g</td>
-              <td class="add_to_cart_variants_price">15.00 €</td>
-            </tr>
-            <tr>
-              <td>
-                <input type="radio"
-                       name="add_to_cart_cartItem"
-                       id="add_to_cart_cartItem_variant_2"
-                       required="required">
-              </td>
-              <td class="add_to_cart_variants_option">250 g</td>
-              <td class="add_to_cart_variants_price">22.00 €</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="add_to_cart_qty_selection">
-          <label for="cart_qty_selection">quantité</label>
-          <input type="number"
-                 value="1"
-                 id="cart_qty_selection"
-                 name="cart_qty_selection"
-                 min="1"
-                 max="5">
-        </div>
-        <button type="submit"
-                class="btn"
-                id="btn">ajouter au panier
-        </button>
+      <div>
+        <i class="fa-solid fa-truck-fast"></i>
+        <h4>Livraison rapide</h4>
+        <p>En 4 jours pour la France et 8 jours pour l'étranger</p>
       </div>
-    </section>
-    <section class="section2">
-      <div class="s2-content">
-        <div>
-          <i class="fa-solid fa-dolly"></i>
-          <h4>Livraison offerte</h4>
-          <p>Dès 65€ d'achat en France Métropoliatine</p>
-        </div>
-        <div>
-          <i class="fa-solid fa-truck-fast"></i>
-          <h4>Livraison rapide</h4>
-          <p>En 4 jours pour la France et 8 jours pour l'étranger</p>
-        </div>
-        <div>
-          <i class="fa-regular fa-credit-card"></i>
-          <h4>Transaction</h4>
-          <p>Paiement CB sécurisé</p>
-        </div>
-        <div>
-          <a href="mailto:didier.matlo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-          <h4>Service Client </h4>
-          <p>Contactez nous</p>
-        </div>
+      <div>
+        <i class="fa-regular fa-credit-card"></i>
+        <h4>Transaction</h4>
+        <p>Paiement CB sécurisé</p>
       </div>
-    </section>
-  </main>
-  <footer>
-    <div class="footer-content"
-         id="footer-content">
-      <div class="left-part">
-        <h4>délice du soleil</h4>
-        <ul>
-          <li><a href="../../index.html">Home</a></li>
-          <li><a href="../store.html">Boutique en ligne</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Mon compte</a></li>
-          <li><a href="#">Mon panier</a></li>
-        </ul>
+      <div>
+        <a href="../form.html"><i class="fa-solid fa-envelope"></i></a>
+        <h4>Service Client </h4>
+        <p>Contactez nous</p>
       </div>
-      <div class="mid-part">
-        <div class="social-networks">
-          <h4>nous suivre</h4>
-          <ul class="social-links">
-            <li>
-              <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/p/CN9-kDmDz44/">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            </li>
-          </ul>
-        </div>
-        <div class="contact">
-          <h4>nous contacter</h4>
-          <ul class="contact-link">
-            <li><a href="mailto:didier.matlo@gmail.com">didier.matlo@gmail.com</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="right-part">
-        <h4>mentions légales</h4>
-        <ul>
-          <li><a href="../legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
-          <li><a href="../legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
-          <li><a href="../legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer-content"
+       id="footer-content">
+    <div class="left-part">
+      <h4>délice du soleil</h4>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../store.html">Boutique en ligne</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Mon compte</a></li>
+        <li><a href="#">Mon panier</a></li>
+      </ul>
+    </div>
+    <div class="mid-part">
+      <div class="social-networks">
+        <h4>nous suivre</h4>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/people/D%C3%A9lice-Du-Soleil/100063487424968/">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/p/CN9-kDmDz44/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </li>
         </ul>
       </div>
     </div>
-  </footer>
+    <div class="right-part">
+      <h4>mentions légales</h4>
+      <ul>
+        <li><a href="../legal-notice/termsOfSales.html">Conditions générales de vente</a></li>
+        <li><a href="../legal-notice/privacyPolicy.html">Politique de confidentialité</a></li>
+        <li><a href="../legal-notice/cookiesPolicy.html">Politique de cookies</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
