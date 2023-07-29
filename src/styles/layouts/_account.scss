@@ -1,0 +1,52 @@
+#main {
+  width: 500px;
+  height: 500px;
+  border: 1px solid $white2;
+  margin: 100px auto;
+  .user_login {
+
+    .user_identification,
+    .user_password {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 10px 0;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      padding: 8px 0;
+      background: none;
+      border: 1px solid $white2;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      outline: none;
+      transition: 0.2s;
+
+      &:focus {
+        border: 1px solid $white1;
+      }
+    }
+
+    label {
+      letter-spacing: 2px;
+      padding-bottom: 5px;
+    }
+
+    button {
+      background: none;
+      color: $white2;
+      text-transform: uppercase;
+      padding: 10px 10px;
+      border: 1px solid $white2;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      margin-top: 10px;
+      letter-spacing: 2px;
+
+      &:hover {
+        color: $gold;
+      }
+    }
+  }
+}

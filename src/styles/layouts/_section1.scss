@@ -27,7 +27,19 @@
     text-align: center;
     margin: 60px auto;
     visibility: hidden;
-    color: $gold;
+    color: $white2;
+
+    @media screen and (max-width: 920px) {
+      font-size: 2.5rem;
+      margin: 30px auto;
+      visibility: visible;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem;
+      margin: 30px auto;
+      letter-spacing: 14px;
+    }
   }
 
   .items-container {
@@ -38,9 +50,26 @@
     margin: 0 auto;
     text-align: center;
 
+    @media screen and (max-width: 920px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+
     .item {
       border: 1px solid #848383;
       height: 600px;
+
+      @media screen and (max-width: 920px) {
+        height: 550px;
+      }
+
+      @media screen and (max-width: 768px) {
+        height: 550px;
+        margin-bottom: 20px;
+      }
 
       .item-img {
         padding: 10px;
@@ -48,44 +77,63 @@
         img {
           width: 400px;
           height: 400px;
+
+          @media screen and (max-width: 920px) {
+            width: 350px;
+            height: 350px;
+          }
+          @media screen and (max-width: 768px) {
+            width: 100%;
+          }
+
         }
       }
-
-      .item-text {
-        margin-bottom: 40px;
-
-        h5 {
-          letter-spacing: 3px;
-          font-size: 1.5rem;
-          font-weight: 100;
-          color: $gold;
-          padding-bottom: 20px;
-          text-transform: uppercase;
-        }
-
-        p {
-          letter-spacing: 2px;
-          padding: 10px 0;
-          width: 80%;
-          margin: 0 auto;
-        }
-      }
-
-      .btn {
-        letter-spacing: 2px;
-        border: 1px solid grey;
-        padding: 10px;
-        text-transform: uppercase;
-        position: relative;
-
-        &:hover {
-          background: #000;
-          color: $gold;
-          font-weight: 800;
-        }
-      }
-
     }
+
+    .item-text {
+      margin-bottom: 40px;
+
+      h5 {
+        letter-spacing: 3px;
+        font-size: 1.5rem;
+        font-weight: 100;
+        color: $gold;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+
+        @media screen and (max-width: 920px) {
+          font-size: 1.2rem;
+        }
+      }
+
+      p {
+        letter-spacing: 2px;
+        padding: 10px 0;
+        width: 80%;
+        margin: 0 auto;
+
+        @media screen and (max-width: 920px) {
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .btn {
+      letter-spacing: 2px;
+      border: 1px solid grey;
+      padding: 10px;
+      text-transform: uppercase;
+      position: relative;
+
+      &:hover {
+        background: #000;
+      }
+
+      @media screen and (max-width: 920px) {
+        font-size: 0.8rem;
+      }
+    }
+
   }
 }
 

@@ -1,4 +1,4 @@
-nav>:first-child {
+nav > :first-child {
   font-family: $font-allura;
   font-weight: 100;
   color: $gold;
@@ -54,8 +54,8 @@ nav {
     width: 30%;
 
     img {
-      width: 28px;
       height: 16px;
+      width: 16px;
     }
 
     a {
@@ -83,7 +83,21 @@ nav {
     }
   }
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 920px) {
+    .left-nav {
+      display: none;
+    }
+    .right-nav {
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+    margin-bottom: 30px;
+
     #icons {
       display: block;
 
@@ -98,14 +112,17 @@ nav {
     .left-nav {
       position: fixed;
       flex-direction: column;
-      left:-100%;
+      left: -100%;
       top: 100px;
       width: 100%;
       align-items: flex-start;
 
-      &.active {
-        left: 75%;
+      a {
+        font-size: 0.5rem;
+      }
     }
+    .active {
+      left: 40%;
     }
     .right-nav {
       display: none;

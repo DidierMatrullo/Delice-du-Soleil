@@ -17,9 +17,10 @@ leftNavLinks.forEach((link) => {
 
 // h1 store title animation on mouseenter
 
-const store = document.querySelector('#store')
-const storeTitleToShow = document.querySelector('#store_title')
+const store = document.getElementById("store")
+const titleToShow = document.getElementById("store_title")
 
 store.addEventListener('mouseenter', (e) => {
-  storeTitleToShow.classList.add('reveal_store_title')
+  titleToShow.classList.add('reveal_store_title')
 })
+

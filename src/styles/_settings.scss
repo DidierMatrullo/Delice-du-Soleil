@@ -49,14 +49,6 @@ body {
   font-family: $font-roboto;
   background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(81, 81, 95, 1) 75%, rgb(100, 99, 99) 100%);
   color: $white1;
-
-  .en_title {
-    text-align: center;
-    margin-top: 100px;
-    font-size: 3rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
 }
 
 a {
