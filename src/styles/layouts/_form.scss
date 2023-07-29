@@ -42,6 +42,10 @@
         &:focus {
           border: 1px solid $white1;
         }
+
+        @media screen and (max-width: 920px) {
+          margin: 0 20px;
+        }
       }
 
       textarea {
@@ -75,6 +79,10 @@
       p {
         text-align: justify;
         font-size: 0.8rem;
+        
+        @media screen and (max-width: 920px) {
+          padding: 10px 20px;
+        }
       }
 
     }

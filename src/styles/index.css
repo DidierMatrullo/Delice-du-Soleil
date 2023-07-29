@@ -634,6 +634,11 @@ main .item-content {
         #form fieldset form input[type="email"]:focus,
         #form fieldset form textarea:focus {
           border: 1px solid #fff; }
+        @media screen and (max-width: 920px) {
+          #form fieldset form input[type="text"],
+          #form fieldset form input[type="email"],
+          #form fieldset form textarea {
+            margin: 0 20px; } }
       #form fieldset form textarea {
         resize: none;
         padding-top: 5px; }
@@ -657,6 +662,9 @@ main .item-content {
       #form fieldset form p {
         text-align: justify;
         font-size: 0.8rem; }
+        @media screen and (max-width: 920px) {
+          #form fieldset form p {
+            padding: 10px 20px; } }
 
 #main {
   width: 500px;
