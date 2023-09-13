@@ -1,10 +1,10 @@
 .section1 {
   width: 90%;
-  margin: 0 auto;
+  margin: 80px auto 0;
 
   .reveal_store_title {
     visibility: visible;
-    animation: s1-title 1.5s ease-in-out;
+    animation: s1-title 1s ease-in-out;
 
     @keyframes s1-title {
       0% {
@@ -25,11 +25,11 @@
     font-weight: 100;
     letter-spacing: 24px;
     text-align: center;
-    margin: 60px auto;
+    margin: 30px auto;
     visibility: hidden;
     color: $white2;
 
-    @media screen and (max-width: 920px) {
+    @media screen and (max-width: 930px) {
       font-size: 2.5rem;
       margin: 30px auto;
       visibility: visible;
@@ -50,19 +50,24 @@
     margin: 0 auto;
     text-align: center;
 
-    @media screen and (max-width: 920px) {
+    @media screen and (max-width: 930px) {
       grid-template-columns: 1fr 1fr;
       gap: 20px;
     }
     @media screen and (max-width: 768px) {
       display: block;
+      width: 70%;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
     }
 
     .item {
       border: 1px solid #848383;
       height: 600px;
 
-      @media screen and (max-width: 920px) {
+      @media screen and (max-width: 930px) {
         height: 550px;
       }
 
@@ -78,7 +83,7 @@
           width: 400px;
           height: 400px;
 
-          @media screen and (max-width: 920px) {
+          @media screen and (max-width: 930px) {
             width: 350px;
             height: 350px;
           }
@@ -101,7 +106,7 @@
         padding-bottom: 20px;
         text-transform: uppercase;
 
-        @media screen and (max-width: 920px) {
+        @media screen and (max-width: 930px) {
           font-size: 1.2rem;
         }
       }
@@ -112,7 +117,7 @@
         width: 80%;
         margin: 0 auto;
 
-        @media screen and (max-width: 920px) {
+        @media screen and (max-width: 930px) {
           font-size: 0.8rem;
         }
       }
@@ -126,10 +131,10 @@
       position: relative;
 
       &:hover {
-        background: #000;
+        color: $gold;
       }
 
-      @media screen and (max-width: 920px) {
+      @media screen and (max-width: 930px) {
         font-size: 0.8rem;
       }
     }

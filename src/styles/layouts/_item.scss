@@ -6,13 +6,12 @@ main {
 
   .item-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     width: 90%;
     margin: 0 auto;
 
     img {
       width: 100%;
-      height: auto;
     }
 
     .item-description {
@@ -26,12 +25,33 @@ main {
         color: $gold;
         letter-spacing: 6px;
         font-size: 4rem;
+
+        @media screen and (max-width: 920px) {
+          font-size: 2rem;
+        }
+
+        @media screen and (max-width: 768px) {
+          font-size: 2rem;
+          padding: 10px 0;
+        }
       }
 
       p {
         font-size: 1.5rem;
         line-height: 2.5rem;
         text-align: left;
+
+        @media screen and (max-width: 920px) {
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+
+
+        @media screen and (max-width: 768px) {
+          font-size: 1rem;
+          line-height: 1.5rem;
+          padding-bottom: 20px;
+        }
       }
 
       .item-selection {
@@ -62,18 +82,29 @@ main {
               left: 0;
               position: absolute;
             }
+
+          }
+
+
+          @media screen and (max-width: 768px) {
+            padding-bottom: 20px;
           }
         }
       }
 
       .add_to_cart_qty_selection {
 
+
+        @media screen and (max-width: 768px) {
+          padding-bottom: 20px;
+        }
+
         label {
           padding-right: 10px;
           text-transform: uppercase;
         }
 
-        input[type='number'] {
+        input[type="number"] {
           width: 100px;
           text-align: center;
           padding: 5px;
@@ -82,28 +113,31 @@ main {
           color: $white1;
           border: 1px solid $white2;
 
-          &:hover {
-            background: $black2;
-          }
+        }
+      }
+
+      button {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        background: none;
+        padding: 10px 20px;
+        width: 100%;
+        color: $white1;
+        letter-spacing: 2px;
+        cursor: pointer;
+        border: 1px solid $white2;
+
+        &:hover {
+          color: $gold;
+        }
+
+        @media screen and (max-width: 768px) {
+          font-size: 1rem;
+          padding: 10px;
         }
       }
     }
 
-    button {
-      text-transform: uppercase;
-      font-size: 1.5rem;
-      background: none;
-      padding: 10px 20px;
-      width: 100%;
-      color: $white1;
-      letter-spacing: 2px;
-      cursor: pointer;
-      border: 1px solid $white2;
-
-      &:hover {
-        background: $black1;
-      }
-    }
   }
 }
 
