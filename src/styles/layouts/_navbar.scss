@@ -77,24 +77,17 @@ nav {
   #icons {
     display: none;
     cursor: pointer;
-
-    &::before {
-      content: "\2630";
-    }
   }
 
-  @media screen and (max-width: 930px) {
-    .left-nav {
-      display: none;
-    }
-    .right-nav {
+  @media (max-width: 930px) {
+    .right-nav, .left-nav {
       a {
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
 
     margin-bottom: 30px;
 
@@ -105,20 +98,19 @@ nav {
         content: "\2630";
       }
     }
-    .active #icons::before {
-      content: "\2715";
-    }
 
     .left-nav {
       position: fixed;
       flex-direction: column;
       left: -100%;
       top: 100px;
-      width: 100%;
-      align-items: flex-start;
+      width: 25%;
+      background: $gold;
 
       a {
         font-size: 0.5rem;
+        padding: 5px;
+        color: #000000;
       }
     }
     .active {

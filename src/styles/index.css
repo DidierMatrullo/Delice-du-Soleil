@@ -99,18 +99,12 @@ nav #icons {
   display: none;
   cursor: pointer;
 }
-nav #icons::before {
-  content: "☰";
-}
-@media screen and (max-width: 930px) {
-  nav .left-nav {
-    display: none;
-  }
-  nav .right-nav a {
-    font-size: 1rem;
+@media (max-width: 930px) {
+  nav .right-nav a, nav .left-nav a {
+    font-size: 0.8rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   nav {
     margin-bottom: 30px;
   }
@@ -120,19 +114,18 @@ nav #icons::before {
   nav #icons::before {
     content: "☰";
   }
-  nav .active #icons::before {
-    content: "✕";
-  }
   nav .left-nav {
     position: fixed;
     flex-direction: column;
     left: -100%;
     top: 100px;
-    width: 100%;
-    align-items: flex-start;
+    width: 25%;
+    background: #f0d293;
   }
   nav .left-nav a {
     font-size: 0.5rem;
+    padding: 5px;
+    color: #000000;
   }
   nav .active {
     left: 30%;
@@ -337,6 +330,9 @@ footer .footer-content div a {
 footer .footer-content div a:hover {
   color: #fff;
 }
+footer .footer-content .mid-part {
+  display: none;
+}
 footer .footer-content .mid-part .social-networks {
   padding-bottom: 20px;
 }
@@ -436,7 +432,7 @@ footer .footer-content .mid-part .social-networks ul i:hover {
   -webkit-border-radius: 5px;
 }
 #form fieldset form button:hover {
-  background: #000;
+  color: #f0d293;
 }
 #form fieldset form a {
   text-decoration: underline;
@@ -461,8 +457,14 @@ main .item-content {
   width: 90%;
   margin: 0 auto;
 }
+@media (max-width: 900px) {
+  main .item-content {
+    display: block;
+  }
+}
 main .item-content img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 main .item-content .item-description {
   padding-left: 30px;
@@ -474,35 +476,51 @@ main .item-content .item-description h1 {
   text-transform: uppercase;
   color: #f0d293;
   letter-spacing: 6px;
-  font-size: 4rem;
+  font-size: 4vw;
 }
-@media screen and (max-width: 920px) {
+@media (max-width: 900px) {
   main .item-content .item-description h1 {
-    font-size: 2rem;
+    padding: 10px 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   main .item-content .item-description h1 {
-    font-size: 2rem;
     padding: 10px 0;
   }
 }
 main .item-content .item-description p {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 2vw;
+  line-height: 3rem;
   text-align: left;
 }
-@media screen and (max-width: 920px) {
+@media (max-width: 900px) {
   main .item-content .item-description p {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   main .item-content .item-description p {
-    font-size: 1rem;
-    line-height: 1.5rem;
     padding-bottom: 20px;
+    font-size: 3vw;
+  }
+}
+main .item-content .item-description .item-selection table {
+  font-size: 1.5vw;
+}
+main .item-content .item-description .item-selection table td {
+  padding: 7px;
+}
+main .item-content .item-description .item-selection table td input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.2rem;
+  height: 1.2rem;
+  accent-color: #f0d293;
+}
+@media (max-width: 768px) {
+  main .item-content .item-description .item-selection table td input {
+    width: 1rem;
+    height: 1rem;
   }
 }
 main .item-content .item-description .item-selection table input {
@@ -511,9 +529,6 @@ main .item-content .item-description .item-selection table input {
   width: 1.2rem;
   height: 1.2rem;
   accent-color: #f0d293;
-}
-main .item-content .item-description .item-selection table td {
-  padding: 7px;
 }
 main .item-content .item-description .item-selection table .add_to_cart_variants_price {
   position: relative;
@@ -527,24 +542,26 @@ main .item-content .item-description .item-selection table .add_to_cart_variants
   left: 0;
   position: absolute;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 900px) {
   main .item-content .item-description .item-selection table {
     padding-bottom: 20px;
+    font-size: 2vw;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 900px) {
   main .item-content .item-description .add_to_cart_qty_selection {
-    padding-bottom: 20px;
+    padding: 20px;
   }
 }
 main .item-content .item-description .add_to_cart_qty_selection label {
-  padding-right: 10px;
+  padding: 10px;
   text-transform: uppercase;
 }
 main .item-content .item-description .add_to_cart_qty_selection input[type=number] {
   width: 100px;
   text-align: center;
   padding: 5px;
+  margin: 10px;
   font-size: 1rem;
   background: none;
   color: #fff;
@@ -564,7 +581,7 @@ main .item-content .item-description button {
 main .item-content .item-description button:hover {
   color: #f0d293;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   main .item-content .item-description button {
     font-size: 1rem;
     padding: 10px;
@@ -676,11 +693,11 @@ main .container-content .btn:hover {
 }
 @keyframes s1-title {
   0% {
-    transform: scale(0);
+    transform: scaleY(0);
     opacity: 0;
   }
   100% {
-    transform: scale(1);
+    transform: scaleY(1);
     opacity: 1;
   }
 }
@@ -883,7 +900,7 @@ main .container-content .btn:hover {
   margin: 0 auto;
   padding: 50px 20px;
 }
-@media screen and (max-width: 920px) {
+@media (max-width: 920px) {
   .section3 .s3-content {
     display: block;
     padding: 10px;
@@ -894,12 +911,15 @@ main .container-content .btn:hover {
   margin: 0 auto;
   text-align: center;
 }
-@media screen and (max-width: 920px) {
+@media (max-width: 920px) {
   .section3 .s3-content .s3-left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 50px;
   }
 }
-.section3 .s3-content .s3-left-part h3 {
+.section3 .s3-content .s3-left-part label {
   margin-bottom: 40px;
   font-size: 5rem;
   color: #f0d293;
@@ -907,32 +927,31 @@ main .container-content .btn:hover {
   text-transform: uppercase;
   font-weight: 100;
 }
-@media screen and (max-width: 920px) {
-  .section3 .s3-content .s3-left-part h3 {
+@media (max-width: 920px) {
+  .section3 .s3-content .s3-left-part label {
     font-size: 3rem;
   }
 }
-@media screen and (max-width: 768px) {
-  .section3 .s3-content .s3-left-part h3 {
+@media (max-width: 768px) {
+  .section3 .s3-content .s3-left-part label {
     font-size: 2rem;
     letter-spacing: 10px;
   }
 }
-.section3 .s3-content .s3-left-part a {
+.section3 .s3-content .s3-left-part input[type=email] {
   border: 1px solid #fff;
   padding: 10px 20px;
-  font-size: 1.5rem;
   letter-spacing: 2px;
-  text-transform: uppercase;
   color: #bebdbd;
+  background: none;
 }
-.section3 .s3-content .s3-left-part a:hover {
+.section3 .s3-content .s3-left-part input[type=email]:hover {
   color: #fff;
 }
-@media screen and (max-width: 768px) {
-  .section3 .s3-content .s3-left-part a {
+@media (max-width: 920px) {
+  .section3 .s3-content .s3-left-part input[type=email] {
     font-size: 1rem;
-    width: 100%;
+    width: 40%;
   }
 }
 .section3 .s3-content .s3-right-part {

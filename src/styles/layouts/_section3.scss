@@ -14,21 +14,26 @@
     margin: 0 auto;
     padding: 50px 20px;
 
-    @media screen and (max-width: 920px) {
+    @media (max-width: 920px) {
       display: block;
       padding: 10px;
     }
 
     .s3-left-part {
+
       color: $white1;
       margin: 0 auto;
       text-align: center;
 
-      @media screen and (max-width: 920px) {
+      @media (max-width: 920px) {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding-bottom: 50px;
       }
 
-      h3 {
+      label {
         margin-bottom: 40px;
         font-size: 5rem;
         color: $gold;
@@ -36,30 +41,29 @@
         text-transform: uppercase;
         font-weight: 100;
 
-        @media screen and (max-width: 920px) {
+        @media (max-width: 920px) {
           font-size: 3rem;
         }
-        @media screen and (max-width: 768px) {
+        @media (max-width: 768px) {
           font-size: 2rem;
           letter-spacing: 10px;
         }
       }
 
-      a {
+      input[type="email"] {
         border: 1px solid $white1;
         padding: 10px 20px;
-        font-size: 1.5rem;
         letter-spacing: 2px;
-        text-transform: uppercase;
         color: $white2;
+        background: none;
 
         &:hover {
           color: $white1;
         }
 
-        @media screen and (max-width: 768px) {
+        @media (max-width: 920px) {
           font-size: 1rem;
-          width: 100%;
+          width: 40%;
         }
       }
     }
